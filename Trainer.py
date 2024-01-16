@@ -47,7 +47,7 @@ def main ():
     for epoch in range(ephocs):
         env.restart()
         end_of_game = False
-
+        state = env.state()
         while not end_of_game:
             main_surf.fill(LIGHTGRAY)
             header_surf.fill(BLUE)
@@ -57,7 +57,6 @@ def main ():
                     return
             
             # Sample Environement
-            state = env.state()
             action = player.get_Action(state=state, epoch=epoch)
             reward, done = env.move(action=action)
             next_state = env.state()
@@ -97,8 +96,6 @@ def main ():
             optim.step()
             optim.zero_grad()
             scheduler.step()
-
-            
 
         if epoch % C == 0:
             player_hat.DQN.load_state_dict(player.DQN.state_dict())
