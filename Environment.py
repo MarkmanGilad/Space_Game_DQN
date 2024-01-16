@@ -74,7 +74,7 @@ class Environment:
         done = self.is_end_of_Game()
         if done:
             reward -= 1000
-        return reward/1000, done
+        return reward/100, done
     
     def is_end_of_stage (self):
         return len(self.enemy_Group) == 0

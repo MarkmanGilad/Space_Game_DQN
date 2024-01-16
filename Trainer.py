@@ -86,10 +86,7 @@ def main ():
             ############## Train ################
             states, actions, rewards, next_states, dones = buffer.sample(batch_size)
             Q_values = player.Q(states, actions)
-            next_actions = player_hat.get_Actions(next_states)
-           
-            with torch.no_grad():
-                Q_hat_Values = player_hat.Q(next_states, next_actions)
+            next_actions, Q_hat_Values = player_hat.get_Actions_Values(next_states)
 
             loss = player.DQN.loss(Q_values, rewards, Q_hat_Values, dones)
             loss.backward()

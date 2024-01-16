@@ -32,12 +32,12 @@ class DQN_Agent:
         max_index = torch.argmax(Q_values)
         return actions[max_index]
 
-    def get_Actions (self, states):
+    def get_Actions_Values (self, states):
         with torch.no_grad():
             Q_values = self.DQN(states)
-            max_values, max_indices = torch.max(Q_values,dim=1)
+            max_values, max_indices = torch.max(Q_values,dim=1) # best_values, best_actions
         
-        return max_indices.reshape(-1,1)
+        return max_indices.reshape(-1,1), max_values.reshape(-1,1)
 
     def Q (self, states, actions):
         Q_values = self.DQN(states)
