@@ -1,5 +1,5 @@
 import pygame
-from Constants import *
+from CONSTANTS import *
 from SpaceShip import SpaceShip
 from Enemy import Enemy
 from Human_Agent import Human_Agent

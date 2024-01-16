@@ -1,6 +1,6 @@
 import pygame
 import torch
-from Constants import *
+from CONSTANTS import *
 from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
@@ -36,9 +36,9 @@ def main ():
     batch_size = 64
     buffer = ReplayBuffer()
     learning_rate = 0.01
-    ephocs = 100000
+    ephocs = 500000
     C = 10
-
+    loss = torch.tensor(-1)
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
     # scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[25000*30, 30*50000, 30*100000, 30*250000, 30*500000], gamma=0.5)
@@ -101,10 +101,9 @@ def main ():
             player_hat.DQN.load_state_dict(player.DQN.state_dict())
 
         #########################################
-        if len(buffer) > MIN_BUFFER:
-            print (f'epoch: {epoch} loss: {loss} best_score: {best_score}')
+        print (f'epoch: {epoch} loss: {loss} score: {env.score} level: {env.level} best_score: {best_score}')
 
-        if epoch % 1000:
+        if epoch % 1000 == 0:
             torch.save(buffer, buffer_path)
             player.save_param(DQN_path)
 

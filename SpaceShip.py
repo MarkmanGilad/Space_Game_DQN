@@ -1,6 +1,6 @@
 from typing import Any
 import pygame
-from Constants import *
+from CONSTANTS import *
 from Bullet import Bullet
 
 class SpaceShip (pygame.sprite.Sprite):

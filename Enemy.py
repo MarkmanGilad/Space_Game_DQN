@@ -1,5 +1,5 @@
 import pygame
-from Constants import *
+from CONSTANTS import *
 import random
 from Bullet import Bullet
 

@@ -2,7 +2,7 @@ import torch
 import random
 import math
 from DQN import DQN
-from Constants import *
+from CONSTANTS import *
 
 
 class DQN_Agent:

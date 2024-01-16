@@ -1,7 +1,7 @@
 import pygame
 import numpy as np
 import torch
-from Constants import *
+from CONSTANTS import *
 from SpaceShip import SpaceShip
 from Enemy import Enemy
 
