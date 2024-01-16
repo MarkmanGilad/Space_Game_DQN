@@ -1,5 +1,5 @@
 import pygame
-from Constants import *
+from CONSTANTS import *
 
 class Bullet (pygame.sprite.Sprite):
     def __init__(self, pos, speed_x=0, speed_y= -10) -> None:
