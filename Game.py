@@ -27,8 +27,8 @@ def main ():
     screen.blit(header_surf, (0,0))
     screen.blit(main_surf, (0,100))
 
-    # player = Human_Agent()
-    player = DQN_Agent()
+    player = Human_Agent()
+    # player = DQN_Agent()
     
     write (header_surf, "Score: " + str(env.score) + " Ammunition: " + str(env.spaceship.ammunition))
 
@@ -44,9 +44,9 @@ def main ():
                 run = False
             
         action = player.get_Action(events=events, state=env.state())
-        reward = env.move(action=action)
+        reward, done = env.move(action=action)
 
-        if env.is_end_of_Game():
+        if done:
             write (header_surf, "End Of Game - Score: " + str (env.score))
             write (header_surf, "Another Game ?  Y \ N", pos=(300, 60))
             screen.blit(header_surf, (0,0))
