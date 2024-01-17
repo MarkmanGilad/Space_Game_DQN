@@ -47,7 +47,7 @@ class Environment:
         Enemy.speed_factor = Enemy.speed_factor * (1 + add_speed)
         Enemy.shoots_factor = Enemy.shoots_factor * (1 + add_shoot_factor)
         self.enemy_Group = self.make_enemy_group()
-        self.spaceship.ammunition = 50
+        self.spaceship.ammunition = MAX_AMMUNITION
         self.bullets_Group.empty()
         self.spaceship.rect.midbottom = (WIDTH //2, HEIGHT - 100)
         self.enemy_bullets_Group.empty()
