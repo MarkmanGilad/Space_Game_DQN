@@ -7,6 +7,7 @@ from ReplayBuffer import ReplayBuffer
 
 buffer_path = "Data/buffer1.pth"
 DQN_path = "Data/DQN1.pth"
+results_path = "Data/results1.pth"
 
 def main ():
 
@@ -39,16 +40,19 @@ def main ():
     ephocs = 500000
     C = 10
     loss = torch.tensor(-1)
+    scores = []
+    losses = []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
     # scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[25000*30, 30*50000, 30*100000, 30*250000, 30*500000], gamma=0.5)
+    step = 0
 
-    
     for epoch in range(ephocs):
         env.restart()
         end_of_game = False
         state = env.state()
         while not end_of_game:
+            step += 1
             main_surf.fill(LIGHTGRAY)
             header_surf.fill(BLUE)
             events = pygame.event.get()
@@ -56,25 +60,23 @@ def main ():
                 if event.type == pygame.QUIT:
                     return
             
-            # Sample Environement
+            ############## Sample Environement #########################
             action = player.get_Action(state=state, epoch=epoch)
             reward, done = env.move(action=action)
             next_state = env.state()
             buffer.push(state, torch.tensor(action, dtype=torch.int64), torch.tensor(reward, dtype=torch.float32), 
                         next_state, torch.tensor(done, dtype=torch.float32))
             if done:
-                write (header_surf, "Score: " + str (env.score))
-                screen.blit(header_surf, (0,0))
-                pygame.display.update()
                 best_score = max(best_score, env.score)
+                step = 0
                 break
 
             state = next_state
 
-            write(header_surf, "Score: " + str(env.score), (200, 60))
-            write(header_surf, "Ammunition: " + str(env.spaceship.ammunition),(400, 60))
             write(header_surf,"Level: " + str(env.level), (200, 20))
             write(header_surf, "epoch: " + str (epoch), (400, 20))
+            write(header_surf, "Score: " + str(env.score), (200, 60))
+            write(header_surf, "Ammunition: " + str(env.spaceship.ammunition),(400, 60))
             screen.blit(header_surf, (0,0))
             screen.blit(main_surf, (0,100))
             pygame.display.update()
@@ -100,9 +102,14 @@ def main ():
         #########################################
         print (f'epoch: {epoch} loss: {loss} score: {env.score} level: {env.level} best_score: {best_score}')
 
+        if epoch % 100 == 0:
+            scores.append(env.score)
+            losses.append(loss.item())
+
         if epoch % 1000 == 0:
             torch.save(buffer, buffer_path)
             player.save_param(DQN_path)
+            torch.save((scores, losses), results_path)
 
         
 

@@ -49,6 +49,7 @@ class Environment:
         self.enemy_Group = self.make_enemy_group()
         self.spaceship.ammunition = 50
         self.bullets_Group.empty()
+        self.spaceship.rect.midbottom = (WIDTH //2, HEIGHT - 100)
         self.enemy_bullets_Group.empty()
         if new_game:
             self.score = 0
@@ -66,15 +67,15 @@ class Environment:
             self.spaceship.shoot ()
         self.update()
         self.draw()
-        reward += self.hits() * 10
+        reward += self.hits()
         if self.is_end_of_stage():
-            reward += 100
+            reward += 10
             self.restart(add_speed=0.1, add_shoot_factor=0.1, new_game=False)
         self.score += reward
         done = self.is_end_of_Game()
         if done:
-            reward -= 1000
-        return reward/100, done
+            reward -= 20
+        return reward, done
     
     def is_end_of_stage (self):
         return len(self.enemy_Group) == 0
@@ -82,7 +83,7 @@ class Environment:
     def is_end_of_Game (self):
         enemy_landed = pygame.sprite.spritecollide(self.spaceship, self.enemy_Group, dokill=True, collided= pygame.sprite.collide_mask) 
         spaceship_hit = pygame.sprite.spritecollide(self.spaceship, self.enemy_bullets_Group, dokill=True, collided= pygame.sprite.collide_mask) 
-        return len(enemy_landed) or len(spaceship_hit)
+        return len(enemy_landed) > 0 or len(spaceship_hit) > 0
         
     def hits (self):
         collisions = pygame.sprite.groupcollide(self.enemy_Group, self.bullets_Group, True, True, pygame.sprite.collide_mask)
@@ -102,7 +103,8 @@ class Environment:
         # total = 87
         
         state_list = []
-        index = 0
+        # 0 - 53
+        index = 0                                           # 0 - 53
         for sprite in self.enemy_Group:
             state_list.append(sprite.rect.centerx)
             state_list.append(sprite.rect.centery)
@@ -110,28 +112,28 @@ class Environment:
             index += 3
         for i in range(enemy_ships-index):
             state_list.append(0)
-        state_list.append(Enemy.speed_y)
+        state_list.append(Enemy.speed_y)                    # 54
         index = 0
-        for sprite in self.enemy_bullets_Group:
+        for sprite in self.enemy_bullets_Group:             # 55 - 74
             state_list.append(sprite.rect.centerx)
             state_list.append(sprite.rect.centery)
             index += 2
         for i in range(enemy_bullets-index):
             state_list.append(0)
-        state_list.append(ENEMY_BULLET_SPEED)
-        state_list.append(self.spaceship.rect.centerx)
-        state_list.append(self.spaceship.rect.centery)
-        state_list.append(SPACESHIP_SPEED)
+        state_list.append(ENEMY_BULLET_SPEED)               # 75
+        state_list.append(self.spaceship.rect.centerx)      # 76
+        state_list.append(self.spaceship.rect.centery)      # 77
+        state_list.append(SPACESHIP_SPEED)                  # 78
         index = 0
-        for sprite in self.bullets_Group:
+        for sprite in self.bullets_Group:                   # 79 - 84
             state_list.append(sprite.rect.centerx)
             state_list.append(sprite.rect.centery)
             index += 2
         for i in range(SpaceShip_Bullet_pos_shape-index):
             state_list.append(0)
 
-        state_list.append(SPACESHIP_BULLET_SPEED)
-        state_list.append(self.spaceship.ammunition)
+        state_list.append(SPACESHIP_BULLET_SPEED)           # 85
+        state_list.append(self.spaceship.ammunition)        # 86
 
         return torch.tensor(state_list, dtype=torch.float32)
 

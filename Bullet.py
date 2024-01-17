@@ -18,6 +18,6 @@ class Bullet (pygame.sprite.Sprite):
         self.rect.y += self.speed_y
         if self.rect.y < 0:
             self.kill() 
-        if self.rect.y > HEIGHT:
+        if self.rect.y > MAIN_SURF_HEIGHT:
             self.kill() 
        

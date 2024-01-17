@@ -2,6 +2,7 @@
 FPS = 60
 
 WIDTH, HEIGHT = 800, 600
+MAIN_SURF_HEIGHT = 500
 
 #RGB
 RED = (255, 0, 0)
@@ -24,6 +25,6 @@ SPACESHIP_SPEED = 5
 SPACESHIP_URL = "img/spacecraft.png"
 ENEMY_URL = "img/space_ship.png"
 
-epsilon_start, epsilon_final, epsiln_decay = 1, 0.001, 200
+epsilon_start, epsilon_final, epsiln_decay = 1, 0.01, 10
 
 MIN_BUFFER = 5000
