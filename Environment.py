@@ -99,8 +99,10 @@ class Environment:
         SpaceShip_Bullet_pos_shape = SPACE_SHIP_BURST * 2       # 3 * 2 = 6
         SpaceShip_bullets_speed_y = 1                           # 1
         SpaceShip_ammunition = 1                                # 1
-        total = enemy_ships + enemy_speed_y + enemy_bullets + enemy_bullet_speed_y + SpaceShip_pos_shape + SpaceShip_speed_x + SpaceShip_Bullet_pos_shape + SpaceShip_bullets_speed_y + SpaceShip_ammunition
-        # total = 87
+        level = 1                                               # 1
+        total = enemy_ships + enemy_speed_y + enemy_bullets + enemy_bullet_speed_y + SpaceShip_pos_shape + \
+            SpaceShip_speed_x + SpaceShip_Bullet_pos_shape + SpaceShip_bullets_speed_y + SpaceShip_ammunition + level
+        # total = 88
         
         state_list = []
         # 0 - 53
@@ -134,7 +136,7 @@ class Environment:
 
         state_list.append(SPACESHIP_BULLET_SPEED)           # 85
         state_list.append(self.spaceship.ammunition)        # 86
-
+        state_list.append(self.level)                       # 87
         return torch.tensor(state_list, dtype=torch.float32)
 
      
