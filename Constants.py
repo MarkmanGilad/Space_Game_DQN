@@ -25,6 +25,6 @@ SPACESHIP_SPEED = 5
 SPACESHIP_URL = "img/spacecraft.png"
 ENEMY_URL = "img/space_ship.png"
 
-epsilon_start, epsilon_final, epsiln_decay = 1, 0.01, 10
+epsilon_start, epsilon_final, epsiln_decay = 1, 0.01, 10000
 
 MIN_BUFFER = 5000
