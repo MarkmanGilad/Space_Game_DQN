@@ -46,8 +46,12 @@ class DQN_Agent:
         return Q_values[rows, cols]
 
     def epsilon_greedy(self,epoch, start = epsilon_start, final=epsilon_final, decay=epsiln_decay):
-        res = final + (start - final) * math.exp(-1 * epoch/decay)
-        return res
+        # res = final + (start - final) * math.exp(-1 * epoch/decay)
+        if epoch < decay:
+            return start - (start - final) * epoch/decay
+        return final
+        
+        
     
     def loadModel (self, file):
         self.model = torch.load(file)

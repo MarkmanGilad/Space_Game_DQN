@@ -3,7 +3,7 @@ import torch
 import matplotlib.pyplot as plt
 
 Directory = 'Data'
-Files_num = []
+Files_num = [1,2]
 # Files_num = list(range(1,18+1))
 results_path = []
 
@@ -11,15 +11,16 @@ for num in Files_num:
     file = f'results{num}.pth'
     results_path.append(file)
     
-results_path = ["results.pth"]
+# results_path = ["results.pth"]
 
 
 results = []
 for path in results_path:
     results.append(torch.load(Directory+'/'+path))
 
-print("res every 100 epochs", results[0][0]) 
-print("loses every 100 epochs",results[0][1]) 
+
+print(f"res every 100 epochs {len(results[0])}", results[0][0]) 
+print(f"loses every 100 epochs {len(results[0])}",results[0][1]) 
 
 # for i in range(len(results)):
     
@@ -28,7 +29,8 @@ print("loses every 100 epochs",results[0][1])
 
 with torch.no_grad():
     for i in range(len(results)):
-        fig, ax_list = plt.subplots(2,1)
+        fig, ax_list = plt.subplots(2,1, figsize = (16,8))
+        
         fig.suptitle(results_path[i])
         plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
         ax_list[0].plot(results[i][0])

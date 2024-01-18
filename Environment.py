@@ -22,9 +22,10 @@ class Environment:
 
     def make_enemy_group (self, row=ENEMY_ROWS, col=ENEMY_COLS, space_row = 80, space_col = 120):
         enemy_Group = pygame.sprite.Group()
-        for r in range (row):
-            for c in range (col):
-                enemy_Group.add(Enemy(self.enemy_img, (c * space_col, r * space_row, ), self.enemy_bullets_Group))
+        # for r in range (row):
+        #     for c in range (col):
+        #         enemy_Group.add(Enemy(self.enemy_img, (c * space_col, r * space_row, ), self.enemy_bullets_Group))
+        enemy_Group.add(Enemy(self.enemy_img, (1 * space_col, 1 * space_row, ), self.enemy_bullets_Group))
         return enemy_Group
     
     def surfarray (self):

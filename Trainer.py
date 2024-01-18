@@ -5,9 +5,9 @@ from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
 
-buffer_path = "Data/buffer1.pth"
-DQN_path = "Data/DQN1.pth"
-results_path = "Data/results1.pth"
+buffer_path = "Data/buffer2.pth"
+DQN_path = "Data/DQN2.pth"
+results_path = "Data/results2.pth"
 
 def main ():
 
@@ -43,7 +43,7 @@ def main ():
     scores = []
     losses = []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
-    scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
+    # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
     # scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[25000*30, 30*50000, 30*100000, 30*250000, 30*500000], gamma=0.5)
     step = 0
 
@@ -94,7 +94,7 @@ def main ():
             loss.backward()
             optim.step()
             optim.zero_grad()
-            scheduler.step()
+            # scheduler.step()
 
         if epoch % C == 0:
             player_hat.DQN.load_state_dict(player.DQN.state_dict())
