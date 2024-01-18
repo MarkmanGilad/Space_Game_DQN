@@ -51,8 +51,6 @@ class DQN_Agent:
             return start - (start - final) * epoch/decay
         return final
         
-        
-    
     def loadModel (self, file):
         self.model = torch.load(file)
     

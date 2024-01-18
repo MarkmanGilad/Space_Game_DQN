@@ -44,11 +44,11 @@ def main ():
     losses = []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000, 5000, 10000], gamma=0.5)
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[100*1000, 500*1000, 1000*1000], gamma=0.5)
     step = 0
 
     for epoch in range(ephocs):
-        scheduler.step()
+        
         env.restart()
         end_of_game = False
         state = env.state()
@@ -95,7 +95,7 @@ def main ():
             loss.backward()
             optim.step()
             optim.zero_grad()
-            
+            scheduler.step()
 
         if epoch % C == 0:
             player_hat.DQN.load_state_dict(player.DQN.state_dict())
