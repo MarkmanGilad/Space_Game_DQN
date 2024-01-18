@@ -4,6 +4,7 @@ import torch
 from CONSTANTS import *
 from SpaceShip import SpaceShip
 from Enemy import Enemy
+from Ground import Ground
 
 
 
@@ -19,13 +20,15 @@ class Environment:
         self.score = 0
         self.surface = surface
         self.level = 1
+        self.ground = Ground()
+        self.ground_Group = pygame.sprite.GroupSingle(self.ground)
 
     def make_enemy_group (self, row=ENEMY_ROWS, col=ENEMY_COLS, space_row = 80, space_col = 120):
         enemy_Group = pygame.sprite.Group()
         # for r in range (row):
         #     for c in range (col):
         #         enemy_Group.add(Enemy(self.enemy_img, (c * space_col, r * space_row, ), self.enemy_bullets_Group))
-        enemy_Group.add(Enemy(self.enemy_img, (1 * space_col, 1 * space_row, ), self.enemy_bullets_Group))
+        enemy_Group.add(Enemy(self.enemy_img, (0 * space_col, 0 * space_row, ), self.enemy_bullets_Group))
         return enemy_Group
     
     def surfarray (self):
@@ -39,14 +42,16 @@ class Environment:
     
     def draw (self):
         surface = self.surface
+        self.ground_Group.draw(surface)
         self.spaceship_Group.draw(surface)
         self.enemy_Group.draw(surface)
         self.bullets_Group.draw(surface)
         self.enemy_bullets_Group.draw(surface)
+        
 
     def restart (self, add_speed = 0, add_shoot_factor = 0, new_game = True):
-        Enemy.speed_factor = Enemy.speed_factor * (1 + add_speed)
-        Enemy.shoots_factor = Enemy.shoots_factor * (1 + add_shoot_factor)
+        Enemy.speed_add += add_speed
+        Enemy.shoots_factor += add_shoot_factor
         self.enemy_Group = self.make_enemy_group()
         self.spaceship.ammunition = MAX_AMMUNITION
         self.bullets_Group.empty()
@@ -71,7 +76,7 @@ class Environment:
         reward += self.hits()
         if self.is_end_of_stage():
             reward += 10
-            self.restart(add_speed=0.1, add_shoot_factor=0.1, new_game=False)
+            self.restart(add_speed=1, add_shoot_factor=0.1, new_game=False)
         self.score += reward
         done = self.is_end_of_Game()
         if done:
@@ -82,7 +87,7 @@ class Environment:
         return len(self.enemy_Group) == 0
    
     def is_end_of_Game (self):
-        enemy_landed = pygame.sprite.spritecollide(self.spaceship, self.enemy_Group, dokill=True, collided= pygame.sprite.collide_mask) 
+        enemy_landed = pygame.sprite.spritecollide(self.ground, self.enemy_Group, dokill=True)
         spaceship_hit = pygame.sprite.spritecollide(self.spaceship, self.enemy_bullets_Group, dokill=True, collided= pygame.sprite.collide_mask) 
         return len(enemy_landed) > 0 or len(spaceship_hit) > 0
         

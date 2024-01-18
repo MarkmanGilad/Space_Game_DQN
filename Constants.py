@@ -15,7 +15,7 @@ CADETBLUE1 = (152,245,255)
 
 ENEMY_ROWS = 3
 ENEMY_COLS = 6
-MAX_AMMUNITION = 10 # 70
+MAX_AMMUNITION = 15 #70
 SPACE_SHIP_BURST = 3
 MAX_ENEMY_BULLETS = 10
 ENEMY_BULLET_SPEED = 5
@@ -25,6 +25,6 @@ SPACESHIP_SPEED = 5
 SPACESHIP_URL = "img/spacecraft.png"
 ENEMY_URL = "img/space_ship.png"
 
-epsilon_start, epsilon_final, epsiln_decay = 1, 0.01, 10000
+epsilon_start, epsilon_final, epsiln_decay = 1, 0.01, 100
 
 MIN_BUFFER = 5000
