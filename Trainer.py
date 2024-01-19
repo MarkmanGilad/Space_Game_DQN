@@ -5,9 +5,9 @@ from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
 
-buffer_path = "Data/buffer5.pth"
-DQN_path = "Data/DQN5.pth"
-results_path = "Data/results5.pth"
+buffer_path = "Data/buffer3.pth"
+DQN_path = "Data/DQN3.pth"
+results_path = "Data/results3.pth"
 
 def main ():
 
@@ -34,17 +34,17 @@ def main ():
     player = DQN_Agent()
     player_hat = DQN_Agent()
     player_hat.DQN = player.DQN.copy()
-    batch_size = 64
+    batch_size = 50
     buffer = ReplayBuffer()
-    learning_rate = 0.01
-    ephocs = 500000
+    learning_rate = 0.0001
+    ephocs = 10000
     C = 10
     loss = torch.tensor(-1)
     scores = []
     losses = []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[100*1000, 500*1000, 1000*1000], gamma=0.5)
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
     step = 0
 
     for epoch in range(ephocs):
@@ -70,7 +70,6 @@ def main ():
                         next_state, torch.tensor(done, dtype=torch.float32))
             if done:
                 best_score = max(best_score, env.score)
-                step = 0
                 break
 
             state = next_state
@@ -102,9 +101,11 @@ def main ():
             player_hat.DQN.load_state_dict(player.DQN.state_dict())
 
         #########################################
-        print (f'epoch: {epoch} loss: {loss} score: {env.score} level: {env.level} best_score: {best_score}')
+        print (f'epoch: {epoch} loss: {loss:.7f} LR: {scheduler.get_last_lr()} step: {step} ' \
+               f'score: {env.score} level: {env.level} best_score: {best_score}')
+        step = 0
 
-        if epoch % 100 == 0:
+        if epoch % 10 == 0:
             scores.append(env.score)
             losses.append(loss.item())
 

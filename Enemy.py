@@ -4,7 +4,7 @@ import random
 from Bullet import Bullet
 
 class Enemy (pygame.sprite.Sprite):
-    shoots_factor = 2
+    shoots_factor = ENEMY_SHOOTS_FACTOR
     speed_add = 0
     speed_y = 40
     def __init__(self, img, pos, bullets_Group) -> None:
@@ -12,7 +12,7 @@ class Enemy (pygame.sprite.Sprite):
         self.image = img
         self.rect = self.image.get_rect(topleft = pos)
         self.mask = pygame.mask.from_surface(self.image)
-        self.speed_x = 5
+        self.speed_x = ENEMY_START_SPEED
         self.speed_dir = 1
         self.bullets_Group = bullets_Group
 

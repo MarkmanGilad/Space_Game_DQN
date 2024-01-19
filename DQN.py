@@ -4,8 +4,8 @@ import torch.nn.functional as F
 import copy
 
 # Parameters
-input_size = 89 # Q(state) see environment for state shape
-layer1 = 128
+input_size = 88 # Q(state) see environment for state shape
+# layer1 = 128
 layer2 = 64
 output_size = 4 # Q(state)-> 4 value of left, stay, right, shoot
 gamma = 0.90 
@@ -15,14 +15,14 @@ class DQN (nn.Module):
     def __init__(self, device = torch.device('cpu')) -> None:
         super().__init__()
         self.device = device
-        self.linear1 = nn.Linear(input_size, layer1)
-        self.linear2 = nn.Linear(layer1, layer2)
+        # self.linear1 = nn.Linear(input_size, layer1)
+        self.linear2 = nn.Linear(input_size, layer2)
         self.output = nn.Linear(layer2, output_size)
         self.MSELoss = nn.MSELoss()
 
     def forward (self, x):
-        x = self.linear1(x)
-        x = F.leaky_relu(x)
+        # x = self.linear1(x)
+        # x = F.leaky_relu(x)
         x = self.linear2(x)
         x = F.leaky_relu(x)
         x = self.output(x)

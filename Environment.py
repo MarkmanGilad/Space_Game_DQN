@@ -51,20 +51,21 @@ class Environment:
         
 
     def restart (self, add_speed = 0, add_shoot_factor = 0, new_game = True):
-        Enemy.speed_add += add_speed
-        Enemy.shoots_factor += add_shoot_factor
-        self.enemy_Group = self.make_enemy_group()
-        self.spaceship.ammunition = MAX_AMMUNITION
-        self.bullets_Group.empty()
-
-        self.spaceship.rect.midbottom = (random.randint(50, WIDTH-50) , HEIGHT - 100)
-        self.enemy_bullets_Group.empty()
         if new_game:
+            self.spaceship.rect.midbottom = (random.randint(50, WIDTH-50) , HEIGHT - 100)
+            Enemy.speed_add = 0
+            Enemy.shoots_factor = ENEMY_SHOOTS_FACTOR
             self.score = 0
             self.level = 1
         else:
+            Enemy.speed_add += add_speed
+            Enemy.shoots_factor += add_shoot_factor
             self.level += 1
-
+        self.enemy_Group = self.make_enemy_group()
+        self.spaceship.ammunition = MAX_AMMUNITION
+        self.bullets_Group.empty()
+        self.enemy_bullets_Group.empty()
+        
     def move (self, action):
         reward = 0
         if action == 1:
@@ -146,7 +147,7 @@ class Environment:
         state_list.append(SPACESHIP_BULLET_SPEED)           # 85
         state_list.append(self.spaceship.ammunition)        # 86
         state_list.append(self.level)                       # 87
-        state_list.append(self.score)                       # 88
+        # state_list.append(self.score)                       # 88
         return torch.tensor(state_list, dtype=torch.float32)
 
      
