@@ -5,6 +5,7 @@ from CONSTANTS import *
 from SpaceShip import SpaceShip
 from Enemy import Enemy
 from Ground import Ground
+import random
 
 
 
@@ -55,7 +56,8 @@ class Environment:
         self.enemy_Group = self.make_enemy_group()
         self.spaceship.ammunition = MAX_AMMUNITION
         self.bullets_Group.empty()
-        self.spaceship.rect.midbottom = (WIDTH //2, HEIGHT - 100)
+
+        self.spaceship.rect.midbottom = (random.randint(50, WIDTH-50) , HEIGHT - 100)
         self.enemy_bullets_Group.empty()
         if new_game:
             self.score = 0
@@ -75,12 +77,12 @@ class Environment:
         self.draw()
         reward += self.hits()
         if self.is_end_of_stage():
-            reward += 10
+            reward += 0
             self.restart(add_speed=1, add_shoot_factor=0.1, new_game=False)
         self.score += reward
         done = self.is_end_of_Game()
         if done:
-            reward -= 20
+            reward -= 0
         return reward, done
     
     def is_end_of_stage (self):
