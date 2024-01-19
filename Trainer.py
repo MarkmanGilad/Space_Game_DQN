@@ -5,9 +5,9 @@ from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
 
-buffer_path = "Data/buffer4.pth"
-DQN_path = "Data/DQN4.pth"
-results_path = "Data/results4.pth"
+buffer_path = "Data/buffer5.pth"
+DQN_path = "Data/DQN5.pth"
+results_path = "Data/results5.pth"
 
 def main ():
 
@@ -53,6 +53,7 @@ def main ():
         end_of_game = False
         state = env.state()
         while not end_of_game:
+            print (step, end='\r')
             step += 1
             main_surf.fill(LIGHTGRAY)
             header_surf.fill(BLUE)

@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import copy
 
 # Parameters
-input_size = 88 # Q(state) see environment for state shape
+input_size = 89 # Q(state) see environment for state shape
 layer1 = 128
 layer2 = 64
 output_size = 4 # Q(state)-> 4 value of left, stay, right, shoot
