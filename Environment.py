@@ -26,10 +26,11 @@ class Environment:
 
     def make_enemy_group (self, row=ENEMY_ROWS, col=ENEMY_COLS, space_row = 80, space_col = 120):
         enemy_Group = pygame.sprite.Group()
-        # for r in range (row):
-        #     for c in range (col):
-        #         enemy_Group.add(Enemy(self.enemy_img, (c * space_col, r * space_row, ), self.enemy_bullets_Group))
-        enemy_Group.add(Enemy(self.enemy_img, (0 * space_col, 0 * space_row, ), self.enemy_bullets_Group))
+        row , col = 3 , 6
+        for r in range (row):
+            for c in range (col):
+                enemy_Group.add(Enemy(self.enemy_img, (c * space_col, r * space_row, ), self.enemy_bullets_Group))
+        # enemy_Group.add(Enemy(self.enemy_img, (0 * space_col, 0 * space_row, ), self.enemy_bullets_Group))
         return enemy_Group
     
     def surfarray (self):
@@ -52,7 +53,9 @@ class Environment:
 
     def restart (self, add_speed = 0, add_shoot_factor = 0, new_game = True):
         if new_game:
-            self.spaceship.rect.midbottom = (random.randint(50, WIDTH-50) , HEIGHT - 100)
+            # width =  random.randint(50, WIDTH-50)
+            width = WIDTH // 2 - 30
+            self.spaceship.rect.midbottom = ( width, HEIGHT - 100)
             Enemy.speed_add = 0
             Enemy.shoots_factor = ENEMY_SHOOTS_FACTOR
             self.score = 0
@@ -79,7 +82,7 @@ class Environment:
         reward += self.hits()
         if self.is_end_of_stage():
             reward += 0
-            self.restart(add_speed=1, add_shoot_factor=0.1, new_game=False)
+            self.restart(add_speed=0.5, add_shoot_factor=0.1, new_game=False)
         self.score += reward
         done = self.is_end_of_Game()
         if done:

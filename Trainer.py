@@ -5,9 +5,9 @@ from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
 
-buffer_path = "Data/buffer3.pth"
-DQN_path = "Data/DQN3.pth"
-results_path = "Data/results3.pth"
+buffer_path = "Data/buffer6.pth"
+DQN_path = "Data/DQN6.pth"
+results_path = "Data/results6.pth"
 
 def main ():
 

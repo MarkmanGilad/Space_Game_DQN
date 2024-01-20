@@ -1,4 +1,3 @@
-from typing import Any
 import pygame
 from CONSTANTS import *
 from Bullet import Bullet
