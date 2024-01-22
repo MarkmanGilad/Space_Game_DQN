@@ -5,9 +5,9 @@ from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
 
-buffer_path = "Data/buffer6.pth"
-DQN_path = "Data/DQN6.pth"
-results_path = "Data/results6.pth"
+# buffer_path = "Data/buffer7.pth"
+# DQN_path = "Data/DQN7.pth"
+# results_path = "Data/results7.pth"
 
 def main ():
 
@@ -35,19 +35,35 @@ def main ():
     player_hat = DQN_Agent()
     player_hat.DQN = player.DQN.copy()
     batch_size = 50
-    buffer = ReplayBuffer()
-    learning_rate = 0.0001
-    ephocs = 10000
+    buffer = ReplayBuffer(path=None)
+    learning_rate = 0.00001
+    ephocs = 100000
+    start_epoch = 0
     C = 10
     loss = torch.tensor(-1)
-    scores = []
-    losses = []
+    scores, losses = [], []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
     scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
     step = 0
 
-    for epoch in range(ephocs):
+    ######### checkpoint ############
+    checkpoint_path = "Data/checkpoint1.pth"
+    # checkpoint = torch.load(checkpoint_path)
+    # start_epoch = checkpoint['epoch']
+    # player.DQN.load_state_dict(checkpoint['model_state_dict'])
+    # player_hat.DQN.load_state_dict(checkpoint['model_state_dict'])
+    # optim.load_state_dict(checkpoint['optimizer_state_dict'])
+    # scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
+    # scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+    # buffer = checkpoint['buffer']
+    # losses = checkpoint['losses']
+    # scores = checkpoint['scores']
+    
+
+    #################################
+
+    for epoch in range(start_epoch, ephocs):
         
         env.restart()
         end_of_game = False
@@ -110,9 +126,19 @@ def main ():
             losses.append(loss.item())
 
         if epoch % 1000 == 0:
-            torch.save(buffer, buffer_path)
-            player.save_param(DQN_path)
-            torch.save((scores, losses), results_path)
+            checkpoint = {
+                'epoch': epoch,
+                'model_state_dict': player.DQN.state_dict(),
+                'optimizer_state_dict': optim.state_dict(),
+                'scheduler_state_dict': scheduler.state_dict(),
+                'buffer': buffer,
+                'loss': losses,
+                'scores':scores
+            }
+            torch.save(checkpoint, checkpoint_path)
+            # torch.save(buffer, buffer_path)
+            # player.save_param(DQN_path)
+            # torch.save((scores, losses), results_path)
 
         
 

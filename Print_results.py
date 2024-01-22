@@ -3,7 +3,7 @@ import torch
 import matplotlib.pyplot as plt
 
 Directory = 'Data'
-Files_num = [6]
+Files_num = [1,2, 7, 8]
 # Files_num = list(range(1,6))
 results_path = []
 

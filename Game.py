@@ -27,8 +27,8 @@ def main ():
     screen.blit(header_surf, (0,0))
     screen.blit(main_surf, (0,100))
 
-    player = Human_Agent()
-    # player = DQN_Agent()
+    # player = Human_Agent()
+    player = DQN_Agent(parametes_path="Data/DQN8.pth", train=False)
     
     write (header_surf, "Score: " + str(env.score) + " Ammunition: " + str(env.spaceship.ammunition))
 
