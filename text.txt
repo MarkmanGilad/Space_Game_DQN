@@ -1,3 +1,6 @@
-1: lr 0.00001
-2: lr 0.0001
-3: lr 0.000001
+7: DQN 128 128
+8: DQN 128 64
+1: 128 64 death -0
+2: DQN 64
+checkpoint1: 128 128 64 death -0 gamma 0.9
+checkpoint2: gamma 0.95 DQN 128, 128, 64 death-=3

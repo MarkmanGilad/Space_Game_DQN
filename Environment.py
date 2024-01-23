@@ -86,7 +86,7 @@ class Environment:
         self.score += reward
         done = self.is_end_of_Game()
         if done:
-            reward -= 0
+            reward -= 3
         return reward, done
     
     def is_end_of_stage (self):
@@ -146,7 +146,6 @@ class Environment:
             index += 2
         for i in range(SpaceShip_Bullet_pos_shape-index):
             state_list.append(0)
-
         state_list.append(SPACESHIP_BULLET_SPEED)           # 85
         state_list.append(self.spaceship.ammunition)        # 86
         state_list.append(self.level)                       # 87

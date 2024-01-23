@@ -5,10 +5,6 @@ from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
 
-# buffer_path = "Data/buffer7.pth"
-# DQN_path = "Data/DQN7.pth"
-# results_path = "Data/results7.pth"
-
 def main ():
 
     pygame.init()
@@ -48,7 +44,7 @@ def main ():
     step = 0
 
     ######### checkpoint ############
-    checkpoint_path = "Data/checkpoint1.pth"
+    checkpoint_path = "Data/checkpoint2.pth"
     # checkpoint = torch.load(checkpoint_path)
     # start_epoch = checkpoint['epoch']
     # player.DQN.load_state_dict(checkpoint['model_state_dict'])
@@ -136,9 +132,6 @@ def main ():
                 'scores':scores
             }
             torch.save(checkpoint, checkpoint_path)
-            # torch.save(buffer, buffer_path)
-            # player.save_param(DQN_path)
-            # torch.save((scores, losses), results_path)
 
         
 
