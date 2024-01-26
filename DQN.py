@@ -5,11 +5,12 @@ import copy
 
 # Parameters
 input_size = 88 # Q(state) see environment for state shape
-layer1 = 256
-layer2 = 128
-layer3 = 64
+layer1 = 128
+layer2 = 256
+layer3 = 128
+layer4 = 64
 output_size = 4 # Q(state)-> 4 value of stay, left, right, shoot
-gamma = 0.95 
+gamma = 0.99 
 
 
 class DQN (nn.Module):
@@ -19,7 +20,8 @@ class DQN (nn.Module):
         self.linear1 = nn.Linear(input_size, layer1)
         self.linear2 = nn.Linear(layer1, layer2)
         self.linear3 = nn.Linear(layer2, layer3)
-        self.output = nn.Linear(layer3, output_size)
+        self.linear4 = nn.Linear(layer3, layer4)
+        self.output = nn.Linear(layer4, output_size)
         self.MSELoss = nn.MSELoss()
 
     def forward (self, x):
@@ -28,6 +30,8 @@ class DQN (nn.Module):
         x = self.linear2(x)
         x = F.leaky_relu(x)
         x = self.linear3(x)
+        x = F.leaky_relu(x)
+        x = self.linear4(x)
         x = F.leaky_relu(x)
         x = self.output(x)
         return x

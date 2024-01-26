@@ -4,3 +4,8 @@
 2: DQN 64
 checkpoint1: 128 128 64 death -0 gamma 0.9
 checkpoint2: gamma 0.95 DQN 128, 128, 64 death-=3
+checkpoint11 -> checkpoint1
+checkpoint12 -> checkpoint12
+checkpoint13: 128, 258, 128, 64 death-=3 gamma 0.99
+checkpoint14: 
+checkpoint15: 128, 64 gamma 0.99 LR=0.001 death-=3

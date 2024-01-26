@@ -32,19 +32,21 @@ def main ():
     player_hat.DQN = player.DQN.copy()
     batch_size = 50
     buffer = ReplayBuffer(path=None)
-    learning_rate = 0.00001
+    learning_rate = 0.001
     ephocs = 100000
     start_epoch = 0
     C = 10
     loss = torch.tensor(-1)
-    scores, losses = [], []
+    avg = 0
+    scores, losses, avg_score = [], [], []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
     scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
     step = 0
 
     ######### checkpoint ############
-    checkpoint_path = "Data/checkpoint2.pth"
+    checkpoint_path = "Data/checkpoint14.pth"
+    buffer_path = "Data/buffer14.pth"
     # checkpoint = torch.load(checkpoint_path)
     # start_epoch = checkpoint['epoch']
     # player.DQN.load_state_dict(checkpoint['model_state_dict'])
@@ -52,7 +54,7 @@ def main ():
     # optim.load_state_dict(checkpoint['optimizer_state_dict'])
     # scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
     # scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
-    # buffer = checkpoint['buffer']
+    # buffer = torch.load(buffer_path)
     # losses = checkpoint['losses']
     # scores = checkpoint['scores']
     
@@ -60,7 +62,6 @@ def main ():
     #################################
 
     for epoch in range(start_epoch, ephocs):
-        
         env.restart()
         end_of_game = False
         state = env.state()
@@ -116,10 +117,15 @@ def main ():
         print (f'epoch: {epoch} loss: {loss:.7f} LR: {scheduler.get_last_lr()} step: {step} ' \
                f'score: {env.score} level: {env.level} best_score: {best_score}')
         step = 0
-
         if epoch % 10 == 0:
             scores.append(env.score)
             losses.append(loss.item())
+
+        avg = (avg * (epoch % 10) + env.score) / (epoch % 10 + 1)
+        if (epoch + 1) % 10 == 0:
+            avg_score.append(avg)
+            print (f'average score last 10 games: {avg} ')
+            avg = 0
 
         if epoch % 1000 == 0:
             checkpoint = {
@@ -127,11 +133,12 @@ def main ():
                 'model_state_dict': player.DQN.state_dict(),
                 'optimizer_state_dict': optim.state_dict(),
                 'scheduler_state_dict': scheduler.state_dict(),
-                'buffer': buffer,
                 'loss': losses,
-                'scores':scores
+                'scores':scores,
+                'avg_score': avg_score
             }
             torch.save(checkpoint, checkpoint_path)
+            torch.save(buffer, buffer_path)
 
         
 

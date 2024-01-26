@@ -49,7 +49,6 @@ class Environment:
         self.enemy_Group.draw(surface)
         self.bullets_Group.draw(surface)
         self.enemy_bullets_Group.draw(surface)
-        
 
     def restart (self, add_speed = 0, add_shoot_factor = 0, new_game = True):
         if new_game:
