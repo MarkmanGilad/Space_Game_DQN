@@ -85,7 +85,7 @@ class Environment:
         self.score += reward
         done = self.is_end_of_Game()
         if done:
-            reward -= 3
+            reward -= 0
         return reward, done
     
     def is_end_of_stage (self):

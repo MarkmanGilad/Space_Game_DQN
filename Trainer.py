@@ -32,8 +32,8 @@ def main ():
     player_hat.DQN = player.DQN.copy()
     batch_size = 50
     buffer = ReplayBuffer(path=None)
-    learning_rate = 0.001
-    ephocs = 100000
+    learning_rate = 0.00001
+    ephocs = 200000
     start_epoch = 0
     C = 10
     loss = torch.tensor(-1)
@@ -41,22 +41,23 @@ def main ():
     scores, losses, avg_score = [], [], []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[5000*1000, 10000*1000, 15000*1000, 20000*1000], gamma=0.5)
     step = 0
 
     ######### checkpoint ############
-    checkpoint_path = "Data/checkpoint14.pth"
-    buffer_path = "Data/buffer14.pth"
-    # checkpoint = torch.load(checkpoint_path)
-    # start_epoch = checkpoint['epoch']
-    # player.DQN.load_state_dict(checkpoint['model_state_dict'])
-    # player_hat.DQN.load_state_dict(checkpoint['model_state_dict'])
-    # optim.load_state_dict(checkpoint['optimizer_state_dict'])
-    # scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
-    # scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
-    # buffer = torch.load(buffer_path)
-    # losses = checkpoint['losses']
-    # scores = checkpoint['scores']
+    checkpoint_path = "Data/checkpoint16.pth"
+    buffer_path = "Data/buffer16.pth"
+    checkpoint = torch.load(checkpoint_path)
+    start_epoch = checkpoint['epoch']
+    player.DQN.load_state_dict(checkpoint['model_state_dict'])
+    player_hat.DQN.load_state_dict(checkpoint['model_state_dict'])
+    optim.load_state_dict(checkpoint['optimizer_state_dict'])
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
+    scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+    buffer = torch.load(buffer_path)
+    losses = checkpoint['loss']
+    scores = checkpoint['scores']
+    avg_score = checkpoint['avg_score']
     
 
     #################################
