@@ -4,6 +4,7 @@ from CONSTANTS import *
 from Environment import Environment
 from DQN_Agent import DQN_Agent
 from ReplayBuffer import ReplayBuffer
+import os
 
 def main ():
 
@@ -35,7 +36,7 @@ def main ():
     learning_rate = 0.00001
     ephocs = 200000
     start_epoch = 0
-    C = 10
+    C = 3
     loss = torch.tensor(-1)
     avg = 0
     scores, losses, avg_score = [], [], []
@@ -44,21 +45,22 @@ def main ():
     scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[5000*1000, 10000*1000, 15000*1000, 20000*1000], gamma=0.5)
     step = 0
 
-    ######### checkpoint ############
-    checkpoint_path = "Data/checkpoint16.pth"
-    buffer_path = "Data/buffer16.pth"
-    checkpoint = torch.load(checkpoint_path)
-    start_epoch = checkpoint['epoch']
-    player.DQN.load_state_dict(checkpoint['model_state_dict'])
-    player_hat.DQN.load_state_dict(checkpoint['model_state_dict'])
-    optim.load_state_dict(checkpoint['optimizer_state_dict'])
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[1000*1000, 3000*1000, 5000*1000], gamma=0.5)
-    scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
-    buffer = torch.load(buffer_path)
-    losses = checkpoint['loss']
-    scores = checkpoint['scores']
-    avg_score = checkpoint['avg_score']
-    
+    ######### checkpoint Load ############
+    checkpoint_path = "Data/checkpoint18.pth"
+    buffer_path = "Data/buffer18.pth"
+    if os.path.exists(checkpoint_path):
+        checkpoint = torch.load(checkpoint_path)
+        start_epoch = checkpoint['epoch']+1
+        player.DQN.load_state_dict(checkpoint['model_state_dict'])
+        player_hat.DQN.load_state_dict(checkpoint['model_state_dict'])
+        optim.load_state_dict(checkpoint['optimizer_state_dict'])
+        scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
+        buffer = torch.load(buffer_path)
+        losses = checkpoint['loss']
+        scores = checkpoint['scores']
+        avg_score = checkpoint['avg_score']
+    player.DQN.train()
+    player_hat.DQN.eval()
 
     #################################
 
