@@ -111,10 +111,10 @@ class Environment:
         SpaceShip_bullets_speed_y = 1                           # 1
         SpaceShip_ammunition = 1                                # 1
         level = 1                                               # 1
-        score = 1                                               # 1
+        # score = 1                                               # 1
         total = enemy_ships + enemy_speed_y + enemy_bullets + enemy_bullet_speed_y + SpaceShip_pos_shape + SpaceShip_speed_x + \
-        SpaceShip_Bullet_pos_shape + SpaceShip_bullets_speed_y + SpaceShip_ammunition + level + score
-        # total = 89
+        SpaceShip_Bullet_pos_shape + SpaceShip_bullets_speed_y + SpaceShip_ammunition + level 
+        # total = 88
         
         state_list = []
         # 0 - 53
