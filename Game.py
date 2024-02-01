@@ -1,11 +1,7 @@
 import pygame
 from CONSTANTS import *
-from SpaceShip import SpaceShip
-from Enemy import Enemy
 from Human_Agent import Human_Agent
-from Bullet import Bullet
 from Environment import Environment
-import torch
 from DQN_Agent import DQN_Agent
 
 
@@ -27,8 +23,8 @@ def main ():
     screen.blit(header_surf, (0,0))
     screen.blit(main_surf, (0,100))
 
-    # player = Human_Agent()
-    player = DQN_Agent(parametes_path=None, train=False)
+    player = Human_Agent()
+    # player = DQN_Agent(parametes_path=None, train=False)
     
     write (header_surf, "Score: " + str(env.score) + " Ammunition: " + str(env.spaceship.ammunition))
 
@@ -45,7 +41,7 @@ def main ():
             
         action = player.get_Action(events=events, state=env.state())
         reward, done = env.move(action=action)
-
+        
         if done:
             write (header_surf, "End Of Game - Score: " + str (env.score))
             write (header_surf, "Another Game ?  Y \ N", pos=(300, 60))
@@ -56,8 +52,9 @@ def main ():
             else:
                 break
                 
-        state = env.state()
-        write(header_surf, "Score: " + str(env.score) + "              Ammunition: " + str(env.spaceship.ammunition),(200, 60))
+        # state = env.state()
+        write(header_surf, "Score: " + str(env.score) ,(200, 60))
+        write(header_surf, "Ammunition: " + str(env.spaceship.ammunition), (400, 60))
         write(header_surf,"Level: " + str(env.level), (200, 20))
         screen.blit(header_surf, (0,0))
         screen.blit(main_surf, (0,100))

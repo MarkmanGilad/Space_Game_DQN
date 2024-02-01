@@ -28,6 +28,7 @@ class Enemy (pygame.sprite.Sprite):
             self.rect.y += Enemy.speed_y
             self.speed_dir = -self.speed_dir
         self.rect.x += (self.speed_x + Enemy.speed_add) * self.speed_dir
+        
 
     def shoot (self):
         if random.random() < Enemy.shoots_factor/1000 and len(self.bullets_Group) < MAX_ENEMY_BULLETS:

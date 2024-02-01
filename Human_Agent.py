@@ -15,7 +15,7 @@ class Human_Agent:
                     self.action = 3
             if event.type == pygame.KEYUP:
                 self.action = 0
-        if self.action == 3:
+        if self.action == 3: # ירי בבודדת
             self.action = 0
             return 3
         return self.action

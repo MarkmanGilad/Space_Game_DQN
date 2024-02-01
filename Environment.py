@@ -81,11 +81,12 @@ class Environment:
         reward += self.hits()
         if self.is_end_of_stage():
             reward += 0
-            self.restart(add_speed=0.5, add_shoot_factor=0.1, new_game=False)
+            self.restart(add_speed=1, add_shoot_factor=0.1, new_game=False)
         self.score += reward
         done = self.is_end_of_Game()
         if done:
             reward -= 3
+        
         return reward, done
     
     def is_end_of_stage (self):

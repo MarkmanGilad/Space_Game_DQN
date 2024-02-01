@@ -46,8 +46,8 @@ def main ():
     step = 0
 
     ######### checkpoint Load ############
-    checkpoint_path = "Data/checkpoint18.pth"
-    buffer_path = "Data/buffer18.pth"
+    checkpoint_path = "Data/checkpoint19.pth"
+    buffer_path = "Data/buffer19.pth"
     if os.path.exists(checkpoint_path):
         checkpoint = torch.load(checkpoint_path)
         start_epoch = checkpoint['epoch']+1
