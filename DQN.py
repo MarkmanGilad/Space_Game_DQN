@@ -12,7 +12,7 @@ layer4 = 128
 layer5 = 64
 output_size = 4 # Q(state)-> 4 value of stay, left, right, shoot
 gamma = 0.99 
-
+ 
 
 class DQN (nn.Module):
     def __init__(self, device = torch.device('cpu')) -> None:
