@@ -13,3 +13,5 @@ checkpoint16: 128, 258, 128, 64 death-=3 gamma 0.99 LR = 0.00001 Schedule: 5000,
 checkpoint17: 128, 258, 128, 64 death-=3 gamma 0.99 LR = 0.00001 Schedule: 5000, 10000, 15000 20000 death -0 c = 3
 checkpoint18: 128, 258, 128, 64 death-=3 gamma 0.99 LR = 0.00001 Schedule: 5000, 10000, 15000 20000 death -3 c = 3
 checkpoint19: 128, 258, 128, 64 death-=3 gamma 0.99 LR = 0.00001 Schedule: 5000, 10000, 15000 20000 death -3 c = 3 decay = 5000
+checkpoint20: 128, 258, 128, 64 death-=3 gamma 0.99 LR = 0.00001 Schedule: 5000, 10000, 15000 death -3 c = 3 decay = 20000
+checkpoint21: 128, 258, 512, 128, 64 death-=3 gamma 0.99 LR = 0.00001 Schedule: 5000, 10000, 15000 death -3 c = 3 decay = 20000
