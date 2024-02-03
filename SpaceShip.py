@@ -14,7 +14,6 @@ class SpaceShip (pygame.sprite.Sprite):
         self.ammunition = MAX_AMMUNITION
         self.burst = SPACE_SHIP_BURST
 
-
     def update(self) -> None:
         pass
 
@@ -22,7 +21,6 @@ class SpaceShip (pygame.sprite.Sprite):
         self.rect.x += self.speed_x
         if self.rect.right > WIDTH + 20:
             self.rect.right = WIDTH + 20 
-            
 
     def move_left (self):
         self.rect.x -= self.speed_x

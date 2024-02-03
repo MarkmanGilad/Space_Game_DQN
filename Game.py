@@ -41,18 +41,16 @@ def main ():
             
         action = player.get_Action(events=events, state=env.state())
         reward, done = env.move(action=action)
-        
         if done:
             write (header_surf, "End Of Game - Score: " + str (env.score))
-            write (header_surf, "Another Game ?  Y \ N", pos=(300, 60))
+            write (header_surf, "Another Game ?  Y / N", pos=(300, 60))
             screen.blit(header_surf, (0,0))
             pygame.display.update()
             if another_game():
                 env.restart()
             else:
                 break
-                
-        # state = env.state()
+        
         write(header_surf, "Score: " + str(env.score) ,(200, 60))
         write(header_surf, "Ammunition: " + str(env.spaceship.ammunition), (400, 60))
         write(header_surf,"Level: " + str(env.level), (200, 20))

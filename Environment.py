@@ -7,8 +7,6 @@ from Enemy import Enemy
 from Ground import Ground
 import random
 
-
-
 class Environment:
     def __init__(self, surface) -> None:
         self.bullets_Group = pygame.sprite.Group()
@@ -30,11 +28,7 @@ class Environment:
         for r in range (row):
             for c in range (col):
                 enemy_Group.add(Enemy(self.enemy_img, (c * space_col, r * space_row, ), self.enemy_bullets_Group))
-        # enemy_Group.add(Enemy(self.enemy_img, (0 * space_col, 0 * space_row, ), self.enemy_bullets_Group))
         return enemy_Group
-    
-    def surfarray (self):
-       return pygame.surfarray.array3d(self.screen) 
     
     def update (self):
         self.spaceship_Group.update()
@@ -86,7 +80,6 @@ class Environment:
         done = self.is_end_of_Game()
         if done:
             reward -= 3
-        
         return reward, done
     
     def is_end_of_stage (self):
