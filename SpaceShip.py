@@ -34,10 +34,10 @@ class SpaceShip (pygame.sprite.Sprite):
 
     def action (self, action):
         if action == 1:
-            self.move_right()
-        elif action == -1:
             self.move_left()
         elif action == 2:
+            self.move_right()
+        elif action == 3:
             self.shoot()
         
 
