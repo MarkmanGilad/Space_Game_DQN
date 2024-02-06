@@ -42,12 +42,12 @@ def main ():
     scores, losses, avg_score = [], [], []
     optim = torch.optim.Adam(player.DQN.parameters(), lr=learning_rate)
     # scheduler = torch.optim.lr_scheduler.StepLR(optim,100000, gamma=0.50)
-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[5000*1000, 10000*1000, 15000*1000], gamma=0.5)
+    scheduler = torch.optim.lr_scheduler.MultiStepLR(optim,[10000*1000], gamma=0.5)
     step = 0
 
     ######### checkpoint Load ############
-    checkpoint_path = "Data/checkpoint20.pth"
-    buffer_path = "Data/buffer20.pth"
+    checkpoint_path = "Data/checkpoint22.pth"
+    buffer_path = "Data/buffer22.pth"
     if os.path.exists(checkpoint_path):
         checkpoint = torch.load(checkpoint_path)
         start_epoch = checkpoint['epoch']+1
