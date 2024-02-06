@@ -1962,3 +1962,4 @@ epoch: 90 loss: 0.0253554 LR: [1e-05] step: 802 score: 16 level: 1 best_score: 7
 1102h: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
 1398h: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
 1689h: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+8poch: 567 loss: 0.0201851 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71

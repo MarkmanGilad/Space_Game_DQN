@@ -4236,3 +4236,5 @@
 2024-02-06 13:45:25,210 DEBUG   HandlerThread:32456 [handler.py:handle_request():146] handle_request: status_report
 2024-02-06 13:45:25,323 INFO    Thread-17 :32456 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_124017-v3z3arsz\files\output.log
 2024-02-06 13:45:27,338 INFO    Thread-17 :32456 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_124017-v3z3arsz\files\output.log
+2024-02-06 13:45:29,367 INFO    Thread-17 :32456 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_124017-v3z3arsz\files\output.log
+2024-02-06 13:45:30,212 DEBUG   HandlerThread:32456 [handler.py:handle_request():146] handle_request: status_report

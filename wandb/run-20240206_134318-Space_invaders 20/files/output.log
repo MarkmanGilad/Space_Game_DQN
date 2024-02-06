@@ -63,3 +63,4 @@ epoch: 29013 loss: 0.4588516 LR: [1.25e-06] step: 3350 score: 70 level: 4 best_s
 
 epoch: 29014 loss: 0.0021619 LR: [1.25e-06] step: 1608 score: 15 level: 1 best_score: 70
 
+

@@ -159,3 +159,6 @@
 2024-02-06 13:45:23,062 INFO    Thread-17 :32728 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_134318-Space_invaders 20\files\output.log
 2024-02-06 13:45:24,371 DEBUG   HandlerThread:32728 [handler.py:handle_request():146] handle_request: status_report
 2024-02-06 13:45:25,088 INFO    Thread-17 :32728 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_134318-Space_invaders 20\files\output.log
+2024-02-06 13:45:27,104 INFO    Thread-17 :32728 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_134318-Space_invaders 20\files\output.log
+2024-02-06 13:45:29,115 INFO    Thread-17 :32728 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Gilad\Markman Dropbox\Gilad Markman\Python\Space_Game\wandb\run-20240206_134318-Space_invaders 20\files\output.log
+2024-02-06 13:45:29,377 DEBUG   HandlerThread:32728 [handler.py:handle_request():146] handle_request: status_report
