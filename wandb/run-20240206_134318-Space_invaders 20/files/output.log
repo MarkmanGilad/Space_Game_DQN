@@ -1,0 +1,65 @@
+
+
+
+
+epoch: 29001 loss: 0.0143043 LR: [1.25e-06] step: 1254 score: 16 level: 1 best_score: 16
+
+
+
+
+epoch: 29002 loss: 0.0379157 LR: [1.25e-06] step: 1251 score: 23 level: 2 best_score: 23
+epoch: 29003 loss: 0.0024333 LR: [1.25e-06] step: 158 score: 7 level: 1 best_score: 23
+epoch: 29004 loss: 0.0039270 LR: [1.25e-06] step: 175 score: 8 level: 1 best_score: 23
+
+
+
+
+epoch: 29005 loss: 0.0167593 LR: [1.25e-06] step: 1638 score: 15 level: 1 best_score: 23
+
+
+
+
+epoch: 29006 loss: 0.0075111 LR: [1.25e-06] step: 1224 score: 14 level: 1 best_score: 23
+
+
+
+epoch: 29007 loss: 0.0643424 LR: [1.25e-06] step: 1254 score: 14 level: 1 best_score: 23
+
+
+
+epoch: 29008 loss: 0.0024097 LR: [1.25e-06] step: 1194 score: 17 level: 1 best_score: 23
+
+
+
+
+
+
+
+epoch: 29009 loss: 0.0056023 LR: [1.25e-06] step: 2485 score: 51 level: 3 best_score: 51
+average score last 10 games: 16.5
+epoch: 29010 loss: 0.0236061 LR: [1.25e-06] step: 219 score: 13 level: 1 best_score: 51
+
+
+
+
+
+
+epoch: 29011 loss: 0.0081289 LR: [1.25e-06] step: 2059 score: 31 level: 2 best_score: 51
+epoch: 29012 loss: 0.0018511 LR: [1.25e-06] step: 177 score: 9 level: 1 best_score: 51
+
+
+
+
+
+
+
+
+
+
+epoch: 29013 loss: 0.4588516 LR: [1.25e-06] step: 3350 score: 70 level: 4 best_score: 70
+
+
+
+
+epoch: 29014 loss: 0.0021619 LR: [1.25e-06] step: 1608 score: 15 level: 1 best_score: 70
+

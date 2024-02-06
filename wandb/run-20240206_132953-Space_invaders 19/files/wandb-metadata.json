@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-02-06T11:29:54.345893",
+    "startedAt": "2024-02-06T11:29:53.521519",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\Gilad\\Markman Dropbox\\Gilad Markman\\Python\\Space_Game\\Trainer_wandb.py",
+    "codePathLocal": "Trainer_wandb.py",
+    "codePath": "Trainer_wandb.py",
+    "git": {
+        "remote": "https://github.com/MarkmanGilad/Space_Game_DQN.git",
+        "commit": "8562274dc7cf683892c8acaca7b33d76f31e4ca4"
+    },
+    "email": "gilad@markman.co.il",
+    "root": "C:/Users/Gilad/Markman Dropbox/Gilad Markman/Python/Space_Game",
+    "host": "Gilad-Desktop",
+    "username": "Gilad",
+    "executable": "C:\\Users\\Gilad\\env\\Scripts\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3400.0,
+        "min": 0.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.0,
+            "min": 0.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 930.8076133728027,
+            "used": 454.8561553955078
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090 Ti",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 63.747276306152344
+    }
+}

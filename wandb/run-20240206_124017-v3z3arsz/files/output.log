@@ -1,0 +1,1964 @@
+
+epoch: 0 loss: -1.0000000 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 17
+
+epoch: 1 loss: -1.0000000 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 17
+
+epoch: 2 loss: -1.0000000 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 17
+
+
+epoch: 3 loss: 0.1535636 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 17
+epoch: 4 loss: 0.1557494 LR: [1e-05] step: 131 score: 5 level: 1 best_score: 17
+epoch: 5 loss: 0.0742645 LR: [1e-05] step: 369 score: 12 level: 1 best_score: 17
+
+
+
+
+
+epoch: 6 loss: 0.0602167 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 17
+
+
+
+epoch: 7 loss: 0.0579619 LR: [1e-05] step: 1274 score: 17 level: 1 best_score: 17
+epoch: 8 loss: 0.0648479 LR: [1e-05] step: 138 score: 2 level: 1 best_score: 17
+
+
+
+
+
+
+
+epoch: 9 loss: 0.0245433 LR: [1e-05] step: 2910 score: 53 level: 3 best_score: 53
+average score last 10 games: 17.2
+
+
+
+
+epoch: 10 loss: 0.0720614 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 53
+
+
+
+
+
+epoch: 11 loss: 0.0190063 LR: [1e-05] step: 1864 score: 34 level: 2 best_score: 53
+
+
+
+epoch: 12 loss: 0.0390393 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 53
+epoch: 13 loss: 0.5175470 LR: [1e-05] step: 225 score: 5 level: 1 best_score: 53
+epoch: 14 loss: 0.0609202 LR: [1e-05] step: 277 score: 9 level: 1 best_score: 53
+epoch: 15 loss: 0.0402531 LR: [1e-05] step: 262 score: 11 level: 1 best_score: 53
+
+epoch: 16 loss: 0.0375804 LR: [1e-05] step: 852 score: 24 level: 2 best_score: 53
+
+
+
+epoch: 17 loss: 0.0185664 LR: [1e-05] step: 1284 score: 17 level: 1 best_score: 53
+
+
+
+
+
+epoch: 18 loss: 0.0279195 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 53
+
+
+
+
+
+
+
+epoch: 19 loss: 0.0289197 LR: [1e-05] step: 2825 score: 71 level: 4 best_score: 71
+average score last 10 games: 22.0
+
+
+
+
+
+
+epoch: 20 loss: 0.0560460 LR: [1e-05] step: 2252 score: 34 level: 2 best_score: 71
+
+
+
+epoch: 21 loss: 0.0213529 LR: [1e-05] step: 1622 score: 34 level: 2 best_score: 71
+
+
+
+
+
+epoch: 22 loss: 0.0166157 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+
+
+
+epoch: 23 loss: 0.0231776 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+
+epoch: 24 loss: 0.0491846 LR: [1e-05] step: 687 score: 27 level: 2 best_score: 71
+
+
+epoch: 25 loss: 0.0392091 LR: [1e-05] step: 986 score: 27 level: 2 best_score: 71
+
+
+
+epoch: 26 loss: 0.0403507 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+epoch: 27 loss: 0.0121994 LR: [1e-05] step: 106 score: 5 level: 1 best_score: 71
+
+epoch: 28 loss: 0.0524432 LR: [1e-05] step: 614 score: 24 level: 2 best_score: 71
+epoch: 29 loss: 0.0314445 LR: [1e-05] step: 279 score: 10 level: 1 best_score: 71
+average score last 10 games: 21.2
+epoch: 30 loss: 0.0218412 LR: [1e-05] step: 119 score: 5 level: 1 best_score: 71
+
+epoch: 31 loss: 0.0231750 LR: [1e-05] step: 801 score: 32 level: 2 best_score: 71
+
+epoch: 32 loss: 0.0244715 LR: [1e-05] step: 375 score: 12 level: 1 best_score: 71
+
+
+epoch: 33 loss: 0.0398583 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+
+
+
+
+
+epoch: 34 loss: 0.0292222 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+epoch: 35 loss: 0.0145695 LR: [1e-05] step: 230 score: 11 level: 1 best_score: 71
+epoch: 36 loss: 0.0360862 LR: [1e-05] step: 235 score: 8 level: 1 best_score: 71
+epoch: 37 loss: 0.0758611 LR: [1e-05] step: 118 score: 5 level: 1 best_score: 71
+
+epoch: 38 loss: 0.0236961 LR: [1e-05] step: 791 score: 21 level: 2 best_score: 71
+
+epoch: 39 loss: 0.0520750 LR: [1e-05] step: 777 score: 16 level: 1 best_score: 71
+average score last 10 games: 14.4
+epoch: 40 loss: 0.0155134 LR: [1e-05] step: 331 score: 13 level: 1 best_score: 71
+
+epoch: 41 loss: 0.0184663 LR: [1e-05] step: 582 score: 16 level: 1 best_score: 71
+
+
+
+epoch: 42 loss: 0.0634822 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+
+
+
+
+
+
+epoch: 43 loss: 0.0191505 LR: [1e-05] step: 2372 score: 35 level: 2 best_score: 71
+
+
+
+
+
+
+epoch: 44 loss: 0.0498181 LR: [1e-05] step: 2340 score: 53 level: 3 best_score: 71
+epoch: 45 loss: 0.0392595 LR: [1e-05] step: 148 score: 7 level: 1 best_score: 71
+epoch: 46 loss: 0.0144451 LR: [1e-05] step: 329 score: 10 level: 1 best_score: 71
+
+
+
+
+epoch: 47 loss: 0.0251700 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+
+
+
+
+
+epoch: 48 loss: 0.0143047 LR: [1e-05] step: 1990 score: 33 level: 2 best_score: 71
+
+
+epoch: 49 loss: 0.0267150 LR: [1e-05] step: 916 score: 21 level: 2 best_score: 71
+average score last 10 games: 22.2
+
+
+
+
+epoch: 50 loss: 0.0234575 LR: [1e-05] step: 1946 score: 35 level: 2 best_score: 71
+epoch: 51 loss: 0.0125692 LR: [1e-05] step: 151 score: 6 level: 1 best_score: 71
+
+
+
+epoch: 52 loss: 0.0301560 LR: [1e-05] step: 1324 score: 17 level: 1 best_score: 71
+
+
+
+
+
+epoch: 53 loss: 0.0667639 LR: [1e-05] step: 2052 score: 17 level: 1 best_score: 71
+
+
+
+epoch: 54 loss: 0.0661241 LR: [1e-05] step: 1254 score: 16 level: 1 best_score: 71
+epoch: 55 loss: 0.0163151 LR: [1e-05] step: 378 score: 15 level: 1 best_score: 71
+epoch: 56 loss: 0.0248143 LR: [1e-05] step: 103 score: 6 level: 1 best_score: 71
+
+
+
+
+epoch: 57 loss: 0.0219813 LR: [1e-05] step: 1760 score: 34 level: 2 best_score: 71
+epoch: 58 loss: 0.0439259 LR: [1e-05] step: 348 score: 12 level: 1 best_score: 71
+
+
+
+
+
+epoch: 59 loss: 0.0227291 LR: [1e-05] step: 1882 score: 33 level: 2 best_score: 71
+average score last 10 games: 19.1
+epoch: 60 loss: 0.0372511 LR: [1e-05] step: 209 score: 10 level: 1 best_score: 71
+
+epoch: 61 loss: 0.0109615 LR: [1e-05] step: 521 score: 12 level: 1 best_score: 71
+
+
+
+
+epoch: 62 loss: 0.0318683 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+epoch: 63 loss: 0.0474359 LR: [1e-05] step: 133 score: 6 level: 1 best_score: 71
+
+
+
+epoch: 64 loss: 0.0353506 LR: [1e-05] step: 1284 score: 17 level: 1 best_score: 71
+
+
+
+
+epoch: 65 loss: 0.0434825 LR: [1e-05] step: 1775 score: 60 level: 4 best_score: 71
+
+
+
+epoch: 66 loss: 0.0071005 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+
+
+epoch: 67 loss: 0.0629980 LR: [1e-05] step: 983 score: 28 level: 2 best_score: 71
+
+
+
+epoch: 68 loss: 0.0171062 LR: [1e-05] step: 1268 score: 17 level: 1 best_score: 71
+
+
+
+
+epoch: 69 loss: 0.0323292 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+average score last 10 games: 20.0
+
+
+
+
+epoch: 70 loss: 0.0167383 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+epoch: 71 loss: 0.0395586 LR: [1e-05] step: 240 score: 9 level: 1 best_score: 71
+
+
+
+epoch: 72 loss: 0.0564722 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+
+
+
+epoch: 73 loss: 0.0503209 LR: [1e-05] step: 1341 score: 17 level: 1 best_score: 71
+
+
+epoch: 74 loss: 0.0222987 LR: [1e-05] step: 879 score: 25 level: 2 best_score: 71
+epoch: 75 loss: 2.0298977 LR: [1e-05] step: 237 score: 6 level: 1 best_score: 71
+epoch: 76 loss: 0.0235474 LR: [1e-05] step: 66 score: 3 level: 1 best_score: 71
+
+
+epoch: 77 loss: 0.0230319 LR: [1e-05] step: 1284 score: 16 level: 1 best_score: 71
+
+
+
+
+
+epoch: 78 loss: 0.0208878 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+
+
+
+epoch: 79 loss: 0.0209694 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+average score last 10 games: 14.4
+
+epoch: 80 loss: 0.0164918 LR: [1e-05] step: 586 score: 15 level: 1 best_score: 71
+
+
+epoch: 81 loss: 0.0327287 LR: [1e-05] step: 974 score: 27 level: 2 best_score: 71
+
+epoch: 82 loss: 0.0713350 LR: [1e-05] step: 665 score: 16 level: 1 best_score: 71
+epoch: 83 loss: 0.0618428 LR: [1e-05] step: 129 score: 5 level: 1 best_score: 71
+
+
+
+
+epoch: 84 loss: 0.0781171 LR: [1e-05] step: 1739 score: 35 level: 2 best_score: 71
+epoch: 85 loss: 0.0345001 LR: [1e-05] step: 231 score: 11 level: 1 best_score: 71
+
+
+
+
+
+epoch: 86 loss: 0.0236228 LR: [1e-05] step: 2071 score: 35 level: 2 best_score: 71
+
+
+
+epoch: 87 loss: 0.0309241 LR: [1e-05] step: 1284 score: 17 level: 1 best_score: 71
+
+
+epoch: 88 loss: 0.0170140 LR: [1e-05] step: 950 score: 23 level: 2 best_score: 71
+epoch: 89 loss: 0.0461387 LR: [1e-05] step: 505 score: 10 level: 1 best_score: 71
+average score last 10 games: 19.4
+
+
+epoch: 90 loss: 0.0253554 LR: [1e-05] step: 802 score: 16 level: 1 best_score: 71
+601
+944
+62och: 91 loss: 0.0138045 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+395ch: 91 loss: 0.0138045 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+735ch: 91 loss: 0.0138045 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1079h: 91 loss: 0.0138045 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+111ch: 92 loss: 0.0384157 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+447ch: 92 loss: 0.0384157 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+777ch: 92 loss: 0.0384157 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+41och: 94 loss: 0.0182193 LR: [1e-05] step: 209 score: 7 level: 1 best_score: 7111
+366ch: 94 loss: 0.0182193 LR: [1e-05] step: 209 score: 7 level: 1 best_score: 7111
+702ch: 94 loss: 0.0182193 LR: [1e-05] step: 209 score: 7 level: 1 best_score: 7111
+1045h: 94 loss: 0.0182193 LR: [1e-05] step: 209 score: 7 level: 1 best_score: 7111
+43och: 95 loss: 0.0750878 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+378ch: 95 loss: 0.0750878 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+713ch: 95 loss: 0.0750878 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+20och: 96 loss: 0.0183722 LR: [1e-05] step: 1019 score: 28 level: 2 best_score: 71
+350ch: 96 loss: 0.0183722 LR: [1e-05] step: 1019 score: 28 level: 2 best_score: 71
+685ch: 96 loss: 0.0183722 LR: [1e-05] step: 1019 score: 28 level: 2 best_score: 71
+173ch: 97 loss: 0.0289162 LR: [1e-05] step: 840 score: 28 level: 2 best_score: 711
+510ch: 97 loss: 0.0289162 LR: [1e-05] step: 840 score: 28 level: 2 best_score: 711
+850ch: 97 loss: 0.0289162 LR: [1e-05] step: 840 score: 28 level: 2 best_score: 711
+1194h: 97 loss: 0.0289162 LR: [1e-05] step: 840 score: 28 level: 2 best_score: 711
+1536h: 97 loss: 0.0289162 LR: [1e-05] step: 840 score: 28 level: 2 best_score: 711
+1878h: 97 loss: 0.0289162 LR: [1e-05] step: 840 score: 28 level: 2 best_score: 711
+193ch: 98 loss: 0.0191877 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+530ch: 98 loss: 0.0191877 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+874ch: 98 loss: 0.0191877 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1222h: 98 loss: 0.0191877 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1567h: 98 loss: 0.0191877 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+290rage score last 10 games: 19.3 05] step: 1608 score: 16 level: 1 best_score: 71
+629rage score last 10 games: 19.3 05] step: 1608 score: 16 level: 1 best_score: 71
+961rage score last 10 games: 19.3 05] step: 1608 score: 16 level: 1 best_score: 71
+13och: 101 loss: 0.0245524 LR: [1e-05] step: 90 score: 7 level: 1 best_score: 71 71
+264ch: 101 loss: 0.0245524 LR: [1e-05] step: 90 score: 7 level: 1 best_score: 71 71
+606ch: 101 loss: 0.0245524 LR: [1e-05] step: 90 score: 7 level: 1 best_score: 71 71
+2poch: 102 loss: 0.0383446 LR: [1e-05] step: 939 score: 27 level: 2 best_score: 711
+333ch: 102 loss: 0.0383446 LR: [1e-05] step: 939 score: 27 level: 2 best_score: 711
+672ch: 102 loss: 0.0383446 LR: [1e-05] step: 939 score: 27 level: 2 best_score: 711
+245ch: 103 loss: 0.0226259 LR: [1e-05] step: 763 score: 17 level: 1 best_score: 711
+578ch: 103 loss: 0.0226259 LR: [1e-05] step: 763 score: 17 level: 1 best_score: 711
+921ch: 103 loss: 0.0226259 LR: [1e-05] step: 763 score: 17 level: 1 best_score: 711
+1269h: 103 loss: 0.0226259 LR: [1e-05] step: 763 score: 17 level: 1 best_score: 711
+289ch: 104 loss: 0.5536887 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+625ch: 104 loss: 0.5536887 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+956ch: 104 loss: 0.5536887 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1298h: 104 loss: 0.5536887 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1627h: 104 loss: 0.5536887 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+184ch: 105 loss: 0.0170011 LR: [1e-05] step: 1770 score: 48 level: 3 best_score: 71
+514ch: 105 loss: 0.0170011 LR: [1e-05] step: 1770 score: 48 level: 3 best_score: 71
+206ch: 106 loss: 0.0310289 LR: [1e-05] step: 641 score: 15 level: 1 best_score: 711
+537ch: 106 loss: 0.0310289 LR: [1e-05] step: 641 score: 15 level: 1 best_score: 711
+80och: 107 loss: 0.0132709 LR: [1e-05] step: 795 score: 17 level: 1 best_score: 711
+183ch: 108 loss: 0.0173239 LR: [1e-05] step: 223 score: 6 level: 1 best_score: 7111
+521ch: 108 loss: 0.0173239 LR: [1e-05] step: 223 score: 6 level: 1 best_score: 7111
+858ch: 108 loss: 0.0173239 LR: [1e-05] step: 223 score: 6 level: 1 best_score: 7111
+170rage score last 10 games: 21.3 -05] step: 1018 score: 28 level: 2 best_score: 71
+148ch: 110 loss: 0.0472476 LR: [1e-05] step: 355 score: 15 level: 1 best_score: 711
+491ch: 110 loss: 0.0472476 LR: [1e-05] step: 355 score: 15 level: 1 best_score: 711
+833ch: 110 loss: 0.0472476 LR: [1e-05] step: 355 score: 15 level: 1 best_score: 711
+1092h: 110 loss: 0.0472476 LR: [1e-05] step: 355 score: 15 level: 1 best_score: 711
+207ch: 111 loss: 0.0158840 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+545ch: 111 loss: 0.0158840 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+888ch: 111 loss: 0.0158840 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1233h: 111 loss: 0.0158840 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1581h: 111 loss: 0.0158840 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1931h: 111 loss: 0.0158840 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+189ch: 112 loss: 0.0368330 LR: [1e-05] step: 2082 score: 17 level: 1 best_score: 71
+525ch: 112 loss: 0.0368330 LR: [1e-05] step: 2082 score: 17 level: 1 best_score: 71
+871ch: 112 loss: 0.0368330 LR: [1e-05] step: 2082 score: 17 level: 1 best_score: 71
+1219h: 112 loss: 0.0368330 LR: [1e-05] step: 2082 score: 17 level: 1 best_score: 71
+209ch: 113 loss: 0.0164480 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+265ch: 114 loss: 0.0271051 LR: [1e-05] step: 276 score: 10 level: 1 best_score: 711
+597ch: 114 loss: 0.0271051 LR: [1e-05] step: 276 score: 10 level: 1 best_score: 711
+938ch: 114 loss: 0.0271051 LR: [1e-05] step: 276 score: 10 level: 1 best_score: 711
+1278h: 114 loss: 0.0271051 LR: [1e-05] step: 276 score: 10 level: 1 best_score: 711
+273ch: 115 loss: 0.0223782 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+616ch: 115 loss: 0.0223782 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+942ch: 115 loss: 0.0223782 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+1209h: 115 loss: 0.0223782 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+185ch: 116 loss: 1.6578248 LR: [1e-05] step: 1356 score: 45 level: 3 best_score: 71
+520ch: 116 loss: 1.6578248 LR: [1e-05] step: 1356 score: 45 level: 3 best_score: 71
+862ch: 116 loss: 1.6578248 LR: [1e-05] step: 1356 score: 45 level: 3 best_score: 71
+1209h: 116 loss: 1.6578248 LR: [1e-05] step: 1356 score: 45 level: 3 best_score: 71
+1553h: 116 loss: 1.6578248 LR: [1e-05] step: 1356 score: 45 level: 3 best_score: 71
+165ch: 117 loss: 0.0448005 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+239ch: 118 loss: 0.0406560 LR: [1e-05] step: 255 score: 9 level: 1 best_score: 7171
+259rage score last 10 games: 17.4 -05] step: 309 score: 11 level: 1 best_score: 711
+8poch: 121 loss: 0.0313052 LR: [1e-05] step: 229 score: 9 level: 1 best_score: 7111
+316ch: 121 loss: 0.0313052 LR: [1e-05] step: 229 score: 9 level: 1 best_score: 7111
+650ch: 121 loss: 0.0313052 LR: [1e-05] step: 229 score: 9 level: 1 best_score: 7111
+980ch: 121 loss: 0.0313052 LR: [1e-05] step: 229 score: 9 level: 1 best_score: 7111
+212ch: 122 loss: 0.0396161 LR: [1e-05] step: 1093 score: 24 level: 2 best_score: 71
+536ch: 122 loss: 0.0396161 LR: [1e-05] step: 1093 score: 24 level: 2 best_score: 71
+883ch: 122 loss: 0.0396161 LR: [1e-05] step: 1093 score: 24 level: 2 best_score: 71
+1221h: 122 loss: 0.0396161 LR: [1e-05] step: 1093 score: 24 level: 2 best_score: 71
+296ch: 123 loss: 0.0133026 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+633ch: 123 loss: 0.0133026 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+974ch: 123 loss: 0.0133026 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+1314h: 123 loss: 0.0133026 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+301ch: 124 loss: 0.0566658 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+632ch: 124 loss: 0.0566658 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+36och: 125 loss: 0.0310303 LR: [1e-05] step: 927 score: 23 level: 2 best_score: 711
+284ch: 125 loss: 0.0310303 LR: [1e-05] step: 927 score: 23 level: 2 best_score: 711
+617ch: 125 loss: 0.0310303 LR: [1e-05] step: 927 score: 23 level: 2 best_score: 711
+956ch: 125 loss: 0.0310303 LR: [1e-05] step: 927 score: 23 level: 2 best_score: 711
+1294h: 125 loss: 0.0310303 LR: [1e-05] step: 927 score: 23 level: 2 best_score: 711
+1632h: 125 loss: 0.0310303 LR: [1e-05] step: 927 score: 23 level: 2 best_score: 711
+8poch: 126 loss: 0.0145906 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+335ch: 126 loss: 0.0145906 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+676ch: 126 loss: 0.0145906 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+1023h: 126 loss: 0.0145906 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+133ch: 127 loss: 0.0637704 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+462ch: 127 loss: 0.0637704 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+801ch: 127 loss: 0.0637704 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+252ch: 128 loss: 0.0218246 LR: [1e-05] step: 877 score: 21 level: 2 best_score: 711
+583ch: 128 loss: 0.0218246 LR: [1e-05] step: 877 score: 21 level: 2 best_score: 711
+922ch: 128 loss: 0.0218246 LR: [1e-05] step: 877 score: 21 level: 2 best_score: 711
+35erage score last 10 games: 16.9 -05] step: 1224 score: 16 level: 1 best_score: 71
+364rage score last 10 games: 16.9 -05] step: 1224 score: 16 level: 1 best_score: 71
+694rage score last 10 games: 16.9 -05] step: 1224 score: 16 level: 1 best_score: 71
+1030age score last 10 games: 16.9 -05] step: 1224 score: 16 level: 1 best_score: 71
+1367age score last 10 games: 16.9 -05] step: 1224 score: 16 level: 1 best_score: 71
+1708age score last 10 games: 16.9 -05] step: 1224 score: 16 level: 1 best_score: 71
+87och: 130 loss: 0.0394571 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+426ch: 130 loss: 0.0394571 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+767ch: 130 loss: 0.0394571 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+1023h: 130 loss: 0.0394571 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+1368h: 130 loss: 0.0394571 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+64och: 131 loss: 0.0170002 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+391ch: 131 loss: 0.0170002 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+725ch: 131 loss: 0.0170002 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+1068h: 131 loss: 0.0170002 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+154ch: 132 loss: 0.0271828 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+488ch: 132 loss: 0.0271828 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+821ch: 132 loss: 0.0271828 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+109ch: 133 loss: 0.0140256 LR: [1e-05] step: 1041 score: 29 level: 2 best_score: 71
+218ch: 134 loss: 0.0138164 LR: [1e-05] step: 217 score: 11 level: 1 best_score: 711
+543ch: 134 loss: 0.0138164 LR: [1e-05] step: 217 score: 11 level: 1 best_score: 711
+878ch: 134 loss: 0.0138164 LR: [1e-05] step: 217 score: 11 level: 1 best_score: 711
+1213h: 134 loss: 0.0138164 LR: [1e-05] step: 217 score: 11 level: 1 best_score: 711
+203ch: 135 loss: 0.0222735 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+537ch: 135 loss: 0.0222735 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+874ch: 135 loss: 0.0222735 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+1214h: 135 loss: 0.0222735 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+1554h: 135 loss: 0.0222735 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+103ch: 138 loss: 0.0150333 LR: [1e-05] step: 81 score: 4 level: 1 best_score: 71171
+433ch: 138 loss: 0.0150333 LR: [1e-05] step: 81 score: 4 level: 1 best_score: 71171
+773ch: 138 loss: 0.0150333 LR: [1e-05] step: 81 score: 4 level: 1 best_score: 71171
+1110h: 138 loss: 0.0150333 LR: [1e-05] step: 81 score: 4 level: 1 best_score: 71171
+183rage score last 10 games: 14.9 -05] step: 1254 score: 16 level: 1 best_score: 71
+514rage score last 10 games: 14.9 -05] step: 1254 score: 16 level: 1 best_score: 71
+847rage score last 10 games: 14.9 -05] step: 1254 score: 16 level: 1 best_score: 71
+1187age score last 10 games: 14.9 -05] step: 1254 score: 16 level: 1 best_score: 71
+261ch: 140 loss: 0.0184860 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+516ch: 140 loss: 0.0184860 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+189ch: 141 loss: 0.0285160 LR: [1e-05] step: 658 score: 15 level: 1 best_score: 711
+521ch: 141 loss: 0.0285160 LR: [1e-05] step: 658 score: 15 level: 1 best_score: 711
+863ch: 141 loss: 0.0285160 LR: [1e-05] step: 658 score: 15 level: 1 best_score: 711
+1201h: 141 loss: 0.0285160 LR: [1e-05] step: 658 score: 15 level: 1 best_score: 711
+220ch: 142 loss: 0.0579196 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+554ch: 142 loss: 0.0579196 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+893ch: 142 loss: 0.0579196 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1230h: 142 loss: 0.0579196 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+215ch: 143 loss: 0.0348367 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+38och: 144 loss: 0.1423879 LR: [1e-05] step: 504 score: 20 level: 2 best_score: 711
+236ch: 145 loss: 0.0133342 LR: [1e-05] step: 128 score: 5 level: 1 best_score: 7111
+571ch: 145 loss: 0.0133342 LR: [1e-05] step: 128 score: 5 level: 1 best_score: 7111
+900ch: 145 loss: 0.0133342 LR: [1e-05] step: 128 score: 5 level: 1 best_score: 7111
+1231h: 145 loss: 0.0133342 LR: [1e-05] step: 128 score: 5 level: 1 best_score: 7111
+1566h: 145 loss: 0.0133342 LR: [1e-05] step: 128 score: 5 level: 1 best_score: 7111
+68och: 146 loss: 0.0317155 LR: [1e-05] step: 1832 score: 33 level: 2 best_score: 71
+392ch: 146 loss: 0.0317155 LR: [1e-05] step: 1832 score: 33 level: 2 best_score: 71
+722ch: 146 loss: 0.0317155 LR: [1e-05] step: 1832 score: 33 level: 2 best_score: 71
+1043h: 146 loss: 0.0317155 LR: [1e-05] step: 1832 score: 33 level: 2 best_score: 71
+1362h: 146 loss: 0.0317155 LR: [1e-05] step: 1832 score: 33 level: 2 best_score: 71
+1714h: 146 loss: 0.0317155 LR: [1e-05] step: 1832 score: 33 level: 2 best_score: 71
+47och: 148 loss: 0.0188954 LR: [1e-05] step: 101 score: 5 level: 1 best_score: 7171
+377ch: 148 loss: 0.0188954 LR: [1e-05] step: 101 score: 5 level: 1 best_score: 7171
+707ch: 148 loss: 0.0188954 LR: [1e-05] step: 101 score: 5 level: 1 best_score: 7171
+93erage score last 10 games: 18.0 -05] step: 945 score: 17 level: 1 best_score: 711
+419rage score last 10 games: 18.0 -05] step: 945 score: 17 level: 1 best_score: 711
+758rage score last 10 games: 18.0 -05] step: 945 score: 17 level: 1 best_score: 711
+1094age score last 10 games: 18.0 -05] step: 945 score: 17 level: 1 best_score: 711
+119ch: 150 loss: 0.0342122 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+252ch: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+580ch: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+910ch: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+1243h: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+1561h: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+1886h: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+2231h: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+2572h: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+2908h: 151 loss: 0.0370080 LR: [1e-05] step: 191 score: 7 level: 1 best_score: 7171
+304ch: 152 loss: 0.6820394 LR: [1e-05] step: 2932 score: 53 level: 3 best_score: 71
+639ch: 152 loss: 0.6820394 LR: [1e-05] step: 2932 score: 53 level: 3 best_score: 71
+119ch: 153 loss: 0.0337963 LR: [1e-05] step: 845 score: 20 level: 2 best_score: 711
+193ch: 155 loss: 0.0714923 LR: [1e-05] step: 89 score: 5 level: 1 best_score: 71111
+520ch: 155 loss: 0.0714923 LR: [1e-05] step: 89 score: 5 level: 1 best_score: 71111
+857ch: 155 loss: 0.0714923 LR: [1e-05] step: 89 score: 5 level: 1 best_score: 71111
+1192h: 155 loss: 0.0714923 LR: [1e-05] step: 89 score: 5 level: 1 best_score: 71111
+1497h: 155 loss: 0.0714923 LR: [1e-05] step: 89 score: 5 level: 1 best_score: 71111
+1832h: 155 loss: 0.0714923 LR: [1e-05] step: 89 score: 5 level: 1 best_score: 71111
+138ch: 156 loss: 0.0378865 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+463ch: 156 loss: 0.0378865 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+797ch: 156 loss: 0.0378865 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1131h: 156 loss: 0.0378865 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1471h: 156 loss: 0.0378865 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1727h: 156 loss: 0.0378865 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+101ch: 157 loss: 0.0503747 LR: [1e-05] step: 1962 score: 16 level: 1 best_score: 71
+421ch: 157 loss: 0.0503747 LR: [1e-05] step: 1962 score: 16 level: 1 best_score: 71
+757ch: 157 loss: 0.0503747 LR: [1e-05] step: 1962 score: 16 level: 1 best_score: 71
+150ch: 158 loss: 0.0280649 LR: [1e-05] step: 929 score: 21 level: 2 best_score: 711
+481ch: 158 loss: 0.0280649 LR: [1e-05] step: 929 score: 21 level: 2 best_score: 711
+807ch: 158 loss: 0.0280649 LR: [1e-05] step: 929 score: 21 level: 2 best_score: 711
+1136h: 158 loss: 0.0280649 LR: [1e-05] step: 929 score: 21 level: 2 best_score: 711
+1475h: 158 loss: 0.0280649 LR: [1e-05] step: 929 score: 21 level: 2 best_score: 711
+18erage score last 10 games: 19.5 -05] step: 1790 score: 34 level: 2 best_score: 71
+345rage score last 10 games: 19.5 -05] step: 1790 score: 34 level: 2 best_score: 71
+281ch: 160 loss: 0.0182784 LR: [1e-05] step: 396 score: 13 level: 1 best_score: 711
+612ch: 160 loss: 0.0182784 LR: [1e-05] step: 396 score: 13 level: 1 best_score: 711
+940ch: 160 loss: 0.0182784 LR: [1e-05] step: 396 score: 13 level: 1 best_score: 711
+1278h: 160 loss: 0.0182784 LR: [1e-05] step: 396 score: 13 level: 1 best_score: 711
+1610h: 160 loss: 0.0182784 LR: [1e-05] step: 396 score: 13 level: 1 best_score: 711
+1948h: 160 loss: 0.0182784 LR: [1e-05] step: 396 score: 13 level: 1 best_score: 711
+78och: 161 loss: 0.0127168 LR: [1e-05] step: 2204 score: 35 level: 2 best_score: 71
+399ch: 161 loss: 0.0127168 LR: [1e-05] step: 2204 score: 35 level: 2 best_score: 71
+16och: 163 loss: 0.0592296 LR: [1e-05] step: 83 score: 4 level: 1 best_score: 71711
+198ch: 164 loss: 0.0311307 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+274ch: 165 loss: 0.0200550 LR: [1e-05] step: 255 score: 11 level: 1 best_score: 711
+612ch: 165 loss: 0.0200550 LR: [1e-05] step: 255 score: 11 level: 1 best_score: 711
+949ch: 165 loss: 0.0200550 LR: [1e-05] step: 255 score: 11 level: 1 best_score: 711
+289ch: 166 loss: 0.0338909 LR: [1e-05] step: 988 score: 16 level: 1 best_score: 711
+536ch: 166 loss: 0.0338909 LR: [1e-05] step: 988 score: 16 level: 1 best_score: 711
+34och: 167 loss: 0.0241722 LR: [1e-05] step: 824 score: 24 level: 2 best_score: 711
+364ch: 167 loss: 0.0241722 LR: [1e-05] step: 824 score: 24 level: 2 best_score: 711
+81och: 168 loss: 0.0757078 LR: [1e-05] step: 612 score: 17 level: 1 best_score: 711
+144rage score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+474rage score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+812rage score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+1135age score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+1465age score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+1796age score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+2130age score last 10 games: 15.2 -05] step: 261 score: 12 level: 1 best_score: 711
+116ch: 170 loss: 0.0127730 LR: [1e-05] step: 2344 score: 34 level: 2 best_score: 71
+442ch: 170 loss: 0.0127730 LR: [1e-05] step: 2344 score: 34 level: 2 best_score: 71
+774ch: 170 loss: 0.0127730 LR: [1e-05] step: 2344 score: 34 level: 2 best_score: 71
+1108h: 170 loss: 0.0127730 LR: [1e-05] step: 2344 score: 34 level: 2 best_score: 71
+185ch: 171 loss: 0.0261654 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+513ch: 171 loss: 0.0261654 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+220ch: 172 loss: 0.0203929 LR: [1e-05] step: 625 score: 16 level: 1 best_score: 711
+549ch: 172 loss: 0.0203929 LR: [1e-05] step: 625 score: 16 level: 1 best_score: 711
+232ch: 173 loss: 0.0134001 LR: [1e-05] step: 643 score: 19 level: 2 best_score: 711
+558ch: 173 loss: 0.0134001 LR: [1e-05] step: 643 score: 19 level: 2 best_score: 711
+892ch: 173 loss: 0.0134001 LR: [1e-05] step: 643 score: 19 level: 2 best_score: 711
+1222h: 173 loss: 0.0134001 LR: [1e-05] step: 643 score: 19 level: 2 best_score: 711
+1550h: 173 loss: 0.0134001 LR: [1e-05] step: 643 score: 19 level: 2 best_score: 711
+129ch: 174 loss: 0.0236606 LR: [1e-05] step: 1706 score: 43 level: 3 best_score: 71
+41och: 175 loss: 0.0106791 LR: [1e-05] step: 422 score: 14 level: 1 best_score: 711
+353ch: 175 loss: 0.0106791 LR: [1e-05] step: 422 score: 14 level: 1 best_score: 711
+682ch: 175 loss: 0.0106791 LR: [1e-05] step: 422 score: 14 level: 1 best_score: 711
+243ch: 176 loss: 0.0477259 LR: [1e-05] step: 769 score: 16 level: 1 best_score: 711
+495ch: 176 loss: 0.0477259 LR: [1e-05] step: 769 score: 16 level: 1 best_score: 711
+829ch: 176 loss: 0.0477259 LR: [1e-05] step: 769 score: 16 level: 1 best_score: 711
+1158h: 176 loss: 0.0477259 LR: [1e-05] step: 769 score: 16 level: 1 best_score: 711
+1498h: 176 loss: 0.0477259 LR: [1e-05] step: 769 score: 16 level: 1 best_score: 711
+1837h: 176 loss: 0.0477259 LR: [1e-05] step: 769 score: 16 level: 1 best_score: 711
+186ch: 178 loss: 0.0394966 LR: [1e-05] step: 96 score: 3 level: 1 best_score: 71 71
+117rage score last 10 games: 20.9 -05] step: 401 score: 14 level: 1 best_score: 711
+443rage score last 10 games: 20.9 -05] step: 401 score: 14 level: 1 best_score: 711
+774rage score last 10 games: 20.9 -05] step: 401 score: 14 level: 1 best_score: 711
+1101age score last 10 games: 20.9 -05] step: 401 score: 14 level: 1 best_score: 711
+1393age score last 10 games: 20.9 -05] step: 401 score: 14 level: 1 best_score: 711
+1767age score last 10 games: 20.9 -05] step: 401 score: 14 level: 1 best_score: 711
+168ch: 180 loss: 0.0712071 LR: [1e-05] step: 1922 score: 34 level: 2 best_score: 71
+271ch: 181 loss: 0.0160227 LR: [1e-05] step: 221 score: 11 level: 1 best_score: 711
+596ch: 181 loss: 0.0160227 LR: [1e-05] step: 221 score: 11 level: 1 best_score: 711
+926ch: 181 loss: 0.0160227 LR: [1e-05] step: 221 score: 11 level: 1 best_score: 711
+36och: 182 loss: 0.1746119 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+359ch: 182 loss: 0.1746119 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+691ch: 182 loss: 0.1746119 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1026h: 182 loss: 0.1746119 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1358h: 182 loss: 0.1746119 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1693h: 182 loss: 0.1746119 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+7poch: 183 loss: 0.0142491 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+330ch: 183 loss: 0.0142491 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+657ch: 183 loss: 0.0142491 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+980ch: 183 loss: 0.0142491 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1222h: 183 loss: 0.0142491 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+280ch: 184 loss: 0.0713517 LR: [1e-05] step: 1268 score: 30 level: 2 best_score: 71
+609ch: 184 loss: 0.0713517 LR: [1e-05] step: 1268 score: 30 level: 2 best_score: 71
+943ch: 184 loss: 0.0713517 LR: [1e-05] step: 1268 score: 30 level: 2 best_score: 71
+1285h: 184 loss: 0.0713517 LR: [1e-05] step: 1268 score: 30 level: 2 best_score: 71
+1620h: 184 loss: 0.0713517 LR: [1e-05] step: 1268 score: 30 level: 2 best_score: 71
+1955h: 184 loss: 0.0713517 LR: [1e-05] step: 1268 score: 30 level: 2 best_score: 71
+316ch: 185 loss: 0.0283354 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+642ch: 185 loss: 0.0283354 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+974ch: 185 loss: 0.0283354 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+55och: 186 loss: 0.0427784 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+375ch: 186 loss: 0.0427784 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+242ch: 187 loss: 0.0377156 LR: [1e-05] step: 455 score: 13 level: 1 best_score: 711
+54erage score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+379rage score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+712rage score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+1039age score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+1372age score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+1703age score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+2030age score last 10 games: 17.0 -05] step: 127 score: 4 level: 1 best_score: 7111
+75och: 190 loss: 0.0803547 LR: [1e-05] step: 2291 score: 35 level: 2 best_score: 71
+401ch: 190 loss: 0.0803547 LR: [1e-05] step: 2291 score: 35 level: 2 best_score: 71
+15och: 191 loss: 0.1628331 LR: [1e-05] step: 717 score: 17 level: 1 best_score: 711
+332ch: 191 loss: 0.1628331 LR: [1e-05] step: 717 score: 17 level: 1 best_score: 711
+659ch: 191 loss: 0.1628331 LR: [1e-05] step: 717 score: 17 level: 1 best_score: 711
+992ch: 191 loss: 0.1628331 LR: [1e-05] step: 717 score: 17 level: 1 best_score: 711
+1331h: 191 loss: 0.1628331 LR: [1e-05] step: 717 score: 17 level: 1 best_score: 711
+31och: 192 loss: 0.0622922 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+356ch: 192 loss: 0.0622922 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+683ch: 192 loss: 0.0622922 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+1012h: 192 loss: 0.0622922 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+34och: 193 loss: 0.0194166 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+359ch: 193 loss: 0.0194166 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+688ch: 193 loss: 0.0194166 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+1012h: 193 loss: 0.0194166 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+1342h: 193 loss: 0.0194166 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+1676h: 193 loss: 0.0194166 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+144ch: 194 loss: 0.0701596 LR: [1e-05] step: 1863 score: 34 level: 2 best_score: 71
+206ch: 195 loss: 0.0342248 LR: [1e-05] step: 264 score: 10 level: 1 best_score: 711
+539ch: 195 loss: 0.0342248 LR: [1e-05] step: 264 score: 10 level: 1 best_score: 711
+873ch: 195 loss: 0.0342248 LR: [1e-05] step: 264 score: 10 level: 1 best_score: 711
+1209h: 195 loss: 0.0342248 LR: [1e-05] step: 264 score: 10 level: 1 best_score: 711
+5poch: 198 loss: 0.0278171 LR: [1e-05] step: 222 score: 7 level: 1 best_score: 7171
+325ch: 198 loss: 0.0278171 LR: [1e-05] step: 222 score: 7 level: 1 best_score: 7171
+660ch: 198 loss: 0.0278171 LR: [1e-05] step: 222 score: 7 level: 1 best_score: 7171
+999ch: 198 loss: 0.0278171 LR: [1e-05] step: 222 score: 7 level: 1 best_score: 7171
+1333h: 198 loss: 0.0278171 LR: [1e-05] step: 222 score: 7 level: 1 best_score: 7171
+1666h: 198 loss: 0.0278171 LR: [1e-05] step: 222 score: 7 level: 1 best_score: 7171
+264rage score last 10 games: 17.1 -05] step: 1728 score: 17 level: 1 best_score: 71
+595rage score last 10 games: 17.1 -05] step: 1728 score: 17 level: 1 best_score: 71
+932rage score last 10 games: 17.1 -05] step: 1728 score: 17 level: 1 best_score: 71
+16och: 200 loss: 0.1375258 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+225ch: 200 loss: 0.1375258 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+554ch: 200 loss: 0.1375258 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+886ch: 200 loss: 0.1375258 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1223h: 200 loss: 0.1375258 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1560h: 200 loss: 0.1375258 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+275ch: 201 loss: 0.0157219 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+111ch: 202 loss: 0.1437945 LR: [1e-05] step: 493 score: 15 level: 1 best_score: 711
+437ch: 202 loss: 0.1437945 LR: [1e-05] step: 493 score: 15 level: 1 best_score: 711
+762ch: 202 loss: 0.1437945 LR: [1e-05] step: 493 score: 15 level: 1 best_score: 711
+279ch: 203 loss: 0.0185070 LR: [1e-05] step: 808 score: 29 level: 2 best_score: 711
+18och: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+339ch: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+668ch: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+988ch: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+1320h: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+1648h: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+1979h: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+2314h: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+2563h: 204 loss: 0.0261286 LR: [1e-05] step: 588 score: 16 level: 1 best_score: 711
+66och: 206 loss: 0.0523759 LR: [1e-05] step: 75 score: 4 level: 1 best_score: 71 71
+299ch: 207 loss: 0.0554777 LR: [1e-05] step: 93 score: 5 level: 1 best_score: 71 71
+185ch: 208 loss: 0.0392956 LR: [1e-05] step: 437 score: 15 level: 1 best_score: 711
+507ch: 208 loss: 0.0392956 LR: [1e-05] step: 437 score: 15 level: 1 best_score: 711
+839ch: 208 loss: 0.0392956 LR: [1e-05] step: 437 score: 15 level: 1 best_score: 711
+1177h: 208 loss: 0.0392956 LR: [1e-05] step: 437 score: 15 level: 1 best_score: 711
+1513h: 208 loss: 0.0392956 LR: [1e-05] step: 437 score: 15 level: 1 best_score: 711
+1852h: 208 loss: 0.0392956 LR: [1e-05] step: 437 score: 15 level: 1 best_score: 711
+216rage score last 10 games: 18.8 -05] step: 1962 score: 17 level: 1 best_score: 71
+548rage score last 10 games: 18.8 -05] step: 1962 score: 17 level: 1 best_score: 71
+109ch: 210 loss: 0.0448951 LR: [1e-05] step: 768 score: 15 level: 1 best_score: 711
+440ch: 210 loss: 0.0448951 LR: [1e-05] step: 768 score: 15 level: 1 best_score: 711
+769ch: 210 loss: 0.0448951 LR: [1e-05] step: 768 score: 15 level: 1 best_score: 711
+1104h: 210 loss: 0.0448951 LR: [1e-05] step: 768 score: 15 level: 1 best_score: 711
+128ch: 211 loss: 0.0329832 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+455ch: 211 loss: 0.0329832 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+784ch: 211 loss: 0.0329832 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1102h: 211 loss: 0.0329832 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1431h: 211 loss: 0.0329832 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1762h: 211 loss: 0.0329832 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+193ch: 212 loss: 0.0187027 LR: [1e-05] step: 1892 score: 33 level: 2 best_score: 71
+519ch: 212 loss: 0.0187027 LR: [1e-05] step: 1892 score: 33 level: 2 best_score: 71
+852ch: 212 loss: 0.0187027 LR: [1e-05] step: 1892 score: 33 level: 2 best_score: 71
+1179h: 212 loss: 0.0187027 LR: [1e-05] step: 1892 score: 33 level: 2 best_score: 71
+278ch: 213 loss: 0.0137889 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+602ch: 213 loss: 0.0137889 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+934ch: 213 loss: 0.0137889 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+7poch: 214 loss: 2.2991400 LR: [1e-05] step: 1266 score: 16 level: 1 best_score: 71
+327ch: 214 loss: 2.2991400 LR: [1e-05] step: 1266 score: 16 level: 1 best_score: 71
+221ch: 215 loss: 0.7311344 LR: [1e-05] step: 427 score: 15 level: 1 best_score: 711
+544ch: 215 loss: 0.7311344 LR: [1e-05] step: 427 score: 15 level: 1 best_score: 711
+873ch: 215 loss: 0.7311344 LR: [1e-05] step: 427 score: 15 level: 1 best_score: 711
+1122h: 215 loss: 0.7311344 LR: [1e-05] step: 427 score: 15 level: 1 best_score: 711
+253ch: 216 loss: 0.0379096 LR: [1e-05] step: 1194 score: 14 level: 1 best_score: 71
+581ch: 216 loss: 0.0379096 LR: [1e-05] step: 1194 score: 14 level: 1 best_score: 71
+196ch: 217 loss: 0.0588745 LR: [1e-05] step: 701 score: 25 level: 2 best_score: 711
+123rage score last 10 games: 16.5 -05] step: 73 score: 5 level: 1 best_score: 71711
+451rage score last 10 games: 16.5 -05] step: 73 score: 5 level: 1 best_score: 71711
+782rage score last 10 games: 16.5 -05] step: 73 score: 5 level: 1 best_score: 71711
+1103age score last 10 games: 16.5 -05] step: 73 score: 5 level: 1 best_score: 71711
+1437age score last 10 games: 16.5 -05] step: 73 score: 5 level: 1 best_score: 71711
+1770age score last 10 games: 16.5 -05] step: 73 score: 5 level: 1 best_score: 71711
+224ch: 220 loss: 0.0600072 LR: [1e-05] step: 1871 score: 35 level: 2 best_score: 71
+555ch: 220 loss: 0.0600072 LR: [1e-05] step: 1871 score: 35 level: 2 best_score: 71
+891ch: 220 loss: 0.0600072 LR: [1e-05] step: 1871 score: 35 level: 2 best_score: 71
+1227h: 220 loss: 0.0600072 LR: [1e-05] step: 1871 score: 35 level: 2 best_score: 71
+1564h: 220 loss: 0.0600072 LR: [1e-05] step: 1871 score: 35 level: 2 best_score: 71
+1902h: 220 loss: 0.0600072 LR: [1e-05] step: 1871 score: 35 level: 2 best_score: 71
+128ch: 221 loss: 0.0154216 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+453ch: 221 loss: 0.0154216 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+780ch: 221 loss: 0.0154216 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1104h: 221 loss: 0.0154216 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1430h: 221 loss: 0.0154216 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1758h: 221 loss: 0.0154216 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+189ch: 222 loss: 0.0293820 LR: [1e-05] step: 1896 score: 32 level: 2 best_score: 71
+516ch: 222 loss: 0.0293820 LR: [1e-05] step: 1896 score: 32 level: 2 best_score: 71
+849ch: 222 loss: 0.0293820 LR: [1e-05] step: 1896 score: 32 level: 2 best_score: 71
+1183h: 222 loss: 0.0293820 LR: [1e-05] step: 1896 score: 32 level: 2 best_score: 71
+1514h: 222 loss: 0.0293820 LR: [1e-05] step: 1896 score: 32 level: 2 best_score: 71
+1843h: 222 loss: 0.0293820 LR: [1e-05] step: 1896 score: 32 level: 2 best_score: 71
+151ch: 223 loss: 0.0690558 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+480ch: 223 loss: 0.0690558 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+807ch: 223 loss: 0.0690558 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1138h: 223 loss: 0.0690558 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1473h: 223 loss: 0.0690558 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+197ch: 224 loss: 0.0255539 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+266ch: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+595ch: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+836ch: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+1160h: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+1486h: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+1812h: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+2144h: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+2479h: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+2812h: 225 loss: 0.0537056 LR: [1e-05] step: 254 score: 8 level: 1 best_score: 7171
+150ch: 226 loss: 0.0077563 LR: [1e-05] step: 2995 score: 53 level: 3 best_score: 71
+474ch: 226 loss: 0.0077563 LR: [1e-05] step: 2995 score: 53 level: 3 best_score: 71
+800ch: 226 loss: 0.0077563 LR: [1e-05] step: 2995 score: 53 level: 3 best_score: 71
+1137h: 226 loss: 0.0077563 LR: [1e-05] step: 2995 score: 53 level: 3 best_score: 71
+213ch: 227 loss: 0.0329191 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+538ch: 227 loss: 0.0329191 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+872ch: 227 loss: 0.0329191 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+13och: 228 loss: 0.0229827 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+335ch: 228 loss: 0.0229827 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+663ch: 228 loss: 0.0229827 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+995ch: 228 loss: 0.0229827 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+73erage score last 10 games: 22.9 -05] step: 1254 score: 17 level: 1 best_score: 71
+394rage score last 10 games: 22.9 -05] step: 1254 score: 17 level: 1 best_score: 71
+639rage score last 10 games: 22.9 -05] step: 1254 score: 17 level: 1 best_score: 71
+970rage score last 10 games: 22.9 -05] step: 1254 score: 17 level: 1 best_score: 71
+1298age score last 10 games: 22.9 -05] step: 1254 score: 17 level: 1 best_score: 71
+21och: 230 loss: 0.0227005 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+328ch: 230 loss: 0.0227005 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+662ch: 230 loss: 0.0227005 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+991ch: 230 loss: 0.0227005 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+123ch: 231 loss: 0.0368827 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+136ch: 232 loss: 0.0203204 LR: [1e-05] step: 312 score: 9 level: 1 best_score: 7171
+458ch: 232 loss: 0.0203204 LR: [1e-05] step: 312 score: 9 level: 1 best_score: 7171
+785ch: 232 loss: 0.0203204 LR: [1e-05] step: 312 score: 9 level: 1 best_score: 7171
+1117h: 232 loss: 0.0203204 LR: [1e-05] step: 312 score: 9 level: 1 best_score: 7171
+1448h: 232 loss: 0.0203204 LR: [1e-05] step: 312 score: 9 level: 1 best_score: 7171
+109ch: 233 loss: 0.0717489 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+429ch: 233 loss: 0.0717489 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+757ch: 233 loss: 0.0717489 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+1089h: 233 loss: 0.0717489 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+102ch: 234 loss: 0.0238465 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+429ch: 234 loss: 0.0238465 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+757ch: 234 loss: 0.0238465 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1088h: 234 loss: 0.0238465 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+154ch: 235 loss: 0.0341843 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+475ch: 235 loss: 0.0341843 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+799ch: 235 loss: 0.0341843 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1127h: 235 loss: 0.0341843 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1458h: 235 loss: 0.0341843 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+68och: 236 loss: 0.0335815 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+240ch: 237 loss: 0.0354213 LR: [1e-05] step: 150 score: 8 level: 1 best_score: 7171
+562ch: 237 loss: 0.0354213 LR: [1e-05] step: 150 score: 8 level: 1 best_score: 7171
+884ch: 237 loss: 0.0354213 LR: [1e-05] step: 150 score: 8 level: 1 best_score: 7171
+1216h: 237 loss: 0.0354213 LR: [1e-05] step: 150 score: 8 level: 1 best_score: 7171
+1545h: 237 loss: 0.0354213 LR: [1e-05] step: 150 score: 8 level: 1 best_score: 7171
+52erage score last 10 games: 13.7 -05] step: 172 score: 4 level: 1 best_score: 7171
+369rage score last 10 games: 13.7 -05] step: 172 score: 4 level: 1 best_score: 7171
+696rage score last 10 games: 13.7 -05] step: 172 score: 4 level: 1 best_score: 7171
+1025age score last 10 games: 13.7 -05] step: 172 score: 4 level: 1 best_score: 7171
+287ch: 240 loss: 0.0144246 LR: [1e-05] step: 1053 score: 17 level: 1 best_score: 71
+608ch: 240 loss: 0.0144246 LR: [1e-05] step: 1053 score: 17 level: 1 best_score: 71
+937ch: 240 loss: 0.0144246 LR: [1e-05] step: 1053 score: 17 level: 1 best_score: 71
+1270h: 240 loss: 0.0144246 LR: [1e-05] step: 1053 score: 17 level: 1 best_score: 71
+1598h: 240 loss: 0.0144246 LR: [1e-05] step: 1053 score: 17 level: 1 best_score: 71
+282ch: 241 loss: 0.0460696 LR: [1e-05] step: 1638 score: 14 level: 1 best_score: 71
+604ch: 241 loss: 0.0460696 LR: [1e-05] step: 1638 score: 14 level: 1 best_score: 71
+931ch: 241 loss: 0.0460696 LR: [1e-05] step: 1638 score: 14 level: 1 best_score: 71
+130ch: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+451ch: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+776ch: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+1095h: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+1423h: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+1755h: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+2003h: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+2331h: 242 loss: 0.0093984 LR: [1e-05] step: 1123 score: 16 level: 1 best_score: 71
+99och: 243 loss: 0.0257159 LR: [1e-05] step: 2562 score: 35 level: 2 best_score: 71
+414ch: 243 loss: 0.0257159 LR: [1e-05] step: 2562 score: 35 level: 2 best_score: 71
+121ch: 244 loss: 0.0388132 LR: [1e-05] step: 613 score: 10 level: 1 best_score: 711
+444ch: 244 loss: 0.0388132 LR: [1e-05] step: 613 score: 10 level: 1 best_score: 711
+767ch: 244 loss: 0.0388132 LR: [1e-05] step: 613 score: 10 level: 1 best_score: 711
+1084h: 244 loss: 0.0388132 LR: [1e-05] step: 613 score: 10 level: 1 best_score: 711
+1411h: 244 loss: 0.0388132 LR: [1e-05] step: 613 score: 10 level: 1 best_score: 711
+1739h: 244 loss: 0.0388132 LR: [1e-05] step: 613 score: 10 level: 1 best_score: 711
+196ch: 245 loss: 0.0301783 LR: [1e-05] step: 1866 score: 34 level: 2 best_score: 71
+521ch: 245 loss: 0.0301783 LR: [1e-05] step: 1866 score: 34 level: 2 best_score: 71
+849ch: 245 loss: 0.0301783 LR: [1e-05] step: 1866 score: 34 level: 2 best_score: 71
+1182h: 245 loss: 0.0301783 LR: [1e-05] step: 1866 score: 34 level: 2 best_score: 71
+270ch: 246 loss: 0.0401018 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+592ch: 246 loss: 0.0401018 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+921ch: 246 loss: 0.0401018 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1227h: 246 loss: 0.0401018 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+141ch: 248 loss: 0.0208357 LR: [1e-05] step: 134 score: 4 level: 1 best_score: 7171
+176rage score last 10 games: 17.0 -05] step: 278 score: 7 level: 1 best_score: 7171
+212ch: 250 loss: 0.0227434 LR: [1e-05] step: 281 score: 9 level: 1 best_score: 7171
+533ch: 250 loss: 0.0227434 LR: [1e-05] step: 281 score: 9 level: 1 best_score: 7171
+776ch: 250 loss: 0.0227434 LR: [1e-05] step: 281 score: 9 level: 1 best_score: 7171
+1104h: 250 loss: 0.0227434 LR: [1e-05] step: 281 score: 9 level: 1 best_score: 7171
+1437h: 250 loss: 0.0227434 LR: [1e-05] step: 281 score: 9 level: 1 best_score: 7171
+187ch: 251 loss: 0.0655218 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+277ch: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+599ch: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+920ch: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+1240h: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+1560h: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+1888h: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+2221h: 252 loss: 0.0196921 LR: [1e-05] step: 228 score: 8 level: 1 best_score: 7171
+294ch: 253 loss: 0.0101797 LR: [1e-05] step: 2242 score: 35 level: 2 best_score: 71
+152ch: 254 loss: 0.0695441 LR: [1e-05] step: 463 score: 12 level: 1 best_score: 711
+478ch: 254 loss: 0.0695441 LR: [1e-05] step: 463 score: 12 level: 1 best_score: 711
+119ch: 255 loss: 0.0152902 LR: [1e-05] step: 680 score: 20 level: 2 best_score: 711
+440ch: 255 loss: 0.0152902 LR: [1e-05] step: 680 score: 20 level: 2 best_score: 711
+764ch: 255 loss: 0.0152902 LR: [1e-05] step: 680 score: 20 level: 2 best_score: 711
+20och: 256 loss: 0.0341217 LR: [1e-05] step: 1057 score: 25 level: 2 best_score: 71
+338ch: 256 loss: 0.0341217 LR: [1e-05] step: 1057 score: 25 level: 2 best_score: 71
+661ch: 256 loss: 0.0341217 LR: [1e-05] step: 1057 score: 25 level: 2 best_score: 71
+989ch: 256 loss: 0.0341217 LR: [1e-05] step: 1057 score: 25 level: 2 best_score: 71
+57och: 257 loss: 0.0287350 LR: [1e-05] step: 1254 score: 14 level: 1 best_score: 71
+379ch: 257 loss: 0.0287350 LR: [1e-05] step: 1254 score: 14 level: 1 best_score: 71
+705ch: 257 loss: 0.0287350 LR: [1e-05] step: 1254 score: 14 level: 1 best_score: 71
+1031h: 257 loss: 0.0287350 LR: [1e-05] step: 1254 score: 14 level: 1 best_score: 71
+1360h: 257 loss: 0.0287350 LR: [1e-05] step: 1254 score: 14 level: 1 best_score: 71
+1689h: 257 loss: 0.0287350 LR: [1e-05] step: 1254 score: 14 level: 1 best_score: 71
+281ch: 258 loss: 0.0163297 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+523ch: 258 loss: 0.0163297 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+819ch: 258 loss: 0.0163297 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+1176h: 258 loss: 0.0163297 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+86och: 260 loss: 0.0233740 LR: [1e-05] step: 177 score: 5 level: 1 best_score: 7171
+408ch: 260 loss: 0.0233740 LR: [1e-05] step: 177 score: 5 level: 1 best_score: 7171
+735ch: 260 loss: 0.0233740 LR: [1e-05] step: 177 score: 5 level: 1 best_score: 7171
+240ch: 261 loss: 0.1046229 LR: [1e-05] step: 813 score: 14 level: 1 best_score: 711
+560ch: 261 loss: 0.1046229 LR: [1e-05] step: 813 score: 14 level: 1 best_score: 711
+886ch: 261 loss: 0.1046229 LR: [1e-05] step: 813 score: 14 level: 1 best_score: 711
+1219h: 261 loss: 0.1046229 LR: [1e-05] step: 813 score: 14 level: 1 best_score: 711
+9poch: 262 loss: 0.0179190 LR: [1e-05] step: 1543 score: 17 level: 1 best_score: 71
+82och: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+402ch: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+729ch: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+1053h: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+1372h: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+1615h: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+1943h: 263 loss: 0.0483197 LR: [1e-05] step: 241 score: 8 level: 1 best_score: 7171
+92och: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+412ch: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+734ch: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+1051h: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+1376h: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+1700h: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+2031h: 264 loss: 0.0903292 LR: [1e-05] step: 2164 score: 62 level: 4 best_score: 71
+88och: 265 loss: 0.0490878 LR: [1e-05] step: 2272 score: 35 level: 2 best_score: 71
+412ch: 265 loss: 0.0490878 LR: [1e-05] step: 2272 score: 35 level: 2 best_score: 71
+93och: 266 loss: 0.0260384 LR: [1e-05] step: 642 score: 15 level: 1 best_score: 711
+412ch: 266 loss: 0.0260384 LR: [1e-05] step: 642 score: 15 level: 1 best_score: 711
+736ch: 266 loss: 0.0260384 LR: [1e-05] step: 642 score: 15 level: 1 best_score: 711
+1066h: 266 loss: 0.0260384 LR: [1e-05] step: 642 score: 15 level: 1 best_score: 711
+1399h: 266 loss: 0.0260384 LR: [1e-05] step: 642 score: 15 level: 1 best_score: 711
+140ch: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+457ch: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+781ch: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1112h: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1362h: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1694h: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+2025h: 267 loss: 0.0154359 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+30erage score last 10 games: 19.9 -05] step: 201 score: 9 level: 1 best_score: 7171
+350rage score last 10 games: 19.9 -05] step: 201 score: 9 level: 1 best_score: 7171
+668rage score last 10 games: 19.9 -05] step: 201 score: 9 level: 1 best_score: 7171
+232ch: 270 loss: 0.0529597 LR: [1e-05] step: 755 score: 27 level: 2 best_score: 711
+550ch: 270 loss: 0.0529597 LR: [1e-05] step: 755 score: 27 level: 2 best_score: 711
+12och: 271 loss: 0.0111986 LR: [1e-05] step: 860 score: 20 level: 2 best_score: 711
+328ch: 271 loss: 0.0111986 LR: [1e-05] step: 860 score: 20 level: 2 best_score: 711
+647ch: 271 loss: 0.0111986 LR: [1e-05] step: 860 score: 20 level: 2 best_score: 711
+965ch: 271 loss: 0.0111986 LR: [1e-05] step: 860 score: 20 level: 2 best_score: 711
+1284h: 271 loss: 0.0111986 LR: [1e-05] step: 860 score: 20 level: 2 best_score: 711
+100ch: 272 loss: 0.0175043 LR: [1e-05] step: 1499 score: 38 level: 3 best_score: 71
+194ch: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+521ch: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+836ch: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+1137h: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+1478h: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+1798h: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+2118h: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+2437h: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+2681h: 273 loss: 0.0106801 LR: [1e-05] step: 223 score: 10 level: 1 best_score: 711
+121ch: 274 loss: 0.0733755 LR: [1e-05] step: 2881 score: 71 level: 4 best_score: 71
+441ch: 274 loss: 0.0733755 LR: [1e-05] step: 2881 score: 71 level: 4 best_score: 71
+762ch: 274 loss: 0.0733755 LR: [1e-05] step: 2881 score: 71 level: 4 best_score: 71
+1091h: 274 loss: 0.0733755 LR: [1e-05] step: 2881 score: 71 level: 4 best_score: 71
+211ch: 275 loss: 0.0162205 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+526ch: 275 loss: 0.0162205 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+854ch: 275 loss: 0.0162205 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+1187h: 275 loss: 0.0162205 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+1517h: 275 loss: 0.0162205 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+233ch: 276 loss: 2.8408999 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+167ch: 277 loss: 0.0171281 LR: [1e-05] step: 404 score: 13 level: 1 best_score: 711
+488ch: 277 loss: 0.0171281 LR: [1e-05] step: 404 score: 13 level: 1 best_score: 711
+812ch: 277 loss: 0.0171281 LR: [1e-05] step: 404 score: 13 level: 1 best_score: 711
+1136h: 277 loss: 0.0171281 LR: [1e-05] step: 404 score: 13 level: 1 best_score: 711
+1461h: 277 loss: 0.0171281 LR: [1e-05] step: 404 score: 13 level: 1 best_score: 711
+177ch: 278 loss: 0.0341177 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+492ch: 278 loss: 0.0341177 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+815ch: 278 loss: 0.0341177 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+1131h: 278 loss: 0.0341177 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+141ch: 280 loss: 0.0157973 LR: [1e-05] step: 111 score: 3 level: 1 best_score: 7171
+452ch: 280 loss: 0.0157973 LR: [1e-05] step: 111 score: 3 level: 1 best_score: 7171
+770ch: 280 loss: 0.0157973 LR: [1e-05] step: 111 score: 3 level: 1 best_score: 7171
+1098h: 280 loss: 0.0157973 LR: [1e-05] step: 111 score: 3 level: 1 best_score: 7171
+113ch: 281 loss: 0.0157153 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+2poch: 282 loss: 0.0160408 LR: [1e-05] step: 407 score: 12 level: 1 best_score: 711
+328ch: 282 loss: 0.0160408 LR: [1e-05] step: 407 score: 12 level: 1 best_score: 711
+642ch: 282 loss: 0.0160408 LR: [1e-05] step: 407 score: 12 level: 1 best_score: 711
+965ch: 282 loss: 0.0160408 LR: [1e-05] step: 407 score: 12 level: 1 best_score: 711
+1291h: 282 loss: 0.0160408 LR: [1e-05] step: 407 score: 12 level: 1 best_score: 711
+41och: 283 loss: 0.0160529 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+346ch: 283 loss: 0.0160529 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+666ch: 283 loss: 0.0160529 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+989ch: 283 loss: 0.0160529 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+93och: 284 loss: 0.0125092 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+411ch: 284 loss: 0.0125092 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+44och: 285 loss: 0.0206703 LR: [1e-05] step: 669 score: 24 level: 2 best_score: 711
+174ch: 286 loss: 0.0599558 LR: [1e-05] step: 188 score: 8 level: 1 best_score: 7111
+182ch: 287 loss: 0.0405238 LR: [1e-05] step: 302 score: 11 level: 1 best_score: 711
+504ch: 287 loss: 0.0405238 LR: [1e-05] step: 302 score: 11 level: 1 best_score: 711
+822ch: 287 loss: 0.0405238 LR: [1e-05] step: 302 score: 11 level: 1 best_score: 711
+1141h: 287 loss: 0.0405238 LR: [1e-05] step: 302 score: 11 level: 1 best_score: 711
+1465h: 287 loss: 0.0405238 LR: [1e-05] step: 302 score: 11 level: 1 best_score: 711
+148ch: 288 loss: 0.0729139 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+467ch: 288 loss: 0.0729139 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+778ch: 288 loss: 0.0729139 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+95erage score last 10 games: 15.3 -05] step: 995 score: 29 level: 2 best_score: 711
+335rage score last 10 games: 15.3 -05] step: 995 score: 29 level: 2 best_score: 711
+662rage score last 10 games: 15.3 -05] step: 995 score: 29 level: 2 best_score: 711
+990rage score last 10 games: 15.3 -05] step: 995 score: 29 level: 2 best_score: 711
+1323age score last 10 games: 15.3 -05] step: 995 score: 29 level: 2 best_score: 711
+75och: 290 loss: 0.0476206 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+408ch: 290 loss: 0.0476206 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+751ch: 290 loss: 0.0476206 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1098h: 290 loss: 0.0476206 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+106ch: 291 loss: 0.0199791 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+441ch: 291 loss: 0.0199791 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+785ch: 291 loss: 0.0199791 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+1134h: 291 loss: 0.0199791 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+1484h: 291 loss: 0.0199791 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+219ch: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+560ch: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+885ch: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1230h: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1566h: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1900h: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+2240h: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+2495h: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+2834h: 292 loss: 0.1547150 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+183ch: 293 loss: 0.0510923 LR: [1e-05] step: 2990 score: 52 level: 3 best_score: 71
+529ch: 293 loss: 0.0510923 LR: [1e-05] step: 2990 score: 52 level: 3 best_score: 71
+871ch: 293 loss: 0.0510923 LR: [1e-05] step: 2990 score: 52 level: 3 best_score: 71
+1219h: 293 loss: 0.0510923 LR: [1e-05] step: 2990 score: 52 level: 3 best_score: 71
+299ch: 294 loss: 0.0531387 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+638ch: 294 loss: 0.0531387 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+187ch: 295 loss: 0.0259060 LR: [1e-05] step: 785 score: 16 level: 1 best_score: 711
+524ch: 295 loss: 0.0259060 LR: [1e-05] step: 785 score: 16 level: 1 best_score: 711
+866ch: 295 loss: 0.0259060 LR: [1e-05] step: 785 score: 16 level: 1 best_score: 711
+1219h: 295 loss: 0.0259060 LR: [1e-05] step: 785 score: 16 level: 1 best_score: 711
+325ch: 296 loss: 0.0156708 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+669ch: 296 loss: 0.0156708 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+32och: 297 loss: 0.0295628 LR: [1e-05] step: 981 score: 16 level: 1 best_score: 711
+361ch: 297 loss: 0.0295628 LR: [1e-05] step: 981 score: 16 level: 1 best_score: 711
+699ch: 297 loss: 0.0295628 LR: [1e-05] step: 981 score: 16 level: 1 best_score: 711
+1046h: 297 loss: 0.0295628 LR: [1e-05] step: 981 score: 16 level: 1 best_score: 711
+1387h: 297 loss: 0.0295628 LR: [1e-05] step: 981 score: 16 level: 1 best_score: 711
+121ch: 298 loss: 0.0308663 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+453ch: 298 loss: 0.0308663 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+789ch: 298 loss: 0.0308663 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+1035h: 298 loss: 0.0308663 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+1370h: 298 loss: 0.0308663 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+83erage score last 10 games: 23.2 -05] step: 1620 score: 49 level: 3 best_score: 71
+294ch: 300 loss: 0.0216570 LR: [1e-05] step: 119 score: 5 level: 1 best_score: 7171
+634ch: 300 loss: 0.0216570 LR: [1e-05] step: 119 score: 5 level: 1 best_score: 7171
+986ch: 300 loss: 0.0216570 LR: [1e-05] step: 119 score: 5 level: 1 best_score: 7171
+1334h: 300 loss: 0.0216570 LR: [1e-05] step: 119 score: 5 level: 1 best_score: 7171
+99och: 301 loss: 0.0180033 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+440ch: 301 loss: 0.0180033 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+782ch: 301 loss: 0.0180033 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1130h: 301 loss: 0.0180033 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+246ch: 302 loss: 0.0463948 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+583ch: 302 loss: 0.0463948 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+933ch: 302 loss: 0.0463948 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1279h: 302 loss: 0.0463948 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1632h: 302 loss: 0.0463948 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+326ch: 303 loss: 0.0439017 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+670ch: 303 loss: 0.0439017 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+1010h: 303 loss: 0.0439017 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+1272h: 303 loss: 0.0439017 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+321ch: 304 loss: 0.0142718 LR: [1e-05] step: 1284 score: 15 level: 1 best_score: 71
+659ch: 304 loss: 0.0142718 LR: [1e-05] step: 1284 score: 15 level: 1 best_score: 71
+996ch: 304 loss: 0.0142718 LR: [1e-05] step: 1284 score: 15 level: 1 best_score: 71
+1333h: 304 loss: 0.0142718 LR: [1e-05] step: 1284 score: 15 level: 1 best_score: 71
+1674h: 304 loss: 0.0142718 LR: [1e-05] step: 1284 score: 15 level: 1 best_score: 71
+336ch: 305 loss: 0.0317790 LR: [1e-05] step: 1677 score: 52 level: 3 best_score: 71
+686ch: 305 loss: 0.0317790 LR: [1e-05] step: 1677 score: 52 level: 3 best_score: 71
+1035h: 305 loss: 0.0317790 LR: [1e-05] step: 1677 score: 52 level: 3 best_score: 71
+1384h: 305 loss: 0.0317790 LR: [1e-05] step: 1677 score: 52 level: 3 best_score: 71
+94och: 306 loss: 0.0235357 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+30och: 307 loss: 0.0098400 LR: [1e-05] step: 400 score: 13 level: 1 best_score: 711
+363ch: 307 loss: 0.0098400 LR: [1e-05] step: 400 score: 13 level: 1 best_score: 711
+703ch: 307 loss: 0.0098400 LR: [1e-05] step: 400 score: 13 level: 1 best_score: 711
+1046h: 307 loss: 0.0098400 LR: [1e-05] step: 400 score: 13 level: 1 best_score: 711
+163ch: 308 loss: 0.0182234 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+44erage score last 10 games: 18.5 -05] step: 461 score: 16 level: 1 best_score: 711
+324rage score last 10 games: 18.5 -05] step: 461 score: 16 level: 1 best_score: 711
+268ch: 310 loss: 0.0250823 LR: [1e-05] step: 394 score: 10 level: 1 best_score: 711
+615ch: 310 loss: 0.0250823 LR: [1e-05] step: 394 score: 10 level: 1 best_score: 711
+965ch: 310 loss: 0.0250823 LR: [1e-05] step: 394 score: 10 level: 1 best_score: 711
+3poch: 311 loss: 0.0360984 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+339ch: 311 loss: 0.0360984 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+590ch: 311 loss: 0.0360984 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+937ch: 311 loss: 0.0360984 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1289h: 311 loss: 0.0360984 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1634h: 311 loss: 0.0360984 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+328ch: 312 loss: 0.0602791 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+668ch: 312 loss: 0.0602791 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+1000h: 312 loss: 0.0602791 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+1342h: 312 loss: 0.0602791 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+1686h: 312 loss: 0.0602791 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+123ch: 313 loss: 0.0127525 LR: [1e-05] step: 1900 score: 35 level: 2 best_score: 71
+460ch: 313 loss: 0.0127525 LR: [1e-05] step: 1900 score: 35 level: 2 best_score: 71
+38och: 315 loss: 0.0210390 LR: [1e-05] step: 289 score: 11 level: 1 best_score: 711
+380ch: 315 loss: 0.0210390 LR: [1e-05] step: 289 score: 11 level: 1 best_score: 711
+719ch: 315 loss: 0.0210390 LR: [1e-05] step: 289 score: 11 level: 1 best_score: 711
+1065h: 315 loss: 0.0210390 LR: [1e-05] step: 289 score: 11 level: 1 best_score: 711
+1410h: 315 loss: 0.0210390 LR: [1e-05] step: 289 score: 11 level: 1 best_score: 711
+1755h: 315 loss: 0.0210390 LR: [1e-05] step: 289 score: 11 level: 1 best_score: 711
+139ch: 316 loss: 0.0445510 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+181ch: 317 loss: 0.0556090 LR: [1e-05] step: 289 score: 17 level: 1 best_score: 711
+525ch: 317 loss: 0.0556090 LR: [1e-05] step: 289 score: 17 level: 1 best_score: 711
+870ch: 317 loss: 0.0556090 LR: [1e-05] step: 289 score: 17 level: 1 best_score: 711
+1128h: 317 loss: 0.0556090 LR: [1e-05] step: 289 score: 17 level: 1 best_score: 711
+185ch: 318 loss: 0.0579148 LR: [1e-05] step: 1284 score: 14 level: 1 best_score: 71
+524ch: 318 loss: 0.0579148 LR: [1e-05] step: 1284 score: 14 level: 1 best_score: 71
+869ch: 318 loss: 0.0579148 LR: [1e-05] step: 1284 score: 14 level: 1 best_score: 71
+103rage score last 10 games: 18.0 -05] step: 1097 score: 28 level: 2 best_score: 71
+438rage score last 10 games: 18.0 -05] step: 1097 score: 28 level: 2 best_score: 71
+777rage score last 10 games: 18.0 -05] step: 1097 score: 28 level: 2 best_score: 71
+1110age score last 10 games: 18.0 -05] step: 1097 score: 28 level: 2 best_score: 71
+1450age score last 10 games: 18.0 -05] step: 1097 score: 28 level: 2 best_score: 71
+28och: 320 loss: 0.0321363 LR: [1e-05] step: 1759 score: 49 level: 3 best_score: 71
+356ch: 320 loss: 0.0321363 LR: [1e-05] step: 1759 score: 49 level: 3 best_score: 71
+695ch: 320 loss: 0.0321363 LR: [1e-05] step: 1759 score: 49 level: 3 best_score: 71
+1043h: 320 loss: 0.0321363 LR: [1e-05] step: 1759 score: 49 level: 3 best_score: 71
+103ch: 321 loss: 0.0941121 LR: [1e-05] step: 1284 score: 16 level: 1 best_score: 71
+441ch: 321 loss: 0.0941121 LR: [1e-05] step: 1284 score: 16 level: 1 best_score: 71
+112ch: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+448ch: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+793ch: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+1127h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+1474h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+1812h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+2155h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+2497h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+2831h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+3179h: 322 loss: 0.0611728 LR: [1e-05] step: 667 score: 10 level: 1 best_score: 711
+145ch: 323 loss: 0.0225116 LR: [1e-05] step: 3290 score: 71 level: 4 best_score: 71
+483ch: 323 loss: 0.0225116 LR: [1e-05] step: 3290 score: 71 level: 4 best_score: 71
+827ch: 323 loss: 0.0225116 LR: [1e-05] step: 3290 score: 71 level: 4 best_score: 71
+1170h: 323 loss: 0.0225116 LR: [1e-05] step: 3290 score: 71 level: 4 best_score: 71
+218ch: 324 loss: 0.0212654 LR: [1e-05] step: 1284 score: 17 level: 1 best_score: 71
+158ch: 325 loss: 0.0213983 LR: [1e-05] step: 387 score: 12 level: 1 best_score: 711
+488ch: 325 loss: 0.0213983 LR: [1e-05] step: 387 score: 12 level: 1 best_score: 711
+822ch: 325 loss: 0.0213983 LR: [1e-05] step: 387 score: 12 level: 1 best_score: 711
+1166h: 325 loss: 0.0213983 LR: [1e-05] step: 387 score: 12 level: 1 best_score: 711
+1509h: 325 loss: 0.0213983 LR: [1e-05] step: 387 score: 12 level: 1 best_score: 711
+233ch: 326 loss: 0.0301483 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+563ch: 326 loss: 0.0301483 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+896ch: 326 loss: 0.0301483 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+1240h: 326 loss: 0.0301483 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+1573h: 326 loss: 0.0301483 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+263ch: 327 loss: 0.0353594 LR: [1e-05] step: 1638 score: 14 level: 1 best_score: 71
+271ch: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+612ch: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+945ch: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+1279h: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+1617h: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+1962h: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+2298h: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+2633h: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+2888h: 328 loss: 0.0269076 LR: [1e-05] step: 320 score: 9 level: 1 best_score: 7171
+262rage score last 10 games: 26.8 -05] step: 2962 score: 53 level: 3 best_score: 71
+601rage score last 10 games: 26.8 -05] step: 2962 score: 53 level: 3 best_score: 71
+937rage score last 10 games: 26.8 -05] step: 2962 score: 53 level: 3 best_score: 71
+1282age score last 10 games: 26.8 -05] step: 2962 score: 53 level: 3 best_score: 71
+14och: 330 loss: 0.0071010 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+343ch: 330 loss: 0.0071010 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+682ch: 330 loss: 0.0071010 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+1024h: 330 loss: 0.0071010 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+23och: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+360ch: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+697ch: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+1044h: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+1394h: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+1744h: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+2098h: 331 loss: 0.0129846 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+194ch: 333 loss: 0.1913798 LR: [1e-05] step: 125 score: 6 level: 1 best_score: 7171
+266ch: 334 loss: 0.1045126 LR: [1e-05] step: 266 score: 10 level: 1 best_score: 711
+607ch: 334 loss: 0.1045126 LR: [1e-05] step: 266 score: 10 level: 1 best_score: 711
+944ch: 334 loss: 0.1045126 LR: [1e-05] step: 266 score: 10 level: 1 best_score: 711
+1273h: 334 loss: 0.1045126 LR: [1e-05] step: 266 score: 10 level: 1 best_score: 711
+1610h: 334 loss: 0.1045126 LR: [1e-05] step: 266 score: 10 level: 1 best_score: 711
+107ch: 335 loss: 0.0152689 LR: [1e-05] step: 1844 score: 30 level: 2 best_score: 71
+438ch: 335 loss: 0.0152689 LR: [1e-05] step: 1844 score: 30 level: 2 best_score: 71
+697ch: 335 loss: 0.0152689 LR: [1e-05] step: 1844 score: 30 level: 2 best_score: 71
+77och: 336 loss: 0.1735790 LR: [1e-05] step: 954 score: 23 level: 2 best_score: 711
+300ch: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+640ch: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+977ch: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+1312h: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+1658h: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+1989h: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+2336h: 337 loss: 0.0615812 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7111
+284ch: 338 loss: 0.0191072 LR: [1e-05] step: 2385 score: 35 level: 2 best_score: 71
+622ch: 338 loss: 0.0191072 LR: [1e-05] step: 2385 score: 35 level: 2 best_score: 71
+52erage score last 10 games: 17.9 -05] step: 901 score: 21 level: 2 best_score: 711
+384rage score last 10 games: 17.9 -05] step: 901 score: 21 level: 2 best_score: 711
+726rage score last 10 games: 17.9 -05] step: 901 score: 21 level: 2 best_score: 711
+1075age score last 10 games: 17.9 -05] step: 901 score: 21 level: 2 best_score: 711
+1420age score last 10 games: 17.9 -05] step: 901 score: 21 level: 2 best_score: 711
+72och: 341 loss: 0.0271144 LR: [1e-05] step: 99 score: 6 level: 1 best_score: 71 71
+205ch: 342 loss: 0.0089701 LR: [1e-05] step: 206 score: 12 level: 1 best_score: 711
+537ch: 342 loss: 0.0089701 LR: [1e-05] step: 206 score: 12 level: 1 best_score: 711
+881ch: 342 loss: 0.0089701 LR: [1e-05] step: 206 score: 12 level: 1 best_score: 711
+1230h: 342 loss: 0.0089701 LR: [1e-05] step: 206 score: 12 level: 1 best_score: 711
+1583h: 342 loss: 0.0089701 LR: [1e-05] step: 206 score: 12 level: 1 best_score: 711
+282ch: 343 loss: 0.0179384 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+616ch: 343 loss: 0.0179384 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+958ch: 343 loss: 0.0179384 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+22och: 344 loss: 0.0137418 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+351ch: 344 loss: 0.0137418 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+686ch: 344 loss: 0.0137418 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+1025h: 344 loss: 0.0137418 LR: [1e-05] step: 1194 score: 16 level: 1 best_score: 71
+81och: 345 loss: 0.0222850 LR: [1e-05] step: 1284 score: 15 level: 1 best_score: 71
+57och: 346 loss: 0.0126586 LR: [1e-05] step: 358 score: 10 level: 1 best_score: 711
+387ch: 346 loss: 0.0126586 LR: [1e-05] step: 358 score: 10 level: 1 best_score: 711
+738ch: 346 loss: 0.0126586 LR: [1e-05] step: 358 score: 10 level: 1 best_score: 711
+1087h: 346 loss: 0.0126586 LR: [1e-05] step: 358 score: 10 level: 1 best_score: 711
+175ch: 347 loss: 1.7482622 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+514ch: 347 loss: 1.7482622 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+848ch: 347 loss: 1.7482622 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+229ch: 348 loss: 0.0112731 LR: [1e-05] step: 949 score: 28 level: 2 best_score: 711
+567ch: 348 loss: 0.0112731 LR: [1e-05] step: 949 score: 28 level: 2 best_score: 711
+909ch: 348 loss: 0.0112731 LR: [1e-05] step: 949 score: 28 level: 2 best_score: 711
+1251h: 348 loss: 0.0112731 LR: [1e-05] step: 949 score: 28 level: 2 best_score: 711
+1597h: 348 loss: 0.0112731 LR: [1e-05] step: 949 score: 28 level: 2 best_score: 711
+1939h: 348 loss: 0.0112731 LR: [1e-05] step: 949 score: 28 level: 2 best_score: 711
+283rage score last 10 games: 15.2 -05] step: 1992 score: 17 level: 1 best_score: 71
+625rage score last 10 games: 15.2 -05] step: 1992 score: 17 level: 1 best_score: 71
+138ch: 350 loss: 0.0189792 LR: [1e-05] step: 816 score: 24 level: 2 best_score: 711
+371ch: 350 loss: 0.0189792 LR: [1e-05] step: 816 score: 24 level: 2 best_score: 711
+732ch: 350 loss: 0.0189792 LR: [1e-05] step: 816 score: 24 level: 2 best_score: 711
+1077h: 350 loss: 0.0189792 LR: [1e-05] step: 816 score: 24 level: 2 best_score: 711
+106ch: 351 loss: 0.0198738 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+442ch: 351 loss: 0.0198738 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+785ch: 351 loss: 0.0198738 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1117h: 351 loss: 0.0198738 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+292ch: 352 loss: 0.0261032 LR: [1e-05] step: 1155 score: 28 level: 2 best_score: 71
+627ch: 352 loss: 0.0261032 LR: [1e-05] step: 1155 score: 28 level: 2 best_score: 71
+968ch: 352 loss: 0.0261032 LR: [1e-05] step: 1155 score: 28 level: 2 best_score: 71
+1313h: 352 loss: 0.0261032 LR: [1e-05] step: 1155 score: 28 level: 2 best_score: 71
+302ch: 353 loss: 0.0129097 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+640ch: 353 loss: 0.0129097 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+27och: 354 loss: 0.0235774 LR: [1e-05] step: 952 score: 17 level: 1 best_score: 711
+362ch: 354 loss: 0.0235774 LR: [1e-05] step: 952 score: 17 level: 1 best_score: 711
+694ch: 354 loss: 0.0235774 LR: [1e-05] step: 952 score: 17 level: 1 best_score: 711
+315ch: 355 loss: 0.0727329 LR: [1e-05] step: 712 score: 15 level: 1 best_score: 711
+657ch: 355 loss: 0.0727329 LR: [1e-05] step: 712 score: 15 level: 1 best_score: 711
+999ch: 355 loss: 0.0727329 LR: [1e-05] step: 712 score: 15 level: 1 best_score: 711
+1266h: 355 loss: 0.0727329 LR: [1e-05] step: 712 score: 15 level: 1 best_score: 711
+1616h: 355 loss: 0.0727329 LR: [1e-05] step: 712 score: 15 level: 1 best_score: 711
+123ch: 357 loss: 0.0318104 LR: [1e-05] step: 109 score: 6 level: 1 best_score: 7171
+458ch: 357 loss: 0.0318104 LR: [1e-05] step: 109 score: 6 level: 1 best_score: 7171
+805ch: 357 loss: 0.0318104 LR: [1e-05] step: 109 score: 6 level: 1 best_score: 7171
+1152h: 357 loss: 0.0318104 LR: [1e-05] step: 109 score: 6 level: 1 best_score: 7171
+1494h: 357 loss: 0.0318104 LR: [1e-05] step: 109 score: 6 level: 1 best_score: 7171
+1838h: 357 loss: 0.0318104 LR: [1e-05] step: 109 score: 6 level: 1 best_score: 7171
+151ch: 358 loss: 0.0272046 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+484ch: 358 loss: 0.0272046 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+819ch: 358 loss: 0.0272046 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1157h: 358 loss: 0.0272046 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+1497h: 358 loss: 0.0272046 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+2poch: 360 loss: 0.0132896 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7171
+329ch: 360 loss: 0.0132896 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7171
+664ch: 360 loss: 0.0132896 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7171
+997ch: 360 loss: 0.0132896 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7171
+1339h: 360 loss: 0.0132896 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7171
+1681h: 360 loss: 0.0132896 LR: [1e-05] step: 107 score: 5 level: 1 best_score: 7171
+53och: 361 loss: 0.1034070 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+384ch: 361 loss: 0.1034070 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+637ch: 361 loss: 0.1034070 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+976ch: 361 loss: 0.1034070 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+1301h: 361 loss: 0.1034070 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+6poch: 362 loss: 0.0318305 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+330ch: 362 loss: 0.0318305 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+658ch: 362 loss: 0.0318305 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+68och: 363 loss: 0.0190183 LR: [1e-05] step: 915 score: 21 level: 2 best_score: 711
+400ch: 363 loss: 0.0190183 LR: [1e-05] step: 915 score: 21 level: 2 best_score: 711
+741ch: 363 loss: 0.0190183 LR: [1e-05] step: 915 score: 21 level: 2 best_score: 711
+1084h: 363 loss: 0.0190183 LR: [1e-05] step: 915 score: 21 level: 2 best_score: 711
+172ch: 364 loss: 0.0244471 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+505ch: 364 loss: 0.0244471 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+844ch: 364 loss: 0.0244471 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1183h: 364 loss: 0.0244471 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1530h: 364 loss: 0.0244471 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+229ch: 365 loss: 0.0241144 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+561ch: 365 loss: 0.0241144 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+891ch: 365 loss: 0.0241144 LR: [1e-05] step: 1638 score: 17 level: 1 best_score: 71
+175ch: 366 loss: 0.0146862 LR: [1e-05] step: 1038 score: 28 level: 2 best_score: 71
+505ch: 366 loss: 0.0146862 LR: [1e-05] step: 1038 score: 28 level: 2 best_score: 71
+760ch: 366 loss: 0.0146862 LR: [1e-05] step: 1038 score: 28 level: 2 best_score: 71
+1103h: 366 loss: 0.0146862 LR: [1e-05] step: 1038 score: 28 level: 2 best_score: 71
+1447h: 366 loss: 0.0146862 LR: [1e-05] step: 1038 score: 28 level: 2 best_score: 71
+176ch: 367 loss: 0.0039853 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+505ch: 367 loss: 0.0039853 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+841ch: 367 loss: 0.0039853 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+1182h: 367 loss: 0.0039853 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+255ch: 368 loss: 0.0112987 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+583ch: 368 loss: 0.0112987 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+920ch: 368 loss: 0.0112987 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+39erage score last 10 games: 17.3 -05] step: 1224 score: 17 level: 1 best_score: 71
+360rage score last 10 games: 17.3 -05] step: 1224 score: 17 level: 1 best_score: 71
+681rage score last 10 games: 17.3 -05] step: 1224 score: 17 level: 1 best_score: 71
+1022age score last 10 games: 17.3 -05] step: 1224 score: 17 level: 1 best_score: 71
+1358age score last 10 games: 17.3 -05] step: 1224 score: 17 level: 1 best_score: 71
+88och: 370 loss: 0.0561581 LR: [1e-05] step: 1608 score: 16 level: 1 best_score: 71
+284ch: 371 loss: 0.0179952 LR: [1e-05] step: 129 score: 4 level: 1 best_score: 7171
+623ch: 371 loss: 0.0179952 LR: [1e-05] step: 129 score: 4 level: 1 best_score: 7171
+230ch: 372 loss: 0.0151693 LR: [1e-05] step: 726 score: 29 level: 2 best_score: 711
+570ch: 372 loss: 0.0151693 LR: [1e-05] step: 726 score: 29 level: 2 best_score: 711
+826ch: 372 loss: 0.0151693 LR: [1e-05] step: 726 score: 29 level: 2 best_score: 711
+1164h: 372 loss: 0.0151693 LR: [1e-05] step: 726 score: 29 level: 2 best_score: 711
+163ch: 374 loss: 0.0262421 LR: [1e-05] step: 141 score: 3 level: 1 best_score: 7171
+498ch: 374 loss: 0.0262421 LR: [1e-05] step: 141 score: 3 level: 1 best_score: 7171
+836ch: 374 loss: 0.0262421 LR: [1e-05] step: 141 score: 3 level: 1 best_score: 7171
+1167h: 374 loss: 0.0262421 LR: [1e-05] step: 141 score: 3 level: 1 best_score: 7171
+1496h: 374 loss: 0.0262421 LR: [1e-05] step: 141 score: 3 level: 1 best_score: 7171
+134ch: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+466ch: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+804ch: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+1130h: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+1464h: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+1803h: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+2139h: 376 loss: 0.0375454 LR: [1e-05] step: 117 score: 4 level: 1 best_score: 7171
+200ch: 377 loss: 0.0116291 LR: [1e-05] step: 2269 score: 35 level: 2 best_score: 71
+535ch: 377 loss: 0.0116291 LR: [1e-05] step: 2269 score: 35 level: 2 best_score: 71
+169ch: 378 loss: 0.1816581 LR: [1e-05] step: 693 score: 29 level: 2 best_score: 711
+284rage score last 10 games: 17.9 -05] step: 216 score: 6 level: 1 best_score: 7111
+619rage score last 10 games: 17.9 -05] step: 216 score: 6 level: 1 best_score: 7111
+953rage score last 10 games: 17.9 -05] step: 216 score: 6 level: 1 best_score: 7111
+79och: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+409ch: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+740ch: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+1062h: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+1394h: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+1722h: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+2058h: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+2388h: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+2718h: 380 loss: 0.0158282 LR: [1e-05] step: 1118 score: 29 level: 2 best_score: 71
+159ch: 383 loss: 0.0136971 LR: [1e-05] step: 68 score: 3 level: 1 best_score: 71 71
+276ch: 384 loss: 0.0475075 LR: [1e-05] step: 206 score: 11 level: 1 best_score: 711
+608ch: 384 loss: 0.0475075 LR: [1e-05] step: 206 score: 11 level: 1 best_score: 711
+239ch: 385 loss: 0.0972124 LR: [1e-05] step: 698 score: 16 level: 1 best_score: 711
+574ch: 385 loss: 0.0972124 LR: [1e-05] step: 698 score: 16 level: 1 best_score: 711
+908ch: 385 loss: 0.0972124 LR: [1e-05] step: 698 score: 16 level: 1 best_score: 711
+149ch: 386 loss: 0.0089648 LR: [1e-05] step: 1012 score: 25 level: 2 best_score: 71
+478ch: 386 loss: 0.0089648 LR: [1e-05] step: 1012 score: 25 level: 2 best_score: 71
+198ch: 387 loss: 0.0357907 LR: [1e-05] step: 611 score: 17 level: 1 best_score: 711
+529ch: 387 loss: 0.0357907 LR: [1e-05] step: 611 score: 17 level: 1 best_score: 711
+863ch: 387 loss: 0.0357907 LR: [1e-05] step: 611 score: 17 level: 1 best_score: 711
+1197h: 387 loss: 0.0357907 LR: [1e-05] step: 611 score: 17 level: 1 best_score: 711
+301ch: 388 loss: 0.5039668 LR: [1e-05] step: 1224 score: 15 level: 1 best_score: 71
+633ch: 388 loss: 0.5039668 LR: [1e-05] step: 1224 score: 15 level: 1 best_score: 71
+967ch: 388 loss: 0.5039668 LR: [1e-05] step: 1224 score: 15 level: 1 best_score: 71
+48erage score last 10 games: 18.9 -05] step: 1254 score: 15 level: 1 best_score: 71
+375rage score last 10 games: 18.9 -05] step: 1254 score: 15 level: 1 best_score: 71
+709rage score last 10 games: 18.9 -05] step: 1254 score: 15 level: 1 best_score: 71
+1045age score last 10 games: 18.9 -05] step: 1254 score: 15 level: 1 best_score: 71
+1303age score last 10 games: 18.9 -05] step: 1254 score: 15 level: 1 best_score: 71
+323ch: 390 loss: 0.0588299 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+660ch: 390 loss: 0.0588299 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+990ch: 390 loss: 0.0588299 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1321h: 390 loss: 0.0588299 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1657h: 390 loss: 0.0588299 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+76och: 391 loss: 0.0348503 LR: [1e-05] step: 1918 score: 33 level: 2 best_score: 71
+89och: 392 loss: 0.0215332 LR: [1e-05] step: 312 score: 11 level: 1 best_score: 711
+117ch: 394 loss: 0.0756829 LR: [1e-05] step: 113 score: 3 level: 1 best_score: 7111
+450ch: 394 loss: 0.0756829 LR: [1e-05] step: 113 score: 3 level: 1 best_score: 7111
+787ch: 394 loss: 0.0756829 LR: [1e-05] step: 113 score: 3 level: 1 best_score: 7111
+1130h: 394 loss: 0.0756829 LR: [1e-05] step: 113 score: 3 level: 1 best_score: 7111
+1470h: 394 loss: 0.0756829 LR: [1e-05] step: 113 score: 3 level: 1 best_score: 7111
+33och: 396 loss: 0.0346341 LR: [1e-05] step: 139 score: 6 level: 1 best_score: 7171
+361ch: 396 loss: 0.0346341 LR: [1e-05] step: 139 score: 6 level: 1 best_score: 7171
+700ch: 396 loss: 0.0346341 LR: [1e-05] step: 139 score: 6 level: 1 best_score: 7171
+1040h: 396 loss: 0.0346341 LR: [1e-05] step: 139 score: 6 level: 1 best_score: 7171
+1382h: 396 loss: 0.0346341 LR: [1e-05] step: 139 score: 6 level: 1 best_score: 7171
+39och: 398 loss: 0.0215876 LR: [1e-05] step: 72 score: 4 level: 1 best_score: 71 71
+367ch: 398 loss: 0.0215876 LR: [1e-05] step: 72 score: 4 level: 1 best_score: 71 71
+621ch: 398 loss: 0.0215876 LR: [1e-05] step: 72 score: 4 level: 1 best_score: 71 71
+965ch: 398 loss: 0.0215876 LR: [1e-05] step: 72 score: 4 level: 1 best_score: 71 71
+75erage score last 10 games: 13.4 -05] step: 1224 score: 16 level: 1 best_score: 71
+398rage score last 10 games: 13.4 -05] step: 1224 score: 16 level: 1 best_score: 71
+719rage score last 10 games: 13.4 -05] step: 1224 score: 16 level: 1 best_score: 71
+1052age score last 10 games: 13.4 -05] step: 1224 score: 16 level: 1 best_score: 71
+1386age score last 10 games: 13.4 -05] step: 1224 score: 16 level: 1 best_score: 71
+56och: 400 loss: 0.0384306 LR: [1e-05] step: 1668 score: 16 level: 1 best_score: 71
+382ch: 400 loss: 0.0384306 LR: [1e-05] step: 1668 score: 16 level: 1 best_score: 71
+710ch: 400 loss: 0.0384306 LR: [1e-05] step: 1668 score: 16 level: 1 best_score: 71
+1036h: 400 loss: 0.0384306 LR: [1e-05] step: 1668 score: 16 level: 1 best_score: 71
+1361h: 400 loss: 0.0384306 LR: [1e-05] step: 1668 score: 16 level: 1 best_score: 71
+1692h: 400 loss: 0.0384306 LR: [1e-05] step: 1668 score: 16 level: 1 best_score: 71
+199ch: 401 loss: 0.0225744 LR: [1e-05] step: 1821 score: 47 level: 3 best_score: 71
+537ch: 401 loss: 0.0225744 LR: [1e-05] step: 1821 score: 47 level: 3 best_score: 71
+875ch: 401 loss: 0.0225744 LR: [1e-05] step: 1821 score: 47 level: 3 best_score: 71
+1206h: 401 loss: 0.0225744 LR: [1e-05] step: 1821 score: 47 level: 3 best_score: 71
+1548h: 401 loss: 0.0225744 LR: [1e-05] step: 1821 score: 47 level: 3 best_score: 71
+291ch: 402 loss: 0.0127677 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+538ch: 402 loss: 0.0127677 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+874ch: 402 loss: 0.0127677 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1215h: 402 loss: 0.0127677 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1549h: 402 loss: 0.0127677 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1886h: 402 loss: 0.0127677 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+255ch: 403 loss: 0.0418104 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+51och: 405 loss: 0.0324965 LR: [1e-05] step: 251 score: 11 level: 1 best_score: 711
+238ch: 406 loss: 0.0236544 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+564ch: 406 loss: 0.0236544 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+891ch: 406 loss: 0.0236544 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+1218h: 406 loss: 0.0236544 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+1550h: 406 loss: 0.0236544 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+1881h: 406 loss: 0.0236544 LR: [1e-05] step: 142 score: 6 level: 1 best_score: 7111
+145ch: 407 loss: 0.1043287 LR: [1e-05] step: 2060 score: 35 level: 2 best_score: 71
+476ch: 407 loss: 0.1043287 LR: [1e-05] step: 2060 score: 35 level: 2 best_score: 71
+813ch: 407 loss: 0.1043287 LR: [1e-05] step: 2060 score: 35 level: 2 best_score: 71
+1152h: 407 loss: 0.1043287 LR: [1e-05] step: 2060 score: 35 level: 2 best_score: 71
+1487h: 407 loss: 0.1043287 LR: [1e-05] step: 2060 score: 35 level: 2 best_score: 71
+1822h: 407 loss: 0.1043287 LR: [1e-05] step: 2060 score: 35 level: 2 best_score: 71
+184ch: 408 loss: 0.0245127 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+507ch: 408 loss: 0.0245127 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+840ch: 408 loss: 0.0245127 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+1179h: 408 loss: 0.0245127 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+112rage score last 10 games: 19.1 -05] step: 1314 score: 17 level: 1 best_score: 71
+439rage score last 10 games: 19.1 -05] step: 1314 score: 17 level: 1 best_score: 71
+761rage score last 10 games: 19.1 -05] step: 1314 score: 17 level: 1 best_score: 71
+1088age score last 10 games: 19.1 -05] step: 1314 score: 17 level: 1 best_score: 71
+1428age score last 10 games: 19.1 -05] step: 1314 score: 17 level: 1 best_score: 71
+151ch: 410 loss: 0.1447790 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+222ch: 411 loss: 0.0202177 LR: [1e-05] step: 252 score: 9 level: 1 best_score: 7171
+543ch: 411 loss: 0.0202177 LR: [1e-05] step: 252 score: 9 level: 1 best_score: 7171
+877ch: 411 loss: 0.0202177 LR: [1e-05] step: 252 score: 9 level: 1 best_score: 7171
+1209h: 411 loss: 0.0202177 LR: [1e-05] step: 252 score: 9 level: 1 best_score: 7171
+1545h: 411 loss: 0.0202177 LR: [1e-05] step: 252 score: 9 level: 1 best_score: 7171
+273ch: 412 loss: 0.0128515 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+312ch: 413 loss: 0.0806892 LR: [1e-05] step: 290 score: 10 level: 1 best_score: 711
+646ch: 413 loss: 0.0806892 LR: [1e-05] step: 290 score: 10 level: 1 best_score: 711
+982ch: 413 loss: 0.0806892 LR: [1e-05] step: 290 score: 10 level: 1 best_score: 711
+1322h: 413 loss: 0.0806892 LR: [1e-05] step: 290 score: 10 level: 1 best_score: 711
+1665h: 413 loss: 0.0806892 LR: [1e-05] step: 290 score: 10 level: 1 best_score: 711
+39och: 414 loss: 0.0343296 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+16och: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+342ch: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+590ch: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+926ch: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+1266h: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+1603h: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+1940h: 416 loss: 0.1645913 LR: [1e-05] step: 263 score: 10 level: 1 best_score: 711
+276ch: 417 loss: 0.0738499 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+604ch: 417 loss: 0.0738499 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+934ch: 417 loss: 0.0738499 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+1268h: 417 loss: 0.0738499 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+292ch: 418 loss: 0.0254617 LR: [1e-05] step: 1305 score: 39 level: 3 best_score: 71
+190rage score last 10 games: 15.4 -05] step: 428 score: 14 level: 1 best_score: 711
+526rage score last 10 games: 15.4 -05] step: 428 score: 14 level: 1 best_score: 711
+860rage score last 10 games: 15.4 -05] step: 428 score: 14 level: 1 best_score: 711
+1200age score last 10 games: 15.4 -05] step: 428 score: 14 level: 1 best_score: 711
+188ch: 420 loss: 0.0147285 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+191ch: 421 loss: 0.0051076 LR: [1e-05] step: 324 score: 10 level: 1 best_score: 711
+523ch: 421 loss: 0.0051076 LR: [1e-05] step: 324 score: 10 level: 1 best_score: 711
+860ch: 421 loss: 0.0051076 LR: [1e-05] step: 324 score: 10 level: 1 best_score: 711
+1118h: 421 loss: 0.0051076 LR: [1e-05] step: 324 score: 10 level: 1 best_score: 711
+74och: 423 loss: 0.0178606 LR: [1e-05] step: 151 score: 8 level: 1 best_score: 7171
+404ch: 423 loss: 0.0178606 LR: [1e-05] step: 151 score: 8 level: 1 best_score: 7171
+72och: 425 loss: 0.0141480 LR: [1e-05] step: 334 score: 12 level: 1 best_score: 711
+399ch: 425 loss: 0.0141480 LR: [1e-05] step: 334 score: 12 level: 1 best_score: 711
+728ch: 425 loss: 0.0141480 LR: [1e-05] step: 334 score: 12 level: 1 best_score: 711
+970ch: 425 loss: 0.0141480 LR: [1e-05] step: 334 score: 12 level: 1 best_score: 711
+1297h: 425 loss: 0.0141480 LR: [1e-05] step: 334 score: 12 level: 1 best_score: 711
+1630h: 425 loss: 0.0141480 LR: [1e-05] step: 334 score: 12 level: 1 best_score: 711
+209ch: 426 loss: 0.0083318 LR: [1e-05] step: 1748 score: 35 level: 2 best_score: 71
+528ch: 426 loss: 0.0083318 LR: [1e-05] step: 1748 score: 35 level: 2 best_score: 71
+857ch: 426 loss: 0.0083318 LR: [1e-05] step: 1748 score: 35 level: 2 best_score: 71
+1187h: 426 loss: 0.0083318 LR: [1e-05] step: 1748 score: 35 level: 2 best_score: 71
+1514h: 426 loss: 0.0083318 LR: [1e-05] step: 1748 score: 35 level: 2 best_score: 71
+1830h: 426 loss: 0.0083318 LR: [1e-05] step: 1748 score: 35 level: 2 best_score: 71
+265ch: 427 loss: 0.0258205 LR: [1e-05] step: 1871 score: 33 level: 2 best_score: 71
+577ch: 427 loss: 0.0258205 LR: [1e-05] step: 1871 score: 33 level: 2 best_score: 71
+68och: 428 loss: 0.0360514 LR: [1e-05] step: 818 score: 26 level: 2 best_score: 711
+385ch: 428 loss: 0.0360514 LR: [1e-05] step: 818 score: 26 level: 2 best_score: 711
+715ch: 428 loss: 0.0360514 LR: [1e-05] step: 818 score: 26 level: 2 best_score: 711
+1051h: 428 loss: 0.0360514 LR: [1e-05] step: 818 score: 26 level: 2 best_score: 711
+1388h: 428 loss: 0.0360514 LR: [1e-05] step: 818 score: 26 level: 2 best_score: 711
+87erage score last 10 games: 18.8 -05] step: 1638 score: 17 level: 1 best_score: 71
+414rage score last 10 games: 18.8 -05] step: 1638 score: 17 level: 1 best_score: 71
+731rage score last 10 games: 18.8 -05] step: 1638 score: 17 level: 1 best_score: 71
+1056age score last 10 games: 18.8 -05] step: 1638 score: 17 level: 1 best_score: 71
+1384age score last 10 games: 18.8 -05] step: 1638 score: 17 level: 1 best_score: 71
+1716age score last 10 games: 18.8 -05] step: 1638 score: 17 level: 1 best_score: 71
+102ch: 431 loss: 0.0234348 LR: [1e-05] step: 91 score: 4 level: 1 best_score: 71 71
+435ch: 431 loss: 0.0234348 LR: [1e-05] step: 91 score: 4 level: 1 best_score: 71 71
+764ch: 431 loss: 0.0234348 LR: [1e-05] step: 91 score: 4 level: 1 best_score: 71 71
+1079h: 431 loss: 0.0234348 LR: [1e-05] step: 91 score: 4 level: 1 best_score: 71 71
+1404h: 431 loss: 0.0234348 LR: [1e-05] step: 91 score: 4 level: 1 best_score: 71 71
+1705h: 431 loss: 0.0234348 LR: [1e-05] step: 91 score: 4 level: 1 best_score: 71 71
+170ch: 432 loss: 0.0376172 LR: [1e-05] step: 1892 score: 34 level: 2 best_score: 71
+491ch: 432 loss: 0.0376172 LR: [1e-05] step: 1892 score: 34 level: 2 best_score: 71
+806ch: 432 loss: 0.0376172 LR: [1e-05] step: 1892 score: 34 level: 2 best_score: 71
+1132h: 432 loss: 0.0376172 LR: [1e-05] step: 1892 score: 34 level: 2 best_score: 71
+1471h: 432 loss: 0.0376172 LR: [1e-05] step: 1892 score: 34 level: 2 best_score: 71
+41och: 434 loss: 0.0491558 LR: [1e-05] step: 72 score: 2 level: 1 best_score: 71 71
+368ch: 434 loss: 0.0491558 LR: [1e-05] step: 72 score: 2 level: 1 best_score: 71 71
+697ch: 434 loss: 0.0491558 LR: [1e-05] step: 72 score: 2 level: 1 best_score: 71 71
+1029h: 434 loss: 0.0491558 LR: [1e-05] step: 72 score: 2 level: 1 best_score: 71 71
+1360h: 434 loss: 0.0491558 LR: [1e-05] step: 72 score: 2 level: 1 best_score: 71 71
+116ch: 435 loss: 0.0233781 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+445ch: 435 loss: 0.0233781 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+772ch: 435 loss: 0.0233781 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1094h: 435 loss: 0.0233781 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1400h: 435 loss: 0.0233781 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+1755h: 435 loss: 0.0233781 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+287ch: 436 loss: 0.0531487 LR: [1e-05] step: 1790 score: 34 level: 2 best_score: 71
+235ch: 437 loss: 0.0232888 LR: [1e-05] step: 378 score: 13 level: 1 best_score: 711
+566ch: 437 loss: 0.0232888 LR: [1e-05] step: 378 score: 13 level: 1 best_score: 711
+894ch: 437 loss: 0.0232888 LR: [1e-05] step: 378 score: 13 level: 1 best_score: 711
+1230h: 437 loss: 0.0232888 LR: [1e-05] step: 378 score: 13 level: 1 best_score: 711
+299ch: 438 loss: 0.4941860 LR: [1e-05] step: 1254 score: 16 level: 1 best_score: 71
+621ch: 438 loss: 0.4941860 LR: [1e-05] step: 1254 score: 16 level: 1 best_score: 71
+264rage score last 10 games: 18.8 -05] step: 683 score: 17 level: 1 best_score: 711
+24och: 440 loss: 0.0393199 LR: [1e-05] step: 569 score: 16 level: 1 best_score: 711
+350ch: 440 loss: 0.0393199 LR: [1e-05] step: 569 score: 16 level: 1 best_score: 711
+682ch: 440 loss: 0.0393199 LR: [1e-05] step: 569 score: 16 level: 1 best_score: 711
+1010h: 440 loss: 0.0393199 LR: [1e-05] step: 569 score: 16 level: 1 best_score: 711
+1348h: 440 loss: 0.0393199 LR: [1e-05] step: 569 score: 16 level: 1 best_score: 711
+1689h: 440 loss: 0.0393199 LR: [1e-05] step: 569 score: 16 level: 1 best_score: 711
+6poch: 441 loss: 0.3052032 LR: [1e-05] step: 2022 score: 35 level: 2 best_score: 71
+333ch: 441 loss: 0.3052032 LR: [1e-05] step: 2022 score: 35 level: 2 best_score: 71
+656ch: 441 loss: 0.3052032 LR: [1e-05] step: 2022 score: 35 level: 2 best_score: 71
+979ch: 441 loss: 0.3052032 LR: [1e-05] step: 2022 score: 35 level: 2 best_score: 71
+1304h: 441 loss: 0.3052032 LR: [1e-05] step: 2022 score: 35 level: 2 best_score: 71
+144ch: 442 loss: 0.0239954 LR: [1e-05] step: 1396 score: 34 level: 2 best_score: 71
+466ch: 442 loss: 0.0239954 LR: [1e-05] step: 1396 score: 34 level: 2 best_score: 71
+788ch: 442 loss: 0.0239954 LR: [1e-05] step: 1396 score: 34 level: 2 best_score: 71
+1105h: 442 loss: 0.0239954 LR: [1e-05] step: 1396 score: 34 level: 2 best_score: 71
+1427h: 442 loss: 0.0239954 LR: [1e-05] step: 1396 score: 34 level: 2 best_score: 71
+1754h: 442 loss: 0.0239954 LR: [1e-05] step: 1396 score: 34 level: 2 best_score: 71
+301ch: 443 loss: 0.0269356 LR: [1e-05] step: 1771 score: 34 level: 2 best_score: 71
+627ch: 443 loss: 0.0269356 LR: [1e-05] step: 1771 score: 34 level: 2 best_score: 71
+954ch: 443 loss: 0.0269356 LR: [1e-05] step: 1771 score: 34 level: 2 best_score: 71
+27och: 444 loss: 0.0425349 LR: [1e-05] step: 1255 score: 17 level: 1 best_score: 71
+341ch: 444 loss: 0.0425349 LR: [1e-05] step: 1255 score: 17 level: 1 best_score: 71
+663ch: 444 loss: 0.0425349 LR: [1e-05] step: 1255 score: 17 level: 1 best_score: 71
+254ch: 445 loss: 0.0318636 LR: [1e-05] step: 727 score: 17 level: 1 best_score: 711
+562ch: 445 loss: 0.0318636 LR: [1e-05] step: 727 score: 17 level: 1 best_score: 711
+850ch: 445 loss: 0.0318636 LR: [1e-05] step: 727 score: 17 level: 1 best_score: 711
+1137h: 445 loss: 0.0318636 LR: [1e-05] step: 727 score: 17 level: 1 best_score: 711
+1424h: 445 loss: 0.0318636 LR: [1e-05] step: 727 score: 17 level: 1 best_score: 711
+1715h: 445 loss: 0.0318636 LR: [1e-05] step: 727 score: 17 level: 1 best_score: 711
+133ch: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+418ch: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+710ch: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+997ch: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+1284h: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+1576h: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+1865h: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+2159h: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+2477h: 446 loss: 0.0171013 LR: [1e-05] step: 1876 score: 49 level: 3 best_score: 71
+179ch: 447 loss: 0.2226821 LR: [1e-05] step: 2587 score: 53 level: 3 best_score: 71
+255ch: 448 loss: 0.0214306 LR: [1e-05] step: 215 score: 11 level: 1 best_score: 711
+551ch: 448 loss: 0.0214306 LR: [1e-05] step: 215 score: 11 level: 1 best_score: 711
+841ch: 448 loss: 0.0214306 LR: [1e-05] step: 215 score: 11 level: 1 best_score: 711
+1101h: 448 loss: 0.0214306 LR: [1e-05] step: 215 score: 11 level: 1 best_score: 711
+1416h: 448 loss: 0.0214306 LR: [1e-05] step: 215 score: 11 level: 1 best_score: 711
+13erage score last 10 games: 28.3 -05] step: 1698 score: 17 level: 1 best_score: 71
+234rage score last 10 games: 28.3 -05] step: 1698 score: 17 level: 1 best_score: 71
+255ch: 450 loss: 0.0340683 LR: [1e-05] step: 250 score: 8 level: 1 best_score: 7171
+536ch: 450 loss: 0.0340683 LR: [1e-05] step: 250 score: 8 level: 1 best_score: 7171
+819ch: 450 loss: 0.0340683 LR: [1e-05] step: 250 score: 8 level: 1 best_score: 7171
+1115h: 450 loss: 0.0340683 LR: [1e-05] step: 250 score: 8 level: 1 best_score: 7171
+1406h: 450 loss: 0.0340683 LR: [1e-05] step: 250 score: 8 level: 1 best_score: 7171
+23och: 451 loss: 0.0123415 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+286ch: 451 loss: 0.0123415 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+563ch: 451 loss: 0.0123415 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+851ch: 451 loss: 0.0123415 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+1150h: 451 loss: 0.0123415 LR: [1e-05] step: 1668 score: 17 level: 1 best_score: 71
+179ch: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+429ch: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+738ch: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1021h: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1312h: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1592h: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+1890h: 452 loss: 0.0218607 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+187ch: 453 loss: 0.0078202 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+476ch: 453 loss: 0.0078202 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+749ch: 453 loss: 0.0078202 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+153ch: 454 loss: 0.1338854 LR: [1e-05] step: 891 score: 22 level: 2 best_score: 711
+438ch: 454 loss: 0.1338854 LR: [1e-05] step: 891 score: 22 level: 2 best_score: 711
+718ch: 454 loss: 0.1338854 LR: [1e-05] step: 891 score: 22 level: 2 best_score: 711
+1012h: 454 loss: 0.1338854 LR: [1e-05] step: 891 score: 22 level: 2 best_score: 711
+1304h: 454 loss: 0.1338854 LR: [1e-05] step: 891 score: 22 level: 2 best_score: 711
+1597h: 454 loss: 0.1338854 LR: [1e-05] step: 891 score: 22 level: 2 best_score: 711
+35och: 456 loss: 0.0177245 LR: [1e-05] step: 234 score: 9 level: 1 best_score: 7171
+326ch: 456 loss: 0.0177245 LR: [1e-05] step: 234 score: 9 level: 1 best_score: 7171
+613ch: 456 loss: 0.0177245 LR: [1e-05] step: 234 score: 9 level: 1 best_score: 7171
+881ch: 456 loss: 0.0177245 LR: [1e-05] step: 234 score: 9 level: 1 best_score: 7171
+1176h: 456 loss: 0.0177245 LR: [1e-05] step: 234 score: 9 level: 1 best_score: 7171
+1465h: 456 loss: 0.0177245 LR: [1e-05] step: 234 score: 9 level: 1 best_score: 7171
+1poch: 457 loss: 0.0356818 LR: [1e-05] step: 1758 score: 34 level: 2 best_score: 71
+272ch: 457 loss: 0.0356818 LR: [1e-05] step: 1758 score: 34 level: 2 best_score: 71
+544ch: 457 loss: 0.0356818 LR: [1e-05] step: 1758 score: 34 level: 2 best_score: 71
+810ch: 457 loss: 0.0356818 LR: [1e-05] step: 1758 score: 34 level: 2 best_score: 71
+1104h: 457 loss: 0.0356818 LR: [1e-05] step: 1758 score: 34 level: 2 best_score: 71
+173ch: 458 loss: 0.0062198 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+456ch: 458 loss: 0.0062198 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+221rage score last 10 games: 17.4 -05] step: 519 score: 17 level: 1 best_score: 711
+431rage score last 10 games: 17.4 -05] step: 519 score: 17 level: 1 best_score: 711
+722rage score last 10 games: 17.4 -05] step: 519 score: 17 level: 1 best_score: 711
+1002age score last 10 games: 17.4 -05] step: 519 score: 17 level: 1 best_score: 711
+161ch: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+438ch: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+728ch: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+1012h: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+1289h: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+1570h: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+1864h: 460 loss: 0.0598413 LR: [1e-05] step: 1122 score: 17 level: 1 best_score: 71
+209ch: 461 loss: 0.1402262 LR: [1e-05] step: 1942 score: 34 level: 2 best_score: 71
+227ch: 462 loss: 0.0335852 LR: [1e-05] step: 254 score: 11 level: 1 best_score: 711
+129ch: 463 loss: 0.0095293 LR: [1e-05] step: 371 score: 8 level: 1 best_score: 7111
+412ch: 463 loss: 0.0095293 LR: [1e-05] step: 371 score: 8 level: 1 best_score: 7111
+702ch: 463 loss: 0.0095293 LR: [1e-05] step: 371 score: 8 level: 1 best_score: 7111
+994ch: 463 loss: 0.0095293 LR: [1e-05] step: 371 score: 8 level: 1 best_score: 7111
+1273h: 463 loss: 0.0095293 LR: [1e-05] step: 371 score: 8 level: 1 best_score: 7111
+1564h: 463 loss: 0.0095293 LR: [1e-05] step: 371 score: 8 level: 1 best_score: 7111
+63och: 464 loss: 0.0640032 LR: [1e-05] step: 1791 score: 34 level: 2 best_score: 71
+340ch: 464 loss: 0.0640032 LR: [1e-05] step: 1791 score: 34 level: 2 best_score: 71
+165ch: 465 loss: 0.0117819 LR: [1e-05] step: 437 score: 13 level: 1 best_score: 711
+452ch: 465 loss: 0.0117819 LR: [1e-05] step: 437 score: 13 level: 1 best_score: 711
+737ch: 465 loss: 0.0117819 LR: [1e-05] step: 437 score: 13 level: 1 best_score: 711
+1018h: 465 loss: 0.0117819 LR: [1e-05] step: 437 score: 13 level: 1 best_score: 711
+85och: 466 loss: 0.0563106 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+349ch: 466 loss: 0.0563106 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+636ch: 466 loss: 0.0563106 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+886ch: 466 loss: 0.0563106 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1176h: 466 loss: 0.0563106 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+214ch: 467 loss: 0.0154692 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+423ch: 467 loss: 0.0154692 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+704ch: 467 loss: 0.0154692 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+991ch: 467 loss: 0.0154692 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+65och: 468 loss: 0.0495225 LR: [1e-05] step: 1203 score: 31 level: 2 best_score: 71
+338ch: 468 loss: 0.0495225 LR: [1e-05] step: 1203 score: 31 level: 2 best_score: 71
+624ch: 468 loss: 0.0495225 LR: [1e-05] step: 1203 score: 31 level: 2 best_score: 71
+909ch: 468 loss: 0.0495225 LR: [1e-05] step: 1203 score: 31 level: 2 best_score: 71
+7verage score last 10 games: 19.6 -05] step: 1194 score: 17 level: 1 best_score: 71
+299rage score last 10 games: 19.6 -05] step: 1194 score: 17 level: 1 best_score: 71
+577rage score last 10 games: 19.6 -05] step: 1194 score: 17 level: 1 best_score: 71
+229ch: 470 loss: 0.0126729 LR: [1e-05] step: 632 score: 14 level: 1 best_score: 711
+510ch: 470 loss: 0.0126729 LR: [1e-05] step: 632 score: 14 level: 1 best_score: 711
+800ch: 470 loss: 0.0126729 LR: [1e-05] step: 632 score: 14 level: 1 best_score: 711
+1092h: 470 loss: 0.0126729 LR: [1e-05] step: 632 score: 14 level: 1 best_score: 711
+1382h: 470 loss: 0.0126729 LR: [1e-05] step: 632 score: 14 level: 1 best_score: 711
+1669h: 470 loss: 0.0126729 LR: [1e-05] step: 632 score: 14 level: 1 best_score: 711
+133ch: 471 loss: 0.0228515 LR: [1e-05] step: 1806 score: 34 level: 2 best_score: 71
+396ch: 471 loss: 0.0228515 LR: [1e-05] step: 1806 score: 34 level: 2 best_score: 71
+685ch: 471 loss: 0.0228515 LR: [1e-05] step: 1806 score: 34 level: 2 best_score: 71
+967ch: 471 loss: 0.0228515 LR: [1e-05] step: 1806 score: 34 level: 2 best_score: 71
+1236h: 471 loss: 0.0228515 LR: [1e-05] step: 1806 score: 34 level: 2 best_score: 71
+1524h: 471 loss: 0.0228515 LR: [1e-05] step: 1806 score: 34 level: 2 best_score: 71
+177ch: 472 loss: 0.0376016 LR: [1e-05] step: 1567 score: 40 level: 3 best_score: 71
+94och: 474 loss: 0.0142754 LR: [1e-05] step: 124 score: 6 level: 1 best_score: 7111
+356ch: 474 loss: 0.0142754 LR: [1e-05] step: 124 score: 6 level: 1 best_score: 7111
+631ch: 474 loss: 0.0142754 LR: [1e-05] step: 124 score: 6 level: 1 best_score: 7111
+919ch: 474 loss: 0.0142754 LR: [1e-05] step: 124 score: 6 level: 1 best_score: 7111
+1211h: 474 loss: 0.0142754 LR: [1e-05] step: 124 score: 6 level: 1 best_score: 7111
+254ch: 475 loss: 0.0256860 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+516ch: 475 loss: 0.0256860 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+801ch: 475 loss: 0.0256860 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1083h: 475 loss: 0.0256860 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1364h: 475 loss: 0.0256860 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1646h: 475 loss: 0.0256860 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+199ch: 476 loss: 0.0104085 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+491ch: 476 loss: 0.0104085 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+22och: 477 loss: 0.0131200 LR: [1e-05] step: 762 score: 17 level: 1 best_score: 711
+293ch: 477 loss: 0.0131200 LR: [1e-05] step: 762 score: 17 level: 1 best_score: 711
+575ch: 477 loss: 0.0131200 LR: [1e-05] step: 762 score: 17 level: 1 best_score: 711
+869ch: 477 loss: 0.0131200 LR: [1e-05] step: 762 score: 17 level: 1 best_score: 711
+115ch: 478 loss: 0.0263041 LR: [1e-05] step: 1037 score: 29 level: 2 best_score: 71
+377ch: 478 loss: 0.0263041 LR: [1e-05] step: 1037 score: 29 level: 2 best_score: 71
+654ch: 478 loss: 0.0263041 LR: [1e-05] step: 1037 score: 29 level: 2 best_score: 71
+939ch: 478 loss: 0.0263041 LR: [1e-05] step: 1037 score: 29 level: 2 best_score: 71
+1224h: 478 loss: 0.0263041 LR: [1e-05] step: 1037 score: 29 level: 2 best_score: 71
+241rage score last 10 games: 20.1 -05] step: 1254 score: 17 level: 1 best_score: 71
+454rage score last 10 games: 20.1 -05] step: 1254 score: 17 level: 1 best_score: 71
+731rage score last 10 games: 20.1 -05] step: 1254 score: 17 level: 1 best_score: 71
+1030age score last 10 games: 20.1 -05] step: 1254 score: 17 level: 1 best_score: 71
+1331age score last 10 games: 20.1 -05] step: 1254 score: 17 level: 1 best_score: 71
+44och: 480 loss: 0.0287068 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+321ch: 480 loss: 0.0287068 LR: [1e-05] step: 1578 score: 17 level: 1 best_score: 71
+172ch: 481 loss: 0.0104139 LR: [1e-05] step: 425 score: 13 level: 1 best_score: 711
+451ch: 481 loss: 0.0104139 LR: [1e-05] step: 425 score: 13 level: 1 best_score: 711
+107ch: 482 loss: 0.0150830 LR: [1e-05] step: 625 score: 15 level: 1 best_score: 711
+382ch: 482 loss: 0.0150830 LR: [1e-05] step: 625 score: 15 level: 1 best_score: 711
+668ch: 482 loss: 0.0150830 LR: [1e-05] step: 625 score: 15 level: 1 best_score: 711
+967ch: 482 loss: 0.0150830 LR: [1e-05] step: 625 score: 15 level: 1 best_score: 711
+1257h: 482 loss: 0.0150830 LR: [1e-05] step: 625 score: 15 level: 1 best_score: 711
+1550h: 482 loss: 0.0150830 LR: [1e-05] step: 625 score: 15 level: 1 best_score: 711
+235ch: 483 loss: 0.0176570 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+532ch: 483 loss: 0.0176570 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+816ch: 483 loss: 0.0176570 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+1094h: 483 loss: 0.0176570 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+56och: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+322ch: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+524ch: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+731ch: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+1014h: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+1274h: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+1559h: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+1834h: 484 loss: 0.0339504 LR: [1e-05] step: 1299 score: 29 level: 2 best_score: 71
+178ch: 485 loss: 0.0205935 LR: [1e-05] step: 1927 score: 33 level: 2 best_score: 71
+453ch: 485 loss: 0.0205935 LR: [1e-05] step: 1927 score: 33 level: 2 best_score: 71
+743ch: 485 loss: 0.0205935 LR: [1e-05] step: 1927 score: 33 level: 2 best_score: 71
+1024h: 485 loss: 0.0205935 LR: [1e-05] step: 1927 score: 33 level: 2 best_score: 71
+98och: 486 loss: 0.0203527 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+381ch: 486 loss: 0.0203527 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+675ch: 486 loss: 0.0203527 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+965ch: 486 loss: 0.0203527 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+1255h: 486 loss: 0.0203527 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+1543h: 486 loss: 0.0203527 LR: [1e-05] step: 1224 score: 14 level: 1 best_score: 71
+233ch: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+534ch: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+803ch: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1076h: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1358h: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1642h: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+1934h: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+2209h: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+2498h: 487 loss: 0.0088500 LR: [1e-05] step: 1608 score: 15 level: 1 best_score: 71
+99och: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+294ch: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+577ch: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+864ch: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+1159h: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+1447h: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+1741h: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+2016h: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+2306h: 488 loss: 0.0347402 LR: [1e-05] step: 2659 score: 35 level: 2 best_score: 71
+184ch: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+457ch: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+743ch: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+1009h: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+1292h: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+1586h: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+1864h: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+2146h: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+2434h: 490 loss: 0.0247447 LR: [1e-05] step: 88 score: 4 level: 1 best_score: 71 71
+134ch: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+400ch: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+679ch: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+952ch: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+1161h: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+1445h: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+1723h: 491 loss: 0.0225874 LR: [1e-05] step: 2567 score: 34 level: 2 best_score: 71
+198ch: 492 loss: 0.0373424 LR: [1e-05] step: 1799 score: 47 level: 3 best_score: 71
+477ch: 492 loss: 0.0373424 LR: [1e-05] step: 1799 score: 47 level: 3 best_score: 71
+771ch: 492 loss: 0.0373424 LR: [1e-05] step: 1799 score: 47 level: 3 best_score: 71
+1055h: 492 loss: 0.0373424 LR: [1e-05] step: 1799 score: 47 level: 3 best_score: 71
+1344h: 492 loss: 0.0373424 LR: [1e-05] step: 1799 score: 47 level: 3 best_score: 71
+1622h: 492 loss: 0.0373424 LR: [1e-05] step: 1799 score: 47 level: 3 best_score: 71
+109ch: 493 loss: 0.0328003 LR: [1e-05] step: 1787 score: 34 level: 2 best_score: 71
+402ch: 493 loss: 0.0328003 LR: [1e-05] step: 1787 score: 34 level: 2 best_score: 71
+691ch: 493 loss: 0.0328003 LR: [1e-05] step: 1787 score: 34 level: 2 best_score: 71
+983ch: 493 loss: 0.0328003 LR: [1e-05] step: 1787 score: 34 level: 2 best_score: 71
+11och: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+278ch: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+551ch: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+823ch: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+1105h: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+1399h: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+1692h: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+1981h: 494 loss: 0.0165269 LR: [1e-05] step: 1254 score: 15 level: 1 best_score: 71
+266ch: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+538ch: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+830ch: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+1111h: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+1328h: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+1618h: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+1911h: 495 loss: 0.0169177 LR: [1e-05] step: 1992 score: 17 level: 1 best_score: 71
+33och: 496 loss: 0.0663081 LR: [1e-05] step: 2158 score: 35 level: 2 best_score: 71
+177ch: 497 loss: 0.0509866 LR: [1e-05] step: 150 score: 6 level: 1 best_score: 7171
+465ch: 497 loss: 0.0509866 LR: [1e-05] step: 150 score: 6 level: 1 best_score: 7171
+731ch: 497 loss: 0.0509866 LR: [1e-05] step: 150 score: 6 level: 1 best_score: 7171
+1034h: 497 loss: 0.0509866 LR: [1e-05] step: 150 score: 6 level: 1 best_score: 7171
+98och: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+381ch: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+655ch: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+944ch: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1215h: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1507h: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1785h: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+2073h: 498 loss: 0.0321767 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+238rage score last 10 games: 24.3 -05] step: 2110 score: 35 level: 2 best_score: 71
+513rage score last 10 games: 24.3 -05] step: 2110 score: 35 level: 2 best_score: 71
+799rage score last 10 games: 24.3 -05] step: 2110 score: 35 level: 2 best_score: 71
+1092age score last 10 games: 24.3 -05] step: 2110 score: 35 level: 2 best_score: 71
+1382age score last 10 games: 24.3 -05] step: 2110 score: 35 level: 2 best_score: 71
+32och: 500 loss: 0.0135970 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+326ch: 500 loss: 0.0135970 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+601ch: 500 loss: 0.0135970 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+875ch: 500 loss: 0.0135970 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+1148h: 500 loss: 0.0135970 LR: [1e-05] step: 1578 score: 16 level: 1 best_score: 71
+129ch: 501 loss: 0.0051966 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+410ch: 501 loss: 0.0051966 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+689ch: 501 loss: 0.0051966 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+976ch: 501 loss: 0.0051966 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+1257h: 501 loss: 0.0051966 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+227ch: 502 loss: 0.0323340 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+511ch: 502 loss: 0.0323340 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+782ch: 502 loss: 0.0323340 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+1069h: 502 loss: 0.0323340 LR: [1e-05] step: 1314 score: 16 level: 1 best_score: 71
+134ch: 503 loss: 0.1582286 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+421ch: 503 loss: 0.1582286 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+703ch: 503 loss: 0.1582286 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+247ch: 504 loss: 0.0128971 LR: [1e-05] step: 737 score: 17 level: 1 best_score: 711
+515ch: 504 loss: 0.0128971 LR: [1e-05] step: 737 score: 17 level: 1 best_score: 711
+787ch: 504 loss: 0.0128971 LR: [1e-05] step: 737 score: 17 level: 1 best_score: 711
+1010h: 504 loss: 0.0128971 LR: [1e-05] step: 737 score: 17 level: 1 best_score: 711
+1302h: 504 loss: 0.0128971 LR: [1e-05] step: 737 score: 17 level: 1 best_score: 711
+239ch: 505 loss: 0.0239063 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+504ch: 505 loss: 0.0239063 LR: [1e-05] step: 1344 score: 16 level: 1 best_score: 71
+134ch: 506 loss: 0.0525013 LR: [1e-05] step: 640 score: 14 level: 1 best_score: 711
+246ch: 507 loss: 0.0314006 LR: [1e-05] step: 137 score: 4 level: 1 best_score: 7111
+537ch: 507 loss: 0.0314006 LR: [1e-05] step: 137 score: 4 level: 1 best_score: 7111
+819ch: 507 loss: 0.0314006 LR: [1e-05] step: 137 score: 4 level: 1 best_score: 7111
+1137h: 507 loss: 0.0314006 LR: [1e-05] step: 137 score: 4 level: 1 best_score: 7111
+132ch: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+434ch: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+742ch: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1058h: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1379h: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+1689h: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+2003h: 508 loss: 0.0140001 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+88och: 510 loss: 1.3852646 LR: [1e-05] step: 211 score: 11 level: 1 best_score: 711
+159ch: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+469ch: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+785ch: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+1102h: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+1339h: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+1659h: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+1975h: 511 loss: 0.0220087 LR: [1e-05] step: 240 score: 11 level: 1 best_score: 711
+120ch: 513 loss: 0.0094319 LR: [1e-05] step: 143 score: 6 level: 1 best_score: 7171
+65och: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+382ch: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+694ch: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+1006h: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+1321h: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+1636h: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+1946h: 514 loss: 0.0235839 LR: [1e-05] step: 364 score: 14 level: 1 best_score: 711
+229ch: 515 loss: 0.0139935 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+541ch: 515 loss: 0.0139935 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+802ch: 515 loss: 0.0139935 LR: [1e-05] step: 2022 score: 17 level: 1 best_score: 71
+275ch: 516 loss: 0.0158902 LR: [1e-05] step: 828 score: 22 level: 2 best_score: 711
+191ch: 517 loss: 0.0188077 LR: [1e-05] step: 389 score: 15 level: 1 best_score: 711
+182ch: 518 loss: 0.0662450 LR: [1e-05] step: 309 score: 14 level: 1 best_score: 711
+488ch: 518 loss: 0.0662450 LR: [1e-05] step: 309 score: 14 level: 1 best_score: 711
+793ch: 518 loss: 0.0662450 LR: [1e-05] step: 309 score: 14 level: 1 best_score: 711
+1107h: 518 loss: 0.0662450 LR: [1e-05] step: 309 score: 14 level: 1 best_score: 711
+1425h: 518 loss: 0.0662450 LR: [1e-05] step: 309 score: 14 level: 1 best_score: 711
+55erage score last 10 games: 16.1 -05] step: 1685 score: 34 level: 2 best_score: 71
+283rage score last 10 games: 16.1 -05] step: 1685 score: 34 level: 2 best_score: 71
+595rage score last 10 games: 16.1 -05] step: 1685 score: 34 level: 2 best_score: 71
+908rage score last 10 games: 16.1 -05] step: 1685 score: 34 level: 2 best_score: 71
+1225age score last 10 games: 16.1 -05] step: 1685 score: 34 level: 2 best_score: 71
+1547age score last 10 games: 16.1 -05] step: 1685 score: 34 level: 2 best_score: 71
+124ch: 520 loss: 0.0309090 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+435ch: 520 loss: 0.0309090 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+747ch: 520 loss: 0.0309090 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+1059h: 520 loss: 0.0309090 LR: [1e-05] step: 1728 score: 17 level: 1 best_score: 71
+152ch: 521 loss: 0.2240293 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+467ch: 521 loss: 0.2240293 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+779ch: 521 loss: 0.2240293 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1093h: 521 loss: 0.2240293 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+1403h: 521 loss: 0.2240293 LR: [1e-05] step: 1224 score: 17 level: 1 best_score: 71
+80och: 522 loss: 0.0056511 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+393ch: 522 loss: 0.0056511 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+713ch: 522 loss: 0.0056511 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+1026h: 522 loss: 0.0056511 LR: [1e-05] step: 1638 score: 16 level: 1 best_score: 71
+14och: 523 loss: 0.0613524 LR: [1e-05] step: 1254 score: 17 level: 1 best_score: 71
+52och: 524 loss: 1.0622765 LR: [1e-05] step: 268 score: 9 level: 1 best_score: 7171
+118ch: 525 loss: 0.0593087 LR: [1e-05] step: 244 score: 14 level: 1 best_score: 711
+431ch: 525 loss: 0.0593087 LR: [1e-05] step: 244 score: 14 level: 1 best_score: 711
+745ch: 525 loss: 0.0593087 LR: [1e-05] step: 244 score: 14 level: 1 best_score: 711
+1053h: 525 loss: 0.0593087 LR: [1e-05] step: 244 score: 14 level: 1 best_score: 711
+23och: 526 loss: 2.9984436 LR: [1e-05] step: 1344 score: 17 level: 1 best_score: 71
+253ch: 527 loss: 0.0094179 LR: [1e-05] step: 77 score: 3 level: 1 best_score: 71 71
+569ch: 527 loss: 0.0094179 LR: [1e-05] step: 77 score: 3 level: 1 best_score: 71 71
+882ch: 527 loss: 0.0094179 LR: [1e-05] step: 77 score: 3 level: 1 best_score: 71 71
+236ch: 528 loss: 0.0158187 LR: [1e-05] step: 942 score: 25 level: 2 best_score: 711
+550ch: 528 loss: 0.0158187 LR: [1e-05] step: 942 score: 25 level: 2 best_score: 711
+863ch: 528 loss: 0.0158187 LR: [1e-05] step: 942 score: 25 level: 2 best_score: 711
+1175h: 528 loss: 0.0158187 LR: [1e-05] step: 942 score: 25 level: 2 best_score: 711
+1492h: 528 loss: 0.0158187 LR: [1e-05] step: 942 score: 25 level: 2 best_score: 711
+1807h: 528 loss: 0.0158187 LR: [1e-05] step: 942 score: 25 level: 2 best_score: 711
+154rage score last 10 games: 15.2 -05] step: 1962 score: 17 level: 1 best_score: 71
+462rage score last 10 games: 15.2 -05] step: 1962 score: 17 level: 1 best_score: 71
+775rage score last 10 games: 15.2 -05] step: 1962 score: 17 level: 1 best_score: 71
+1087age score last 10 games: 15.2 -05] step: 1962 score: 17 level: 1 best_score: 71
+1405age score last 10 games: 15.2 -05] step: 1962 score: 17 level: 1 best_score: 71
+1723age score last 10 games: 15.2 -05] step: 1962 score: 17 level: 1 best_score: 71
+66och: 530 loss: 0.0216864 LR: [1e-05] step: 1899 score: 33 level: 2 best_score: 71
+285ch: 531 loss: 0.0069953 LR: [1e-05] step: 76 score: 4 level: 1 best_score: 71 71
+595ch: 531 loss: 0.0069953 LR: [1e-05] step: 76 score: 4 level: 1 best_score: 71 71
+908ch: 531 loss: 0.0069953 LR: [1e-05] step: 76 score: 4 level: 1 best_score: 71 71
+1230h: 531 loss: 0.0069953 LR: [1e-05] step: 76 score: 4 level: 1 best_score: 71 71
+1546h: 531 loss: 0.0069953 LR: [1e-05] step: 76 score: 4 level: 1 best_score: 71 71
+1864h: 531 loss: 0.0069953 LR: [1e-05] step: 76 score: 4 level: 1 best_score: 71 71
+217ch: 532 loss: 0.0534138 LR: [1e-05] step: 1962 score: 17 level: 1 best_score: 71
+183ch: 533 loss: 0.0235987 LR: [1e-05] step: 349 score: 13 level: 1 best_score: 711
+497ch: 533 loss: 0.0235987 LR: [1e-05] step: 349 score: 13 level: 1 best_score: 711
+815ch: 533 loss: 0.0235987 LR: [1e-05] step: 349 score: 13 level: 1 best_score: 711
+167ch: 534 loss: 2.3577194 LR: [1e-05] step: 964 score: 17 level: 1 best_score: 711
+476ch: 534 loss: 2.3577194 LR: [1e-05] step: 964 score: 17 level: 1 best_score: 711
+790ch: 534 loss: 2.3577194 LR: [1e-05] step: 964 score: 17 level: 1 best_score: 711
+1112h: 534 loss: 2.3577194 LR: [1e-05] step: 964 score: 17 level: 1 best_score: 711
+45och: 536 loss: 0.0191890 LR: [1e-05] step: 129 score: 7 level: 1 best_score: 7171
+282ch: 536 loss: 0.0191890 LR: [1e-05] step: 129 score: 7 level: 1 best_score: 7171
+592ch: 536 loss: 0.0191890 LR: [1e-05] step: 129 score: 7 level: 1 best_score: 7171
+245ch: 537 loss: 0.0080176 LR: [1e-05] step: 652 score: 17 level: 1 best_score: 711
+560ch: 537 loss: 0.0080176 LR: [1e-05] step: 652 score: 17 level: 1 best_score: 711
+866ch: 537 loss: 0.0080176 LR: [1e-05] step: 652 score: 17 level: 1 best_score: 711
+1177h: 537 loss: 0.0080176 LR: [1e-05] step: 652 score: 17 level: 1 best_score: 711
+1491h: 537 loss: 0.0080176 LR: [1e-05] step: 652 score: 17 level: 1 best_score: 711
+1801h: 537 loss: 0.0080176 LR: [1e-05] step: 652 score: 17 level: 1 best_score: 711
+227ch: 538 loss: 0.0266579 LR: [1e-05] step: 1884 score: 34 level: 2 best_score: 71
+537ch: 538 loss: 0.0266579 LR: [1e-05] step: 1884 score: 34 level: 2 best_score: 71
+852ch: 538 loss: 0.0266579 LR: [1e-05] step: 1884 score: 34 level: 2 best_score: 71
+1173h: 538 loss: 0.0266579 LR: [1e-05] step: 1884 score: 34 level: 2 best_score: 71
+1494h: 538 loss: 0.0266579 LR: [1e-05] step: 1884 score: 34 level: 2 best_score: 71
+197rage score last 10 games: 17.6 -05] step: 1608 score: 17 level: 1 best_score: 71
+509rage score last 10 games: 17.6 -05] step: 1608 score: 17 level: 1 best_score: 71
+104ch: 540 loss: 0.0197168 LR: [1e-05] step: 708 score: 17 level: 1 best_score: 711
+334ch: 540 loss: 0.0197168 LR: [1e-05] step: 708 score: 17 level: 1 best_score: 711
+626ch: 540 loss: 0.0197168 LR: [1e-05] step: 708 score: 17 level: 1 best_score: 711
+937ch: 540 loss: 0.0197168 LR: [1e-05] step: 708 score: 17 level: 1 best_score: 711
+1241h: 540 loss: 0.0197168 LR: [1e-05] step: 708 score: 17 level: 1 best_score: 711
+244ch: 541 loss: 0.0283410 LR: [1e-05] step: 1284 score: 17 level: 1 best_score: 71
+26och: 543 loss: 0.0098112 LR: [1e-05] step: 111 score: 7 level: 1 best_score: 7111
+232ch: 544 loss: 0.0497727 LR: [1e-05] step: 76 score: 2 level: 1 best_score: 71111
+19och: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+307ch: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+607ch: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+908ch: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+1193h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+1472h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+1764h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+2067h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+2367h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+2674h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+2903h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+3199h: 545 loss: 0.0262000 LR: [1e-05] step: 516 score: 19 level: 2 best_score: 711
+75och: 546 loss: 0.0133452 LR: [1e-05] step: 3425 score: 71 level: 4 best_score: 71
+367ch: 546 loss: 0.0133452 LR: [1e-05] step: 3425 score: 71 level: 4 best_score: 71
+19och: 547 loss: 0.0721855 LR: [1e-05] step: 642 score: 23 level: 2 best_score: 711
+213ch: 548 loss: 0.3409324 LR: [1e-05] step: 84 score: 4 level: 1 best_score: 71711
+502ch: 548 loss: 0.3409324 LR: [1e-05] step: 84 score: 4 level: 1 best_score: 71711
+785ch: 548 loss: 0.3409324 LR: [1e-05] step: 84 score: 4 level: 1 best_score: 71711
+1069h: 548 loss: 0.3409324 LR: [1e-05] step: 84 score: 4 level: 1 best_score: 71711
+1350h: 548 loss: 0.3409324 LR: [1e-05] step: 84 score: 4 level: 1 best_score: 71711
+1634h: 548 loss: 0.3409324 LR: [1e-05] step: 84 score: 4 level: 1 best_score: 71711
+302rage score last 10 games: 19.0 -05] step: 1638 score: 17 level: 1 best_score: 71
+597rage score last 10 games: 19.0 -05] step: 1638 score: 17 level: 1 best_score: 71
+890rage score last 10 games: 19.0 -05] step: 1638 score: 17 level: 1 best_score: 71
+1190age score last 10 games: 19.0 -05] step: 1638 score: 17 level: 1 best_score: 71
+142ch: 550 loss: 0.0263841 LR: [1e-05] step: 1344 score: 15 level: 1 best_score: 71
+422ch: 550 loss: 0.0263841 LR: [1e-05] step: 1344 score: 15 level: 1 best_score: 71
+711ch: 550 loss: 0.0263841 LR: [1e-05] step: 1344 score: 15 level: 1 best_score: 71
+916ch: 550 loss: 0.0263841 LR: [1e-05] step: 1344 score: 15 level: 1 best_score: 71
+1197h: 550 loss: 0.0263841 LR: [1e-05] step: 1344 score: 15 level: 1 best_score: 71
+89och: 552 loss: 0.0200922 LR: [1e-05] step: 115 score: 5 level: 1 best_score: 7171
+370ch: 552 loss: 0.0200922 LR: [1e-05] step: 115 score: 5 level: 1 best_score: 7171
+631ch: 552 loss: 0.0200922 LR: [1e-05] step: 115 score: 5 level: 1 best_score: 7171
+914ch: 552 loss: 0.0200922 LR: [1e-05] step: 115 score: 5 level: 1 best_score: 7171
+1184h: 552 loss: 0.0200922 LR: [1e-05] step: 115 score: 5 level: 1 best_score: 7171
+77och: 553 loss: 0.0162029 LR: [1e-05] step: 1378 score: 40 level: 3 best_score: 71
+369ch: 553 loss: 0.0162029 LR: [1e-05] step: 1378 score: 40 level: 3 best_score: 71
+655ch: 553 loss: 0.0162029 LR: [1e-05] step: 1378 score: 40 level: 3 best_score: 71
+66och: 554 loss: 0.0102802 LR: [1e-05] step: 861 score: 13 level: 1 best_score: 711
+137ch: 555 loss: 0.0419115 LR: [1e-05] step: 188 score: 8 level: 1 best_score: 7111
+427ch: 555 loss: 0.0419115 LR: [1e-05] step: 188 score: 8 level: 1 best_score: 7111
+710ch: 555 loss: 0.0419115 LR: [1e-05] step: 188 score: 8 level: 1 best_score: 7111
+1003h: 555 loss: 0.0419115 LR: [1e-05] step: 188 score: 8 level: 1 best_score: 7111
+6poch: 556 loss: 0.0315435 LR: [1e-05] step: 1284 score: 17 level: 1 best_score: 71
+127ch: 557 loss: 0.0178468 LR: [1e-05] step: 162 score: 8 level: 1 best_score: 7171
+116ch: 558 loss: 0.3175431 LR: [1e-05] step: 215 score: 9 level: 1 best_score: 7171
+382ch: 558 loss: 0.3175431 LR: [1e-05] step: 215 score: 9 level: 1 best_score: 7171
+658ch: 558 loss: 0.3175431 LR: [1e-05] step: 215 score: 9 level: 1 best_score: 7171
+930ch: 558 loss: 0.3175431 LR: [1e-05] step: 215 score: 9 level: 1 best_score: 7171
+1209h: 558 loss: 0.3175431 LR: [1e-05] step: 215 score: 9 level: 1 best_score: 7171
+1478h: 558 loss: 0.3175431 LR: [1e-05] step: 215 score: 9 level: 1 best_score: 7171
+42och: 560 loss: 0.0381581 LR: [1e-05] step: 54 score: 2 level: 1 best_score: 71 71
+311ch: 560 loss: 0.0381581 LR: [1e-05] step: 54 score: 2 level: 1 best_score: 71 71
+585ch: 560 loss: 0.0381581 LR: [1e-05] step: 54 score: 2 level: 1 best_score: 71 71
+855ch: 560 loss: 0.0381581 LR: [1e-05] step: 54 score: 2 level: 1 best_score: 71 71
+1118h: 560 loss: 0.0381581 LR: [1e-05] step: 54 score: 2 level: 1 best_score: 71 71
+192ch: 561 loss: 0.0089259 LR: [1e-05] step: 1210 score: 17 level: 1 best_score: 71
+446ch: 561 loss: 0.0089259 LR: [1e-05] step: 1210 score: 17 level: 1 best_score: 71
+730ch: 561 loss: 0.0089259 LR: [1e-05] step: 1210 score: 17 level: 1 best_score: 71
+1009h: 561 loss: 0.0089259 LR: [1e-05] step: 1210 score: 17 level: 1 best_score: 71
+1273h: 561 loss: 0.0089259 LR: [1e-05] step: 1210 score: 17 level: 1 best_score: 71
+163ch: 562 loss: 0.0504112 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+429ch: 562 loss: 0.0504112 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+714ch: 562 loss: 0.0504112 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+988ch: 562 loss: 0.0504112 LR: [1e-05] step: 1314 score: 17 level: 1 best_score: 71
+70och: 563 loss: 0.2141177 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+342ch: 563 loss: 0.2141177 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+621ch: 563 loss: 0.2141177 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+888ch: 563 loss: 0.2141177 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+1175h: 563 loss: 0.2141177 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+1454h: 563 loss: 0.2141177 LR: [1e-05] step: 1194 score: 17 level: 1 best_score: 71
+134ch: 564 loss: 0.0073148 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+410ch: 564 loss: 0.0073148 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+691ch: 564 loss: 0.0073148 LR: [1e-05] step: 1608 score: 17 level: 1 best_score: 71
+114ch: 565 loss: 0.0207729 LR: [1e-05] step: 862 score: 21 level: 2 best_score: 711
+387ch: 565 loss: 0.0207729 LR: [1e-05] step: 862 score: 21 level: 2 best_score: 711
+598ch: 565 loss: 0.0207729 LR: [1e-05] step: 862 score: 21 level: 2 best_score: 711
+874ch: 565 loss: 0.0207729 LR: [1e-05] step: 862 score: 21 level: 2 best_score: 711
+1161h: 565 loss: 0.0207729 LR: [1e-05] step: 862 score: 21 level: 2 best_score: 711
+222ch: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+514ch: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+810ch: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1102h: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1398h: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71
+1689h: 566 loss: 0.0235385 LR: [1e-05] step: 1224 score: 16 level: 1 best_score: 71

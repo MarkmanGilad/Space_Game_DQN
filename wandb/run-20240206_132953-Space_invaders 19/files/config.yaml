@@ -1,0 +1,58 @@
+wandb_version: 1
+
+name:
+  desc: null
+  value: Space_invaders 19
+checkpoint:
+  desc: null
+  value: Data/checkpoint19.pth
+learning_rate:
+  desc: null
+  value: 1.0e-05
+architecture:
+  desc: null
+  value: FNN 128, 258, 128, 64, 4
+Schedule:
+  desc: null
+  value: 5000, 10000, 15000, 20000 gamma=0.5
+epochs:
+  desc: null
+  value: 200000
+start_epoch:
+  desc: null
+  value: 43001
+decay:
+  desc: null
+  value: 20000
+gamma:
+  desc: null
+  value: 0.99
+batch_size:
+  desc: null
+  value: 50
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.11
+    cli_version: 0.16.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1707218993.535085
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 14
+      - 16
+      - 23
+      4: 3.10.11
+      5: 0.16.2
+      8:
+      - 3
+      - 5
+      13: windows-amd64
